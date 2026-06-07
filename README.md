@@ -13,16 +13,33 @@ Two things live here:
 
 Window: **2022-06-07 → 2026-06-07** (4 years back from the brief date of 7 Jun 2026), played matches only.
 
-Built from **[martj42/international_results](https://github.com/martj42/international_results)** (`results.csv`, `goalscorers.csv`, `shootouts.csv`), the standard open dataset of every men's international since 1872. Raw pulls are kept as `*_raw.csv` for reproducibility. Rebuild everything with `python3 build_dataset.py` (stdlib only, no dependencies).
+Built from **[martj42/international_results](https://github.com/martj42/international_results)** (`results.csv`, `goalscorers.csv`, `shootouts.csv`), the standard open dataset of every men's international since 1872 — the **spine**. Layered on top: StatsBomb open-data (xG/shots) and api-football (match context). Raw pulls are cached for reproducibility. See **[SOURCES.md](SOURCES.md)** for every source + licence.
 
-| file | rows | grain |
-|---|---|---|
-| `matches.csv` | 1,850 | one row per match (canonical) |
-| `team_match_log.csv` | 2,351 | one row per WC26 team per match (long / model-ready) |
-| `team_summary.csv` | 48 | per-team aggregate over the window |
-| `MANIFEST.json` | - | build metadata + counts |
+| file | rows | grain | built by |
+|---|---|---|---|
+| `matches.csv` | 1,850 | one row per match (canonical) | `build_dataset.py` |
+| `team_match_log.csv` | 2,351 | one row per WC26 team per match (long / model-ready) | `build_dataset.py` |
+| `team_summary.csv` | 48 | per-team aggregate over the window | `build_dataset.py` |
+| `deep_history.csv` | 3,590 | one row per match, **8-year** window (2018-06-07→2026-06-07), for rating stability | `build_extras.py` |
+| `h2h.csv` | 335 | head-to-head record for every pair of WC48 teams that met in the 4yr window | `build_extras.py` |
+| `statsbomb_match_stats.csv` | 173 | per-match xG/shots/cards (StatsBomb, 4 major tournaments) | `fetch_statsbomb.py` |
+| `apifootball_context.csv` | 654 | per-match stage/venue/referee/HT-ET-pen (api-football) | `fetch_apifootball.py` |
+| `matches_enriched.csv` | 1,850 | **wide model-ready table**: matches.csv + all enrichment, joined by `match_id` | `build_enriched.py` |
+| `MANIFEST.json` | - | build metadata + counts | `build_dataset.py` |
 
 A match between two WC26 teams appears once in `matches.csv` and twice in `team_match_log.csv` (once from each team's perspective), which is why the long table has more rows.
+
+### Rebuild order
+
+```bash
+python3 build_dataset.py      # spine: matches / team_match_log / team_summary (stdlib)
+python3 build_extras.py        # deep_history.csv + h2h.csv (stdlib)
+python3 fetch_statsbomb.py     # statsbomb_match_stats.csv (downloads ~560MB events, cached)
+python3 fetch_apifootball.py   # apifootball_context.csv (needs .env key; free plan = 100/day)
+python3 build_enriched.py      # matches_enriched.csv + coverage report (stdlib)
+```
+
+`fetch_statsbomb.py` needs no key. `fetch_apifootball.py` reads `APIFOOTBALL_KEY` from a gitignored `.env`. Both cache raw pulls so re-runs are offline/free.
 
 ### `team_match_log.csv` (start here for modelling)
 
@@ -48,35 +65,61 @@ One row = one team's match. This is the "Netherlands played 49 games → 49 rows
 
 `competition_type` buckets the raw `tournament` into: `World Cup`, `WC Qualifier`, `Continental Cup`, `Continental Qualifier`, `Nations League`, `Friendly`, `Other`. The raw string is always preserved.
 
+### `matches_enriched.csv` (the wide table — start here for richness)
+
+Everything in `matches.csv` plus, joined on `match_id` (blank where no source has it):
+
+**StatsBomb columns** (prefix `home_`/`away_`, 173 matches): `sb_stage`, `home_xg`/`away_xg`, `home_shots`/`away_shots`, `home_sot`/`away_sot` (shots on target), `home_corners`/`away_corners`, `home_fouls`/`away_fouls`, `home_yellow`/`away_yellow`, `home_red`/`away_red`, `home_passes`/`away_passes`. xG and shots **exclude penalty shootouts** (period 5) so they reflect 0–120′ play; goal counts reconcile 173/173 to the real scoreline (incl. own goals).
+
+**api-football context columns** (654 matches): `af_competition`, `af_round` (stage + matchday, e.g. `Group Stage - 1`, `Final`), `venue_name` (stadium), `venue_city`, `referee`, `ht_home`/`ht_away` (halftime), `et_home`/`et_away` (extra-time score, 34 matches), `pen_home`/`pen_away` (shootout score, 26 matches).
+
+### `deep_history.csv` and `h2h.csv`
+
+`deep_history.csv` mirrors the match-level columns over an 8-year window with an `in_4y_window` flag (TRUE subset == the 1,850 canonical matches). `h2h.csv`: `team_a, team_b, played, a_wins, draws, b_wins, a_goals, b_goals, last_meeting, last_score, last_tournament` (record always from `team_a`'s perspective; pairs sorted alphabetically).
+
+### Enrichment coverage (% of 1,850 matches with the field populated)
+
+| field group | matches | coverage | source |
+|---|---|---|---|
+| xG / shots / cards (StatsBomb) | 173 | 9.4% | WC22, AFCON23, Copa24, Euro24 |
+| stage / venue / referee / HT (api-football) | 654 | 35.4% | comps in seasons 2022–2024 |
+| extra-time score | 34 | 1.8% | — |
+| shootout score | 26 | 1.4% | — |
+| **either enrichment layer** | **661** | **35.7%** | — |
+| attendance | 0 | 0.0% | **no reliable bulk source from this VM** |
+
 ---
 
 ## Verification
 
-`build_dataset.py` output was checked, not assumed:
+Output is checked, not assumed.
 
+**Spine (`build_dataset.py`):**
 - date range within window; **0** rows with NA scores; **0** rows without a WC26 team
+- coverage re-counted independently from raw vs the fresh martj42 master: **1,850/1,850** played WC48 internationals captured, **0** duplicate `match_id`. Cache is byte-identical to the current martj42 master.
 - per-team counts sit in a plausible 37-68 range (Netherlands 49; small FAs like Haiti/Curaçao/New Zealand at 37; CONCACAF/Asian sides higher from Gold/Asian Cups)
-- scorelines spot-checked against known results:
-  - 2022 WC Final: Argentina 3-3 France, shootout Argentina (Messi pen, Di María) ✓
-  - Euro 2024 Final: Spain 2-1 England (N. Williams, Oyarzabal) ✓
-  - Copa América 2024 Final: Argentina 1-0 Colombia (Lautaro 112') ✓
+- scorelines spot-checked: 2022 WC Final Argentina 3-3 France (so Argentina) ✓; Euro 2024 Final Spain 2-1 England ✓; Copa América 2024 Final Argentina 1-0 Colombia ✓
+
+**Extras (`build_extras.py`):** `deep_history` 4yr subset == 1,850; `h2h` integrity `a_wins+draws+b_wins == played` for all 335 pairs; spot-checks Argentina 4-1 Brazil (2025-03-25), Spain 5-4 France ✓
+
+**StatsBomb (`fetch_statsbomb.py`):** 173/173 matches have non-empty stats for both sides; derived goals reconcile **173/173** to the real scoreline after excluding shootout penalties (period 5) and crediting own goals; xG spot-checks match known values (WC22 final 2.76–2.27). Penalty-shootout shots were initially (and incorrectly) inflating xG — caught and fixed.
+
+**api-football (`fetch_apifootball.py`):** stage/venue/referee/HT verified against known finals (WC22 Lusail, ref Marciniak, HT 2-0, pens 4-2; Euro24 Olympiastadion Berlin; Copa24 Hard Rock).
 
 ---
 
-## Enrichment / known gaps (the `notes` column)
+## Known gaps (honesty over completeness)
 
-- **Injuries / suspensions / line-ups are NOT in this source.** There is no reliable bulk feed for historical squad availability. The `notes` column is reserved for it. To add it, enrich a subset per match from a per-fixture source (e.g. transfermarkt match pages) rather than fabricating anything.
-- The source is goals/results only. No xG, possession, or shot data. Those would need a second source (e.g. FBref / StatsBomb open data) joined on `date + teams`.
+- **xG / shots** only for the 173 big-tournament matches (StatsBomb open data). FBref, which would extend xG to qualifiers/friendlies, is **Cloudflare-blocked from this VM's datacenter IP** (403).
+- **api-football context stops at season 2024** on the free plan, so the **2025–2026 WC qualifying cycle** (CONMEBOL/UEFA/AFC/CONCACAF/OFC) and 2025 tournaments have no stage/venue/referee. A paid plan would unlock them.
+- **Attendance: 0%** — not in StatsBomb's match index nor api-football's fixture payload; Wikipedia/Wikidata would be the source.
+- **Injuries / line-ups / managers** are **Part 2** (see [SCHEMA_PART2.md](SCHEMA_PART2.md)), not yet collected. The `notes` column is reserved.
 
-## Next steps (prediction model)
+## Next steps
 
-Suggested direction, not done yet:
-1. Feature engineering off `team_match_log.csv`: rolling form (last N games points/GF/GA), Elo or SPI-style rating updated per match, rest days, home/neutral, competitive-vs-friendly weighting, opponent strength.
-2. Model: Poisson / bivariate-Poisson on goals, or Dixon-Coles, to get scoreline probabilities → feed group tables and the bracket.
-3. Simulate the tournament (Monte Carlo) using the 2026 fixtures + bracket structure already encoded in `index.html`.
+- **Part 2 — recent team developments**: schema designed in [SCHEMA_PART2.md](SCHEMA_PART2.md) (form, squad, injuries, manager/tactics, qualification path, momentum). Not yet collected.
+- **Prediction model** (after data is locked): rolling-form + Elo/SPI features off `team_match_log.csv` / `deep_history.csv`; a Poisson / Dixon-Coles goals model; Monte-Carlo the bracket encoded in `index.html`.
 
 ## Sources & licensing
 
-- Match data: **martj42/international_results** (GitHub). Open data; attribution kept here. Non-commercial / personal use.
-- `BBC_WC_26_WALL_CHART.pdf` is BBC copyright, kept locally as a reference only. Do not redistribute publicly.
-- Fixtures/times in `index.html` were transcribed from that wall chart (kick-offs in BST).
+Full table in **[SOURCES.md](SOURCES.md)**. In short: match spine = martj42/international_results (open, attribution); xG = **StatsBomb open data (CC BY-NC-SA, attribution required)**; context = api-football (commercial, free tier); `BBC_WC_26_WALL_CHART.pdf` is BBC copyright (reference only, do not redistribute). API keys live in a gitignored `.env`.
