@@ -21,6 +21,12 @@ repeatable offline. Nothing here is fabricated; fields with no source are left b
 | **team_match_log.csv (this repo)** | derived form, 2026 warm-up results, streaks, rest days | `team_state_form.csv` | `build_team_state.py` (no external calls) | 100% covered; reproducible from the match data. |
 | **Web research** (Wikipedia "2026 FIFA World Cup squads", ESPN squad & injury trackers, Yahoo Sports WC tracker, Al Jazeera, FIFA.com, BBC, Sky Sports, transfermarkt, national outlets) | current coach + recent changes, injuries/doubts/suspensions, key players, warm-up read, momentum, news | `data/part2_raw/<team>.json` (committed) → `team_state.csv`, `team_injuries.csv`, `team_news.csv`, `team_key_players.csv` | parallel cited research agents; assembled by `build_part2.py` | **Every injury (77) and news (144) row carries a real `source_url`.** No fabrication: injuries found for 36/48 teams, rest left blank. Each source's own terms apply; URLs retained for attribution/audit. |
 
+## Model — bookmaker odds
+
+| source | provides | files / cache | how pulled | notes |
+|---|---|---|---|---|
+| **CBS Sports (betting guide)** | WC2026 outright winner odds (48 teams) + group-winner odds (12 groups), american | `data/odds_raw/cbs_odds_2026.json` (committed) → `data/model/market_odds.csv` | WebFetch (editorial page; aggregators like oddsportal/oddspedia were Cloudflare-blocked and the boxd browser bridge was down) | Converted to **vig-free implied probabilities** (`model/odds.py`); blended 50/50 with the model for title view + champion bet, and nudged into per-match strength. Snapshot 2026-06-07 — re-pull near kickoff for movement. |
+
 ## API keys
 
 Keys live in `.env` (gitignored, never committed). To rebuild the API layers, create

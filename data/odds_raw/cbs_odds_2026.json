@@ -1,0 +1,36 @@
+{
+  "source": "CBS Sports — How to bet on the 2026 World Cup",
+  "url": "https://www.cbssports.com/betting/news/how-to-bet-on-the-2026-world-cup-betting-guide-odds-schedule-groups-rosters-offers-promo-codes/",
+  "retrieved": "2026-06-07",
+  "format": "american",
+  "note": "Outright winner + group-winner odds. 12 longshots quoted jointly as +250000.",
+  "outright": {
+    "Spain": 450, "France": 480, "England": 650, "Brazil": 850, "Portugal": 850,
+    "Argentina": 1000, "Germany": 1300, "Netherlands": 1700, "Belgium": 2500,
+    "Norway": 3300, "Colombia": 4500, "Uruguay": 5500, "United States": 6000,
+    "Morocco": 6500, "Japan": 6500, "Switzerland": 6500, "Croatia": 7000,
+    "Mexico": 7000, "Austria": 8000, "Ecuador": 10000, "Sweden": 12500,
+    "Turkey": 12500, "Senegal": 15000, "Ivory Coast": 17500, "Canada": 22500,
+    "Scotland": 25000, "Paraguay": 25000, "Algeria": 30000, "Ghana": 35000,
+    "Bosnia and Herzegovina": 35000, "Egypt": 40000, "South Korea": 40000,
+    "Czech Republic": 50000, "Iran": 100000, "Australia": 100000, "Tunisia": 150000,
+    "Cape Verde": 250000, "Saudi Arabia": 250000, "Curaçao": 250000,
+    "New Zealand": 250000, "Qatar": 250000, "Iraq": 250000, "Jordan": 250000,
+    "DR Congo": 250000, "Uzbekistan": 250000, "Panama": 250000, "Haiti": 250000,
+    "South Africa": 250000
+  },
+  "group_winner": {
+    "A": {"Mexico": -110, "Czech Republic": 280, "South Korea": 300, "South Africa": 1200},
+    "B": {"Switzerland": -125, "Canada": 200, "Bosnia and Herzegovina": 425, "Qatar": 2800},
+    "C": {"Brazil": -370, "Morocco": 370, "Scotland": 1000, "Haiti": 10000},
+    "D": {"United States": 140, "Turkey": 175, "Paraguay": 400, "Australia": 750},
+    "E": {"Germany": -310, "Ecuador": 350, "Ivory Coast": 600, "Curaçao": 13000},
+    "F": {"Netherlands": -130, "Japan": 260, "Sweden": 450, "Tunisia": 1100},
+    "G": {"Belgium": -230, "Egypt": 400, "Iran": 450, "New Zealand": 2500},
+    "H": {"Spain": -450, "Uruguay": 370, "Saudi Arabia": 1800, "Cape Verde": 4000},
+    "I": {"France": -230, "Norway": 275, "Senegal": 750, "Iraq": 5000},
+    "J": {"Argentina": -310, "Austria": 350, "Algeria": 750, "Jordan": 4000},
+    "K": {"Portugal": -230, "Colombia": 240, "DR Congo": 1100, "Uzbekistan": 3500},
+    "L": {"England": -320, "Croatia": 350, "Ghana": 1000, "Panama": 3000}
+  }
+}

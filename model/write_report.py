@@ -6,6 +6,12 @@ st=list(csv.DictReader(open("data/predictions/group_standings.csv")))
 ko=list(csv.DictReader(open("data/predictions/knockout.csv")))
 sim={r["team"]:r for r in csv.DictReader(open("data/model/sim_team_probs.csv"))}
 summ=json.load(open("data/predictions/_summary.json"))
+import os
+mkt={r["team"]:float(r["p_champion_market"]) for r in csv.DictReader(open("data/model/market_odds.csv"))} \
+    if os.path.exists("data/model/market_odds.csv") else {}
+_raw={t:0.5*float(sim[t]["p_champion"])+0.5*mkt.get(t,float(sim[t]["p_champion"])) for t in sim}
+_s=sum(_raw.values()) or 1.0
+blend={t:_raw[t]/_s for t in _raw}
 
 L=[]
 L.append("# Scorito WK 2026 — model predictions\n")
@@ -17,12 +23,16 @@ exp=sum(float(r['exp_points']) for r in gm)
 L.append(f"Expected group-stage points from these 72 picks: **~{exp:.0f}** "
          "(plus knockout, standings and champion points on top).\n")
 
-L.append("## Title odds (30,000-tournament Monte Carlo)\n")
-L.append("| team | win group→ R32 | reach QF | reach SF | final | **champion** |")
-L.append("|---|---|---|---|---|---|")
-for t,r in sorted(sim.items(), key=lambda x:-float(x[1]["p_champion"]))[:16]:
+L.append("## Title odds — model vs bookmaker market vs blended\n")
+L.append("Model = 30k-sim (with injury/form + market nudges); Market = vig-free CBS Sports "
+         "outright odds; **Blended** = 50/50 (the recommended title view). Reach-stage % from the sim.\n")
+L.append("| team | R32 | QF | SF | final | model champ | market champ | **blended** |")
+L.append("|---|---|---|---|---|---|---|---|")
+for t in sorted(blend, key=lambda x:-blend[x])[:16]:
+    r=sim[t]
     L.append(f"| {t} | {float(r['p_advance_R32'])*100:.0f}% | {float(r['p_reach_QF'])*100:.0f}% | "
-             f"{float(r['p_reach_SF'])*100:.0f}% | {float(r['p_final'])*100:.0f}% | **{float(r['p_champion'])*100:.1f}%** |")
+             f"{float(r['p_reach_SF'])*100:.0f}% | {float(r['p_final'])*100:.0f}% | "
+             f"{float(r['p_champion'])*100:.1f}% | {mkt.get(t,0)*100:.1f}% | **{blend[t]*100:.1f}%** |")
 
 L.append("\n## Group-stage score predictions\n")
 import itertools

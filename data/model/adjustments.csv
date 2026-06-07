@@ -1,49 +1,49 @@
 team,d_atk,d_def,notes
-Algeria,0.03,0.0,momentum rising
-Argentina,-0.055,0.0,"-atk Lionel Messi(FW,116g) 0.03; -atk Juan Foyth(out,unmatched) 0.03"
-Australia,-0.09,0.0,"-atk Riley McGree(out,unmatched) 0.03; -atk Hayden Matthews(out,unmatched) 0.03; -atk Nick D'Agostino(out,unmatched) 0.03"
-Austria,0.03,0.0,momentum rising
-Belgium,-0.03,0.0,"-atk Malick Fofana(out,unmatched) 0.03"
-Bosnia and Herzegovina,-0.03,0.0,"-atk Osman Hadzikic(out,unmatched) 0.03"
-Brazil,-0.085,0.0,"-atk Neymar(FW,79g) 0.03; -atk Estevao(out,unmatched) 0.03; -atk Rodrygo(out,unmatched) 0.03; -atk Eder Militao(out,unmatched) 0.03; momentum rising"
-Canada,0.0,0.0,"-atk Marcelo Flores(out,unmatched) 0.03; momentum rising"
-Cape Verde,0.03,0.0,momentum rising
-Colombia,0.03,0.0,momentum rising
-Croatia,-0.03,0.0,momentum declining
-Curaçao,-0.03,0.0,momentum declining
-Czech Republic,0.027,0.0,"-atk Jan Kuchta(FW,3g) 0.00; momentum rising"
-DR Congo,0.0,0.0,
-Ecuador,0.03,0.0,momentum rising
-Egypt,-0.03,0.0,"-atk Mostafa Mohamed(out,unmatched) 0.03"
-England,0.0,0.0,
-France,0.0,0.0,
-Germany,-0.007,0.0,"-atk Lennart Karl(out,unmatched) 0.03; -atk Jamal Musiala(MF,9g) 0.01; momentum rising"
-Ghana,-0.09,0.0,"-atk Mohammed Kudus(out,unmatched) 0.03; -atk Alexander Djiku(out,unmatched) 0.03; momentum declining"
-Haiti,0.03,0.0,momentum rising
-Iran,-0.03,0.0,"-atk Sardar Azmoun(out,unmatched) 0.03"
-Iraq,-0.03,0.0,momentum declining
-Ivory Coast,0.0,0.0,"-atk Clement Akpa(out,unmatched) 0.03; momentum rising"
-Japan,-0.06,0.0,"-atk Kaoru Mitoma(out,unmatched) 0.03; -atk Takumi Minamino(out,unmatched) 0.03; -atk Hidemasa Morita(out,unmatched) 0.03; momentum rising"
-Jordan,-0.055,0.0,"-atk Yazan Al-Naimat(out,unmatched) 0.03; -atk Ali Olwan(FW,29g) 0.03; -atk Adham Al-Qurashi(out,unmatched) 0.03; momentum rising"
-Mexico,0.03,0.0,momentum rising
-Morocco,0.03,0.0,momentum rising
-Netherlands,-0.06,0.0,"-atk Xavi Simons(out,unmatched) 0.03; -atk Jeremie Frimpong(out,unmatched) 0.03"
-New Zealand,-0.03,0.0,momentum declining
-Norway,-0.03,0.0,momentum declining
-Panama,-0.006,0.0,"-atk Adalberto Carrasquilla(MF,3g) 0.00; -atk Anibal Godoy(MF,4g) 0.00"
-Paraguay,0.03,0.0,momentum rising
-Portugal,0.03,0.0,momentum rising
-Qatar,0.0,0.0,
-Saudi Arabia,-0.03,0.0,"-atk Salman Al-Faraj(out,unmatched) 0.03"
-Scotland,0.03,0.0,momentum rising
-Senegal,-0.03,0.0,momentum declining
-South Africa,-0.03,0.0,momentum declining
+Algeria,0.013,-0.017,momentum rising; market z-0.2 -0.02
+Argentina,0.041,0.096,"-atk Lionel Messi(FW,116g) 0.03; -atk Juan Foyth(out,unmatched) 0.03; market z+1.4 +0.10"
+Australia,-0.128,-0.038,"-atk Riley McGree(out,unmatched) 0.03; -atk Hayden Matthews(out,unmatched) 0.03; -atk Nick D'Agostino(out,unmatched) 0.03; market z-0.5 -0.04"
+Austria,0.055,0.025,momentum rising; market z+0.4 +0.03
+Belgium,0.049,0.079,"-atk Malick Fofana(out,unmatched) 0.03; market z+1.1 +0.08"
+Bosnia and Herzegovina,-0.035,-0.005,"-atk Osman Hadzikic(out,unmatched) 0.03; market z-0.1 -0.01"
+Brazil,0.015,0.1,"-atk Neymar(FW,79g) 0.03; -atk Estevao(out,unmatched) 0.03; -atk Rodrygo(out,unmatched) 0.03; -atk Eder Militao(out,unmatched) 0.03; momentum rising; market z+1.4 +0.10"
+Canada,0.019,0.019,"-atk Marcelo Flores(out,unmatched) 0.03; momentum rising; market z+0.3 +0.02"
+Cape Verde,-0.07,-0.1,momentum rising; market z-1.4 -0.10
+Colombia,0.074,0.044,momentum rising; market z+0.6 +0.04
+Croatia,-0.002,0.028,momentum declining; market z+0.4 +0.03
+Curaçao,-0.164,-0.134,momentum declining; market z-1.9 -0.13
+Czech Republic,0.025,-0.002,"-atk Jan Kuchta(FW,3g) 0.00; momentum rising"
+DR Congo,-0.064,-0.064,market z-0.9 -0.06
+Ecuador,0.051,0.021,momentum rising; market z+0.3 +0.02
+Egypt,-0.036,-0.006,"-atk Mostafa Mohamed(out,unmatched) 0.03; market z-0.1 -0.01"
+England,0.104,0.104,market z+1.5 +0.10
+France,0.106,0.106,market z+1.5 +0.11
+Germany,0.084,0.092,"-atk Lennart Karl(out,unmatched) 0.03; -atk Jamal Musiala(MF,9g) 0.01; momentum rising; market z+1.3 +0.09"
+Ghana,-0.117,-0.027,"-atk Mohammed Kudus(out,unmatched) 0.03; -atk Alexander Djiku(out,unmatched) 0.03; momentum declining; market z-0.4 -0.03"
+Haiti,-0.096,-0.126,momentum rising; market z-1.8 -0.13
+Iran,-0.056,-0.026,"-atk Sardar Azmoun(out,unmatched) 0.03; market z-0.4 -0.03"
+Iraq,-0.136,-0.106,momentum declining; market z-1.5 -0.11
+Ivory Coast,-0.002,-0.002,"-atk Clement Akpa(out,unmatched) 0.03; momentum rising"
+Japan,-0.025,0.035,"-atk Kaoru Mitoma(out,unmatched) 0.03; -atk Takumi Minamino(out,unmatched) 0.03; -atk Hidemasa Morita(out,unmatched) 0.03; momentum rising; market z+0.5 +0.04"
+Jordan,-0.155,-0.1,"-atk Yazan Al-Naimat(out,unmatched) 0.03; -atk Ali Olwan(FW,29g) 0.03; -atk Adham Al-Qurashi(out,unmatched) 0.03; momentum rising; market z-1.4 -0.10"
+Mexico,0.082,0.052,momentum rising; market z+0.7 +0.05
+Morocco,0.058,0.028,momentum rising; market z+0.4 +0.03
+Netherlands,0.019,0.079,"-atk Xavi Simons(out,unmatched) 0.03; -atk Jeremie Frimpong(out,unmatched) 0.03; market z+1.1 +0.08"
+New Zealand,-0.117,-0.087,momentum declining; market z-1.2 -0.09
+Norway,0.016,0.046,momentum declining; market z+0.7 +0.05
+Panama,-0.098,-0.092,"-atk Adalberto Carrasquilla(MF,3g) 0.00; -atk Anibal Godoy(MF,4g) 0.00; market z-1.3 -0.09"
+Paraguay,0.032,0.002,momentum rising
+Portugal,0.127,0.097,momentum rising; market z+1.4 +0.10
+Qatar,-0.09,-0.09,market z-1.3 -0.09
+Saudi Arabia,-0.108,-0.078,"-atk Salman Al-Faraj(out,unmatched) 0.03; market z-1.1 -0.08"
+Scotland,0.009,-0.021,momentum rising; market z-0.3 -0.02
+Senegal,-0.034,-0.004,momentum declining
+South Africa,-0.097,-0.067,momentum declining; market z-1.0 -0.07
 South Korea,-0.03,0.0,"-atk Cho Yu-min(out,unmatched) 0.03"
-Spain,-0.008,0.0,"-atk Lamine Yamal(FW,6g) 0.00; -atk Nico Williams(FW,6g) 0.00"
-Sweden,0.0,0.0,"-atk Emil Holm(out,unmatched) 0.03; momentum rising"
-Switzerland,-0.02,0.0,"-atk Breel Embolo(FW,24g) 0.02; -atk Fabian Rieder(MF,1g) 0.00; -atk Noah Okafor(FW,2g) 0.00"
-Tunisia,-0.03,0.0,momentum declining
-Turkey,0.03,0.0,momentum rising
-United States,-0.06,0.0,"-atk Johnny Cardoso(out,unmatched) 0.03; -atk Patrick Agyemang(out,unmatched) 0.03"
-Uruguay,-0.03,0.0,momentum declining
-Uzbekistan,0.0,0.0,
+Spain,0.103,0.111,"-atk Lamine Yamal(FW,6g) 0.00; -atk Nico Williams(FW,6g) 0.00; market z+1.6 +0.11"
+Sweden,0.012,0.012,"-atk Emil Holm(out,unmatched) 0.03; momentum rising; market z+0.2 +0.01"
+Switzerland,0.036,0.055,"-atk Breel Embolo(FW,24g) 0.02; -atk Fabian Rieder(MF,1g) 0.00; -atk Noah Okafor(FW,2g) 0.00; market z+0.8 +0.06"
+Tunisia,-0.085,-0.055,momentum declining; market z-0.8 -0.06
+Turkey,0.062,0.032,momentum rising; market z+0.5 +0.03
+United States,-0.011,0.049,"-atk Johnny Cardoso(out,unmatched) 0.03; -atk Patrick Agyemang(out,unmatched) 0.03; market z+0.7 +0.05"
+Uruguay,0.001,0.031,momentum declining; market z+0.4 +0.03
+Uzbekistan,-0.096,-0.096,market z-1.4 -0.10

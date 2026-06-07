@@ -12,7 +12,8 @@ results_raw (martj42)
    │                      log λ_for = μ + atk[t] − def[opp] + home·(home & not neutral), + DC ρ
    ├─ model/backtest.py   strict time-split validation (skill proof)
    ├─ model/tournament.py parse 2026 groups+bracket from index.html; single-tournament simulator
-   ├─ model/adjust.py     bounded injury/momentum nudges (Part 2)        -> data/model/adjustments.csv
+   ├─ model/odds.py       vig-free bookmaker implied probs (CBS Sports)  -> data/model/market_odds.csv
+   ├─ model/adjust.py     bounded injury/momentum + market nudges        -> data/model/adjustments.csv
    ├─ model/simulate.py   N-tournament Monte Carlo (adj-aware)           -> data/model/sim_team_probs.csv
    ├─ model/predict.py    EV-optimal Scorito picks + bracket + champion  -> data/predictions/*.csv
    └─ model/write_report.py                                              -> SCORITO_PREDICTIONS.md
@@ -61,12 +62,25 @@ defender/GK OUT costs defence; momentum rising/declining ±0.03. Doubts barely c
 prior — but it's the edge over entrants using results only. Effect: Brazil (Rodrygo,
 Militão, Estêvão, Neymar) and Japan dip; healthy, rising Morocco rises.
 
-## Headline 2026 outputs (adjusted model, 30k sims)
+## Market layer (bookmaker odds)
 
-- **Champion pick: Argentina** (13%), then Spain (12%), Morocco (8%), England (7%),
-  Mexico/Japan (6%), Brazil/Portugal (5%).
+`model/odds.py` turns cached CBS Sports WC2026 odds (outright + group-winner, american)
+into **vig-free implied probabilities** (`data/odds_raw/cbs_odds_2026.json` is the cached
+scrape). Two uses:
+1. A **market-strength z-score** (champion + group-winner) feeds `adjust.py` as a bounded
+   attack/defence nudge (±0.18), pulling per-match picks toward consensus. This fixed real
+   model quirks: it underrated France/England/Germany and overrated Morocco/Japan/Colombia.
+2. A **50/50 blend** of model-sim and market implied probs is the recommended title view,
+   and the **champion bet + bracket advancement** use that blended strength (so the bracket
+   advances genuinely strong teams and the 250-pt champion bet maximises P(champion)).
+   Predicted *scorelines* stay EV-optimal independently (Scorito lets score & advancer differ).
+
+## Headline 2026 outputs (blended model + market, 30k sims)
+
+- **Champion pick (bet): Spain** (blended 15%), then Argentina (12%), France (10%),
+  England (10%), Portugal/Brazil (~8%). Model and market agree Spain is the safest title bet.
 - Full submission in [SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md); raw tables in
-  `data/predictions/` and `data/model/sim_team_probs.csv`.
+  `data/predictions/`, `data/model/sim_team_probs.csv`, `data/model/market_odds.csv`.
 
 ## Reproduce
 
@@ -75,6 +89,8 @@ python3 build_dataset.py && python3 build_extras.py        # data spine (if not 
 .venv/bin/python model/elo.py                              # ratings.csv
 .venv/bin/python model/dc.py                               # dc_params.json
 .venv/bin/python model/backtest.py                         # validation numbers
+.venv/bin/python model/odds.py                             # market_odds.csv (from cached odds)
+.venv/bin/python model/adjust.py                           # adjustments.csv (injury+market)
 .venv/bin/python model/simulate.py 30000                   # sim_team_probs.csv
 .venv/bin/python model/predict.py                          # data/predictions/*
 .venv/bin/python model/write_report.py                     # SCORITO_PREDICTIONS.md
@@ -87,5 +103,6 @@ python3 build_dataset.py && python3 build_extras.py        # data spine (if not 
   learn from). Name-matching injury news to roster surnames is imperfect; unmatched OUTs get a
   small generic attack penalty.
 - xG (StatsBomb, 173 matches) could replace goals in the fit where available for sharper rates.
-- No market odds (the strongest external signal) — out of scope on the free stack.
+- Market odds now included (CBS Sports, cached) but it's a one-off snapshot — re-pull near
+  kickoff for live movement. Only outright + group-winner were available, not per-match 1X2.
 - Topscorer picks are heuristic (rate × deep-run prob), not a per-player goals model.

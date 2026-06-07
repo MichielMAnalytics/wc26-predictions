@@ -25,6 +25,20 @@ ADJ = load_adjustments()
 T.ADJ = ADJ
 print(f"availability/form adjustments: {'ON' if ADJ else 'OFF'}")
 
+# blended championship strength (model sim + market), for bracket advancement + champion bet
+def _blended_champ():
+    sim = {r["team"]: float(r["p_champion"]) for r in csv.DictReader(open("data/model/sim_team_probs.csv"))} \
+          if os.path.exists("data/model/sim_team_probs.csv") else {}
+    mkt = {r["team"]: float(r["p_champion_market"]) for r in csv.DictReader(open("data/model/market_odds.csv"))} \
+          if os.path.exists("data/model/market_odds.csv") else {}
+    teams = set(sim) | set(mkt)
+    if not teams: return {}
+    raw = {t: 0.5*sim.get(t, 0.0) + 0.5*mkt.get(t, sim.get(t, 0.0)) for t in teams}
+    s = sum(raw.values()) or 1.0
+    return {t: raw[t]/s for t in raw}
+BLEND = _blended_champ()
+def strength(t): return BLEND.get(t, 0.0)
+
 def pick(a, b):
     """EV-optimal scoreline + probs for a (home) vs b, applying host advantage."""
     h, aw, neu = T.neutral_sides(a, b)
@@ -94,8 +108,9 @@ for sid in order:
     k=ko[sid]; a=resolve(k["h"],sid); b=resolve(k["a"],sid)
     if not a or not b: continue
     (sa,sb),(pa,pd,pb),ev=pick(a,b)
-    # advancing team = higher regulation win prob (pens don't count for score)
-    adv = a if pa>=pb else b
+    # advancing team = stronger by blended (model+market) championship strength;
+    # the predicted SCORE stays EV-optimal (Scorito lets score & advancer differ)
+    adv = a if strength(a) >= strength(b) else b
     winners[sid]=adv; losers[sid]= b if adv==a else a
     ko_rows.append({"match":sid,"round":RLAB[k["round"]],"home":a,"away":b,
                     "pred":f"{sa}-{sb}","advances":adv,

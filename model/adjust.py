@@ -20,8 +20,15 @@ Output: data/model/adjustments.csv (team, d_atk, d_def, notes). Importable: load
 """
 import csv, math
 from collections import defaultdict
+try:
+    from odds import market_strength
+except Exception:
+    market_strength = lambda: {}
 
 CAP = 0.20
+MKT_K = 0.07           # market-strength -> attack/defence nudge per z-score
+MKT_CAP = 0.18         # cap for the market channel alone
+TOTAL_CAP = 0.30       # cap for injury+momentum+market combined
 ATT_OUT_MAX = 0.10     # max attack hit from a single key forward out
 DEF_OUT = 0.05         # defence hit for a key defender/GK out
 GEN_OUT = 0.03         # generic attack hit for an unmatched out attacker
@@ -59,13 +66,22 @@ def build():
         elif definite:                          # unmatched & definitely out -> likely a key attacker
             d_atk[t] -= GEN_OUT; notes[t].append(f"-atk {row['player']}(out,unmatched) {GEN_OUT:.02f}")
 
+    mkt = market_strength()                      # {team: z-score} from bookmaker odds
     rows = []
     for t in sorted(by_team):
-        da = d_atk[t] + MOM.get(state.get(t, {}).get("momentum", "steady"), 0.0)
-        dd = d_def[t]
+        # injury + momentum channel (capped)
+        da_inj = d_atk[t] + MOM.get(state.get(t, {}).get("momentum", "steady"), 0.0)
+        dd_inj = d_def[t]
         if state.get(t, {}).get("momentum") in MOM and MOM[state[t]["momentum"]]:
             notes[t].append(f"momentum {state[t]['momentum']}")
-        da = max(-CAP, min(CAP, da)); dd = max(-CAP, min(CAP, dd))
+        da_inj = max(-CAP, min(CAP, da_inj)); dd_inj = max(-CAP, min(CAP, dd_inj))
+        # market channel (capped) — pulls per-match strength toward bookmaker consensus
+        z = mkt.get(t, 0.0)
+        da_mkt = max(-MKT_CAP, min(MKT_CAP, MKT_K*z))
+        dd_mkt = da_mkt
+        if abs(da_mkt) >= 0.005: notes[t].append(f"market z{z:+.1f} {da_mkt:+.02f}")
+        da = max(-TOTAL_CAP, min(TOTAL_CAP, da_inj + da_mkt))
+        dd = max(-TOTAL_CAP, min(TOTAL_CAP, dd_inj + dd_mkt))
         rows.append({"team": t, "d_atk": round(da, 3), "d_def": round(dd, 3),
                      "notes": "; ".join(notes[t])})
     with open("data/model/adjustments.csv", "w", newline="", encoding="utf-8") as f:
