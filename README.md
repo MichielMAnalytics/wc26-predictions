@@ -147,7 +147,7 @@ Output is checked, not assumed.
 ## Next steps
 
 - **Part 2 — recent team developments**: schema designed in [SCHEMA_PART2.md](SCHEMA_PART2.md) (form, squad, injuries, manager/tactics, qualification path, momentum). Not yet collected.
-- **Prediction model** (after data is locked): rolling-form + Elo/SPI features off `team_match_log.csv` / `deep_history.csv`; a Poisson / Dixon-Coles goals model; Monte-Carlo the bracket encoded in `index.html`.
+- **Prediction model** — **built** (see [MODEL.md](MODEL.md)): Elo + time-weighted Dixon-Coles goals model + Monte-Carlo of the 2026 bracket, tuned to maximise Scorito points. Out-of-sample skill ~26% RPS over climatology, 60% outcome accuracy. Champion pick **Argentina** (15%). Full submission in [SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md); scoring in [SCORITO_RULES.md](SCORITO_RULES.md).
 
 ## Sources & licensing
 
