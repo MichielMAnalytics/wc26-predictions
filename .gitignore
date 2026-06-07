@@ -4,3 +4,6 @@ __pycache__/
 *.log
 .venv/
 node_modules/
+
+# StatsBomb raw events (560MB, re-downloadable via fetch_statsbomb.py)
+data/statsbomb_raw/events/
