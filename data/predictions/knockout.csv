@@ -1,33 +1,33 @@
 match,round,home,away,pred,advances,p_home,p_draw,p_away
-R32-1,R32,Germany,Turkey,2-1,Germany,0.534,0.228,0.237
-R32-2,R32,France,Egypt,1-0,France,0.487,0.294,0.22
-R32-3,R32,South Korea,Switzerland,1-0,South Korea,0.37,0.273,0.357
-R32-4,R32,Japan,Brazil,1-0,Japan,0.368,0.28,0.352
-R32-5,R32,Colombia,Croatia,1-0,Colombia,0.465,0.274,0.262
-R32-6,R32,Spain,Algeria,1-0,Spain,0.53,0.248,0.222
-R32-7,R32,Australia,Ivory Coast,1-0,Australia,0.421,0.316,0.263
-R32-8,R32,Belgium,Norway,2-1,Belgium,0.403,0.259,0.337
-R32-9,R32,Morocco,Netherlands,1-0,Morocco,0.428,0.299,0.273
-R32-10,R32,Ecuador,Senegal,0-0,Senegal,0.305,0.356,0.34
-R32-11,R32,Mexico,Saudi Arabia,1-0,Mexico,0.594,0.254,0.152
-R32-12,R32,England,Austria,1-0,England,0.523,0.276,0.201
-R32-13,R32,Argentina,Uruguay,1-0,Argentina,0.484,0.319,0.197
-R32-14,R32,United States,Iran,2-1,United States,0.375,0.258,0.366
-R32-15,R32,Canada,Tunisia,1-0,Canada,0.519,0.271,0.21
-R32-16,R32,Portugal,Panama,2-0,Portugal,0.61,0.219,0.17
-R16-1,R16,Germany,France,1-2,France,0.322,0.26,0.418
-R16-2,R16,South Korea,Japan,0-1,Japan,0.231,0.26,0.509
-R16-3,R16,Colombia,Spain,0-1,Spain,0.28,0.264,0.456
-R16-4,R16,Australia,Belgium,1-0,Australia,0.369,0.289,0.341
-R16-5,R16,Morocco,Senegal,1-0,Morocco,0.423,0.324,0.253
-R16-6,R16,Mexico,England,0-1,England,0.329,0.297,0.374
-R16-7,R16,Argentina,United States,1-0,Argentina,0.54,0.25,0.21
-R16-8,R16,Canada,Portugal,1-2,Portugal,0.356,0.259,0.385
-QF1,QF,France,Japan,0-1,Japan,0.318,0.28,0.402
-QF2,QF,Spain,Australia,1-0,Spain,0.477,0.274,0.249
-QF3,QF,Morocco,England,0-0,Morocco,0.336,0.34,0.324
-QF4,QF,Argentina,Portugal,1-0,Argentina,0.466,0.281,0.253
-SF1,SF,Japan,Spain,0-1,Spain,0.324,0.272,0.404
-SF2,SF,Morocco,Argentina,0-1,Argentina,0.27,0.339,0.391
-TP,3rd place,Japan,Morocco,0-1,Morocco,0.337,0.321,0.341
-FINAL,final,Spain,Argentina,0-1,Argentina,0.319,0.291,0.39
+R32-1,R32,Germany,Turkey,2-1,Germany,0.523,0.229,0.248
+R32-2,R32,France,Egypt,1-0,France,0.493,0.294,0.213
+R32-3,R32,South Korea,Switzerland,1-0,South Korea,0.365,0.277,0.358
+R32-4,R32,Japan,Brazil,1-0,Japan,0.369,0.292,0.339
+R32-5,R32,Colombia,Croatia,1-0,Colombia,0.484,0.27,0.247
+R32-6,R32,Spain,Algeria,1-0,Spain,0.519,0.25,0.231
+R32-7,R32,Australia,Ivory Coast,1-0,Australia,0.39,0.329,0.281
+R32-8,R32,Belgium,Norway,1-0,Belgium,0.4,0.264,0.336
+R32-9,R32,Morocco,Netherlands,1-0,Morocco,0.452,0.297,0.251
+R32-10,R32,Ecuador,Senegal,0-0,Senegal,0.318,0.356,0.325
+R32-11,R32,Mexico,Saudi Arabia,1-0,Mexico,0.612,0.246,0.142
+R32-12,R32,England,Austria,1-0,England,0.516,0.276,0.207
+R32-13,R32,Argentina,Uruguay,1-0,Argentina,0.47,0.33,0.201
+R32-14,R32,United States,Iran,0-1,Iran,0.362,0.265,0.372
+R32-15,R32,Canada,Tunisia,1-0,Canada,0.525,0.271,0.204
+R32-16,R32,Portugal,Panama,2-0,Portugal,0.624,0.213,0.162
+R16-1,R16,Germany,France,1-2,France,0.32,0.26,0.42
+R16-2,R16,South Korea,Japan,0-1,Japan,0.238,0.27,0.492
+R16-3,R16,Colombia,Spain,0-1,Spain,0.291,0.264,0.445
+R16-4,R16,Australia,Belgium,0-1,Belgium,0.347,0.3,0.353
+R16-5,R16,Morocco,Senegal,1-0,Morocco,0.439,0.321,0.24
+R16-6,R16,Mexico,England,0-1,England,0.339,0.294,0.367
+R16-7,R16,Argentina,Iran,1-0,Argentina,0.503,0.285,0.212
+R16-8,R16,Canada,Portugal,1-2,Portugal,0.347,0.256,0.396
+QF1,QF,France,Japan,0-1,Japan,0.333,0.287,0.381
+QF2,QF,Spain,Belgium,1-0,Spain,0.516,0.251,0.233
+QF3,QF,Morocco,England,0-0,Morocco,0.345,0.337,0.318
+QF4,QF,Argentina,Portugal,1-0,Argentina,0.439,0.288,0.274
+SF1,SF,Japan,Spain,0-1,Spain,0.307,0.276,0.417
+SF2,SF,Morocco,Argentina,0-1,Argentina,0.288,0.344,0.367
+TP,3rd place,Japan,Morocco,0-1,Morocco,0.313,0.323,0.364
+FINAL,final,Spain,Argentina,0-1,Argentina,0.33,0.298,0.373

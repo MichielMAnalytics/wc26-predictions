@@ -15,16 +15,20 @@ import numpy as np
 sys.path.insert(0, "model")
 import dc as DC, tournament as T
 from scorito import optimal_pick, outcome
+from adjust import load_adjustments
 
 os.makedirs("data/predictions", exist_ok=True)
 params = T.load_params()
 groups, ko = T.parse_structure()
 elo = {r["team"]: float(r["elo"]) for r in csv.DictReader(open("data/model/ratings.csv"))}
+ADJ = load_adjustments()
+T.ADJ = ADJ
+print(f"availability/form adjustments: {'ON' if ADJ else 'OFF'}")
 
 def pick(a, b):
     """EV-optimal scoreline + probs for a (home) vs b, applying host advantage."""
     h, aw, neu = T.neutral_sides(a, b)
-    M = DC.score_matrix(params, h, aw, neu)
+    M = DC.score_matrix(params, h, aw, neu, adj=ADJ)
     (pi, pj), ev = optimal_pick(M, "group")
     pH, pD, pA = DC.outcome_probs(M)
     if h == a:  # M is in (h=a) orientation

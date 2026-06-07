@@ -3,8 +3,8 @@ A,1,Mexico,9,4,4
 A,2,South Korea,6,1,2
 A,3,Czech Republic,3,-2,1
 A,4,South Africa,0,-3,0
-B,1,Canada,9,5,6
-B,2,Switzerland,6,2,4
+B,1,Canada,9,5,5
+B,2,Switzerland,6,2,3
 B,3,Qatar,3,-3,1
 B,4,Bosnia and Herzegovina,0,-4,0
 C,1,Morocco,9,3,3
@@ -35,10 +35,10 @@ I,1,France,9,3,3
 I,2,Senegal,6,1,2
 I,3,Norway,3,-1,1
 I,4,Iraq,0,-3,0
-J,1,Argentina,9,4,4
+J,1,Argentina,9,3,3
 J,2,Algeria,6,1,2
 J,3,Austria,3,-1,1
-J,4,Jordan,0,-4,0
+J,4,Jordan,0,-3,0
 K,1,Portugal,9,3,3
 K,2,Colombia,6,1,2
 K,3,Uzbekistan,1,-2,0

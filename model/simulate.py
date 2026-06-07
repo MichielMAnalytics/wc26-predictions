@@ -9,9 +9,12 @@ import sys, csv
 import numpy as np
 sys.path.insert(0, "model")
 import tournament as T
+from adjust import load_adjustments
 
-def run(n=20000, seed=12345):
+def run(n=20000, seed=12345, use_adj=True):
     params = T.load_params()
+    T.ADJ = load_adjustments() if use_adj else None
+    print(f"availability/form adjustments: {'ON' if T.ADJ else 'OFF'}")
     groups, ko = T.parse_structure()
     teams = [t for g in groups.values() for t in g["teams"]]
     assert len(teams) == 48, f"got {len(teams)} teams"

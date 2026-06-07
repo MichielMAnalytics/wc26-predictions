@@ -12,7 +12,8 @@ results_raw (martj42)
    │                      log λ_for = μ + atk[t] − def[opp] + home·(home & not neutral), + DC ρ
    ├─ model/backtest.py   strict time-split validation (skill proof)
    ├─ model/tournament.py parse 2026 groups+bracket from index.html; single-tournament simulator
-   ├─ model/simulate.py   N-tournament Monte Carlo                       -> data/model/sim_team_probs.csv
+   ├─ model/adjust.py     bounded injury/momentum nudges (Part 2)        -> data/model/adjustments.csv
+   ├─ model/simulate.py   N-tournament Monte Carlo (adj-aware)           -> data/model/sim_team_probs.csv
    ├─ model/predict.py    EV-optimal Scorito picks + bracket + champion  -> data/predictions/*.csv
    └─ model/write_report.py                                              -> SCORITO_PREDICTIONS.md
 ```
@@ -50,9 +51,20 @@ results_raw (martj42)
   Morocco to the semis); ~4% skill there is honest, not a bug. 64-match tournaments are
   high variance — deep-run picks are **edges, not certainties**.
 
-## Headline 2026 outputs
+## Availability/form adjustment (Part 2 edge)
 
-- **Champion pick: Argentina** (15.0%), then Spain (11.4%), Morocco/Japan/Brazil (~7%).
+`model/adjust.py` folds the Part 2 research into the goals model as **small, capped**
+(±0.20 log-space) nudges to each team's attack/defence: a forward/mid ruled OUT costs
+attack in proportion to his share of the squad's international goals; a regular
+defender/GK OUT costs defence; momentum rising/declining ±0.03. Doubts barely count
+(×0.25). It can't be backtested (Part 2 is a current snapshot) so it stays a disciplined
+prior — but it's the edge over entrants using results only. Effect: Brazil (Rodrygo,
+Militão, Estêvão, Neymar) and Japan dip; healthy, rising Morocco rises.
+
+## Headline 2026 outputs (adjusted model, 30k sims)
+
+- **Champion pick: Argentina** (13%), then Spain (12%), Morocco (8%), England (7%),
+  Mexico/Japan (6%), Brazil/Portugal (5%).
 - Full submission in [SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md); raw tables in
   `data/predictions/` and `data/model/sim_team_probs.csv`.
 
@@ -71,8 +83,9 @@ python3 build_dataset.py && python3 build_extras.py        # data spine (if not 
 
 ## Limitations / next gains
 
-- Part 2 signals (injuries, momentum, coach changes) are **not yet wired into λ** — a clear
-  next gain is to nudge team attack/defence by current availability/form (e.g. Brazil missing
-  Rodrygo/Militão/Estêvão, Netherlands missing Xavi Simons). The data is ready in `team_state.csv`.
+- The injury/form layer is a capped prior, not fit from data (no historical availability to
+  learn from). Name-matching injury news to roster surnames is imperfect; unmatched OUTs get a
+  small generic attack penalty.
 - xG (StatsBomb, 173 matches) could replace goals in the fit where available for sharper rates.
 - No market odds (the strongest external signal) — out of scope on the free stack.
+- Topscorer picks are heuristic (rate × deep-run prob), not a per-player goals model.

@@ -116,17 +116,20 @@ def fit_dc(rows, ref=REF_DATE, half_life_days=730, ridge=2.0, min_matches=6, ver
     if verbose: print(f"  fit: {len(rows)} matches, {nteam} teams, mu={mu:.3f} home={home:.3f} rho={rho:.3f}, conv={res.success}")
     return params
 
-def _lams(params, home, away, neutral):
+def _lams(params, home, away, neutral, adj=None):
     a = params["atk"]; d = params["def"]
     ah = a.get(home, params["atk_other"]); dh = d.get(home, params["def_other"])
     aa = a.get(away, params["atk_other"]); da = d.get(away, params["def_other"])
+    if adj:                                   # bounded availability/form nudges (log-space)
+        dah, ddh = adj.get(home, (0.0, 0.0)); daa, dda = adj.get(away, (0.0, 0.0))
+        ah += dah; dh += ddh; aa += daa; da += dda
     lh = math.exp(params["mu"] + ah - da + params["home"]*(0 if neutral else 1))
     la = math.exp(params["mu"] + aa - dh)
     return min(lh,30), min(la,30)
 
-def score_matrix(params, home, away, neutral=False, maxg=MAXG):
-    """Return (maxg+1 x maxg+1) matrix P[i,j] = P(home i, away j)."""
-    lh, la = _lams(params, home, away, neutral)
+def score_matrix(params, home, away, neutral=False, maxg=MAXG, adj=None):
+    """Return (maxg+1 x maxg+1) matrix P[i,j] = P(home i, away j). adj: {team:(d_atk,d_def)}."""
+    lh, la = _lams(params, home, away, neutral, adj)
     ph = poisson.pmf(np.arange(maxg+1), lh)
     pa = poisson.pmf(np.arange(maxg+1), la)
     M = np.outer(ph, pa)

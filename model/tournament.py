@@ -9,6 +9,7 @@ import numpy as np
 import dc as DC
 
 HOSTS = {"Mexico", "United States", "Canada"}
+ADJ = None          # optional {team:(d_atk,d_def)} availability/form nudges; set by caller
 
 CODE2TEAM = {
  "MEX":"Mexico","RSA":"South Africa","KOR":"South Korea","CZE":"Czech Republic",
@@ -51,7 +52,7 @@ def neutral_sides(home, away):
 def sample_score(params, a, b, rng):
     """Sample (ga, gb) for a vs b (a nominal home)."""
     h, aw, neu = neutral_sides(a, b)
-    M = DC.score_matrix(params, h, aw, neu)
+    M = DC.score_matrix(params, h, aw, neu, adj=ADJ)
     flat = M.ravel(); idx = rng.choice(len(flat), p=flat/flat.sum())
     gi, gj = divmod(idx, M.shape[1])
     # map back to (a,b) order
@@ -59,7 +60,7 @@ def sample_score(params, a, b, rng):
 
 def win_prob(params, a, b):
     h, aw, neu = neutral_sides(a, b)
-    M = DC.score_matrix(params, h, aw, neu); pH,pD,pA = DC.outcome_probs(M)
+    M = DC.score_matrix(params, h, aw, neu, adj=ADJ); pH,pD,pA = DC.outcome_probs(M)
     pa = pH if h == a else pA
     pb = pA if h == a else pH
     return pa, pD, pb
