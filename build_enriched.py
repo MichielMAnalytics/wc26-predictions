@@ -23,6 +23,7 @@ def load(path, key="match_id"):
 matches = list(csv.DictReader(open("data/matches.csv", encoding="utf-8")))
 sb  = load("data/statsbomb_match_stats.csv")
 af  = load("data/apifootball_context.csv")
+of  = load("data/openfootball_match_extra.csv")     # attendance + lineups (WC finals, CC0)
 
 # columns contributed by each enrichment layer (with a source prefix kept clear)
 SB_COLS = ["sb_stage","home_xg","away_xg","home_shots","away_shots","home_sot","away_sot",
@@ -30,6 +31,7 @@ SB_COLS = ["sb_stage","home_xg","away_xg","home_shots","away_shots","home_sot","
            "home_red","away_red","home_passes","away_passes"]
 AF_COLS = ["af_competition","af_round","venue_name","venue_city","referee",
            "ht_home","ht_away","et_home","et_away","pen_home","pen_away"]
+OF_COLS = ["attendance","home_xi","away_xi"]   # from openfootball (WC finals); lineups in match_lineups.csv
 
 out = []
 for m in matches:
@@ -37,8 +39,11 @@ for m in matches:
     del row["notes"]                       # move notes to the end
     s = sb.get(m["match_id"], {})
     a = af.get(m["match_id"], {})
+    o = of.get(m["match_id"], {})
     for c in SB_COLS: row[c] = s.get(c, "")
     for c in AF_COLS: row[c] = a.get(c, "")
+    for c in OF_COLS: row[c] = o.get(c, "")
+    row["has_lineups"] = "TRUE" if o.get("home_xi") else "FALSE"
     row["notes"] = m.get("notes", "")
     out.append(row)
 
@@ -50,7 +55,7 @@ with open("data/matches_enriched.csv","w",newline="",encoding="utf-8") as f:
 N = len(out)
 print(f"matches_enriched.csv: {N} rows, {len(cols)} columns\n")
 print("per-field coverage (non-blank / total):")
-ENRICH = SB_COLS + AF_COLS
+ENRICH = SB_COLS + AF_COLS + OF_COLS
 for c in ENRICH:
     pop = sum(1 for r in out if str(r[c]) != "")
     print(f"  {c:16s} {pop:5d}  {100*pop/N:5.1f}%")

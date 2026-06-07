@@ -24,6 +24,8 @@ Built from **[martj42/international_results](https://github.com/martj42/internat
 | `h2h.csv` | 335 | head-to-head record for every pair of WC48 teams that met in the 4yr window | `build_extras.py` |
 | `statsbomb_match_stats.csv` | 173 | per-match xG/shots/cards (StatsBomb, 4 major tournaments) | `fetch_statsbomb.py` |
 | `apifootball_context.csv` | 654 | per-match stage/venue/referee/HT-ET-pen (api-football) | `fetch_apifootball.py` |
+| `openfootball_match_extra.csv` | 124 | attendance + starting XI + subs (WC 2022 + 2018, CC0) | `parse_openfootball.py` |
+| `match_lineups.csv` | 3,663 | long: one row per (match, team, player) with started/captain | `parse_openfootball.py` |
 | `matches_enriched.csv` | 1,850 | **wide model-ready table**: matches.csv + all enrichment, joined by `match_id` | `build_enriched.py` |
 | `MANIFEST.json` | - | build metadata + counts | `build_dataset.py` |
 
@@ -36,6 +38,7 @@ python3 build_dataset.py      # spine: matches / team_match_log / team_summary (
 python3 build_extras.py        # deep_history.csv + h2h.csv (stdlib)
 python3 fetch_statsbomb.py     # statsbomb_match_stats.csv (downloads ~560MB events, cached)
 python3 fetch_apifootball.py   # apifootball_context.csv (needs .env key; free plan = 100/day)
+python3 parse_openfootball.py  # openfootball_match_extra.csv + match_lineups.csv (stdlib, CC0)
 python3 build_enriched.py      # matches_enriched.csv + coverage report (stdlib)
 ```
 
@@ -73,6 +76,8 @@ Everything in `matches.csv` plus, joined on `match_id` (blank where no source ha
 
 **api-football context columns** (654 matches): `af_competition`, `af_round` (stage + matchday, e.g. `Group Stage - 1`, `Final`), `venue_name` (stadium), `venue_city`, `referee`, `ht_home`/`ht_away` (halftime), `et_home`/`et_away` (extra-time score, 34 matches), `pen_home`/`pen_away` (shootout score, 26 matches).
 
+**openfootball columns** (63 WC 2022 matches): `attendance`, `home_xi`/`away_xi` (the 11 starters, `;`-joined), `has_lineups` flag. Full per-player detail (starters + subs + captain, WC 2022 **and** 2018) lives in `match_lineups.csv`.
+
 ### `deep_history.csv` and `h2h.csv`
 
 `deep_history.csv` mirrors the match-level columns over an 8-year window with an `in_4y_window` flag (TRUE subset == the 1,850 canonical matches). `h2h.csv`: `team_a, team_b, played, a_wins, draws, b_wins, a_goals, b_goals, last_meeting, last_score, last_tournament` (record always from `team_a`'s perspective; pairs sorted alphabetically).
@@ -85,8 +90,9 @@ Everything in `matches.csv` plus, joined on `match_id` (blank where no source ha
 | stage / venue / referee / HT (api-football) | 654 | 35.4% | comps in seasons 2022–2024 |
 | extra-time score | 34 | 1.8% | — |
 | shootout score | 26 | 1.4% | — |
+| attendance (openfootball) | 63 | 3.4% | WC 2022 only |
+| starting XI / lineups (openfootball) | 63 | 3.4% | WC 2022 (+ WC 2018 in deep table) |
 | **either enrichment layer** | **661** | **35.7%** | — |
-| attendance | 0 | 0.0% | **no reliable bulk source from this VM** |
 
 ---
 
@@ -112,8 +118,8 @@ Output is checked, not assumed.
 
 - **xG / shots** only for the 173 big-tournament matches (StatsBomb open data). FBref, which would extend xG to qualifiers/friendlies, is **Cloudflare-blocked from this VM's datacenter IP** (403).
 - **api-football context stops at season 2024** on the free plan, so the **2025–2026 WC qualifying cycle** (CONMEBOL/UEFA/AFC/CONCACAF/OFC) and 2025 tournaments have no stage/venue/referee. A paid plan would unlock them.
-- **Attendance: 0%** — not in StatsBomb's match index nor api-football's fixture payload; Wikipedia/Wikidata would be the source.
-- **Injuries / line-ups / managers** are **Part 2** (see [SCHEMA_PART2.md](SCHEMA_PART2.md)), not yet collected. The `notes` column is reserved.
+- **Attendance** and **lineups** cover only WC 2022 (openfootball, CC0); WC 2018 lineups are in the deep table. Other competitions have neither — openfootball is WC-finals-only, and the 2026 qualifiers aren't in it. Wikipedia/Wikidata would be the source for the rest.
+- **Injuries / managers** are **Part 2** (see [SCHEMA_PART2.md](SCHEMA_PART2.md)), not yet collected. The `notes` column is reserved.
 
 ## Next steps
 
