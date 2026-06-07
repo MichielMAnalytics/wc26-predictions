@@ -241,6 +241,7 @@
     <div class="controls">
       <input type="text" id="yourname" placeholder="Your name" autocomplete="off" />
       <button class="btn" id="modelBtn" style="background:#16a34a;color:#fff" title="Fill the whole sheet with the model predictions">⚡ Fill with model</button>
+      <button class="btn" id="aboutBtn" style="background:#2563eb;color:#fff" title="How these predictions were made">ℹ️ How it works</button>
       <button class="btn cyan" id="printBtn">Print / PDF</button>
       <button class="btn red" id="resetBtn">Reset</button>
     </div>
@@ -271,6 +272,26 @@
   <div class="foot">
     All kick-off times BST (GMT+1) · Group winners &amp; runners-up auto-fill the bracket once a group is fully predicted ·
     <span class="x">predictions saved automatically in your browser</span>
+  </div>
+
+  <div id="aboutModal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.6);padding:24px;overflow:auto">
+    <div style="max-width:760px;margin:24px auto;background:#0d3a18;color:#eafff0;border:1px solid #2f7a47;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.5);padding:22px 26px;line-height:1.5;font-size:14.5px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <h2 style="margin:0;font-size:20px">How these predictions were made</h2>
+        <button id="aboutClose" style="background:#ed2e2a;color:#fff;border:0;border-radius:8px;padding:6px 12px;cursor:pointer;font-weight:700">✕ Close</button>
+      </div>
+      <p style="opacity:.9">This chart is filled in by a <b>statistical model</b>, not by hand. Here's the reasoning behind it.</p>
+      <ol style="padding-left:20px;margin:10px 0">
+        <li style="margin:8px 0"><b>Team strength.</b> Every men's international from 2018–2026 (~8,000 matches) feeds a World-Football <b>Elo rating</b> — weighting World Cups above friendlies and bigger wins more. Strongest right now: Spain, Argentina, France, England, Brazil.</li>
+        <li style="margin:8px 0"><b>Scorelines.</b> A <b>Dixon-Coles</b> goals model turns those strengths into the probability of <i>every</i> exact scoreline for each fixture (recent and important games count more), including home advantage for the hosts (USA / Canada / Mexico).</li>
+        <li style="margin:8px 0"><b>Who's in form / who's hurt.</b> Current injuries, suspensions, coach changes and momentum were researched for all 48 squads and nudge each team up or down — e.g. <b>Brazil</b> are marked down without Rodrygo, Militão, Estêvão (and a doubtful Neymar); rising, healthy <b>Morocco</b> get a small lift.</li>
+        <li style="margin:8px 0"><b>The betting market.</b> Vig-free <b>bookmaker odds</b> are blended in. This is a real correction: on its own the model underrated France &amp; England and overrated Morocco &amp; Japan; the market pulls them back toward consensus.</li>
+        <li style="margin:8px 0"><b>Pool-optimal picks.</b> Each score is chosen to <b>maximise expected Scorito points</b> (you get points for the right result, plus a bonus for the exact score). That's why you'll see lots of <b>1-0 / 0-1</b>: getting the <i>result</i> right is worth the most, and a one-goal win for the favourite is the single most-likely exact score.</li>
+      </ol>
+      <p style="margin:10px 0"><b>Why Spain to win?</b> The model and the betting market <i>independently agree</i> Spain is the most likely champion (~15%), just ahead of Argentina, France and England — so it's the safest title pick.</p>
+      <p style="margin:10px 0"><b>Does it actually work?</b> Tested on matches it had never seen, it's about <b>26% more accurate than a naïve baseline</b>, calls the correct result <b>~60%</b> of the time, and beats both a plain Elo model and an "always 1-1" strategy. Caveat: tournaments are high-variance — upsets (hello, 2022) happen, so treat deep runs as <i>likelihoods, not certainties</i>.</p>
+      <p style="margin:12px 0 0;font-size:13px;opacity:.8">Full methodology, data sources and code: <a href="https://github.com/MichielMAnalytics/wc26-predictions" style="color:#7ee2a8">github.com/MichielMAnalytics/wc26-predictions</a> (see <code>MODEL.md</code> &amp; <code>SCORITO_PREDICTIONS.md</code>). Data: martj42 results, StatsBomb xG, api-football, openfootball, CBS Sports odds.</p>
+    </div>
   </div>
 
 <script>
@@ -629,6 +650,11 @@ document.querySelector('.board').addEventListener('input', e=>{
 document.getElementById('yourname').addEventListener('input', e=>{ state.name=e.target.value; save(); });
 document.getElementById('modelBtn').addEventListener('click', ()=>{state.groupScores=JSON.parse(JSON.stringify(MODEL_PREDICTIONS.groupScores));state.koScores=JSON.parse(JSON.stringify(MODEL_PREDICTIONS.koScores));state.koManual=JSON.parse(JSON.stringify(MODEL_PREDICTIONS.koManual));if(!state.name)state.name=MODEL_PREDICTIONS.name;save();location.reload();});
 document.getElementById('printBtn').addEventListener('click', ()=>window.print());
+(()=>{const m=document.getElementById('aboutModal');
+ document.getElementById('aboutBtn').addEventListener('click',()=>{m.style.display='block';});
+ document.getElementById('aboutClose').addEventListener('click',()=>{m.style.display='none';});
+ m.addEventListener('click',e=>{if(e.target===m)m.style.display='none';});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')m.style.display='none';});})();
 document.getElementById('resetBtn').addEventListener('click', ()=>{
   if(confirm('Clear all your predictions? This cannot be undone.')){
     state={groupScores:{},koScores:{},koManual:{},name:state.name};
