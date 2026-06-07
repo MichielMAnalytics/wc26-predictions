@@ -225,6 +225,36 @@
     body{background:#fff}
     .scroll{overflow:visible}
   }
+
+  /* ---------- phones ---------- */
+  @media(max-width:760px){
+    .topbar{padding:9px 11px;gap:8px}
+    .brand{gap:8px}
+    .brand h1{font-size:22px}
+    .sub{font-size:10px;letter-spacing:1px}
+    .controls{gap:7px;width:100%}
+    .controls input[type=text]{width:120px;flex:1 1 auto}
+    .btn{padding:8px 11px;font-size:12px;box-shadow:2px 2px 0 #000}
+    .progress{font-size:13px}
+    .scroll{padding:10px;overflow-x:hidden}
+    .board{gap:14px}
+    .col-groups{gap:14px}
+    /* bigger touch targets for score entry */
+    .score{width:42px;height:40px;font-size:18px}
+    /* bracket: stack rounds vertically, full-width cards (no sideways scrolling) */
+    .bracket-wrap{overflow-x:visible}
+    .bracket{flex-direction:column;min-width:0;gap:18px;align-items:stretch}
+    .round,.round.center{width:100%!important}
+    .round{flex-direction:column;gap:9px}
+    .ko,.finalbox{width:100%}
+    .ko .kr{padding:6px 8px}
+    .ko-team{font-size:15px}
+    .ko-score{width:40px;height:34px;font-size:16px}
+    .bracket-title{font-size:17px}
+    /* explanation modal fits small screens */
+    #aboutModal{padding:8px!important}
+    #aboutModal>div{padding:16px 16px!important;margin:8px auto!important;font-size:14px!important}
+  }
 </style>
 </head>
 <body>
