@@ -1,0 +1,37 @@
+{
+  "team": "Iran",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Amir Ghalenoei",
+  "coach_nationality": "Iranian",
+  "coach_appointed": "2023 (second stint in charge)",
+  "recent_coach_change": "No recent change; Ghalenoei has led Team Melli through the entire qualifying campaign in his second stint.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Topped AFC third-round Group A (with Uzbekistan, UAE, Qatar, North Korea, Kyrgyzstan), sealing automatic qualification on March 25, 2025 with a 2-2 home draw vs Uzbekistan; among the first nations to reach the finals. Across full qualifying: P16 W11 D4 L1, 35 goals for, 12 against.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Mehdi Taremi (Olympiacos) — captain and main attacking reference, 10 goals in qualifying",
+    "Alireza Jahanbakhsh (n/a) — experienced winger and leader",
+    "Alireza Beiranvand (n/a) — veteran goalkeeper",
+    "Saeid Ezatolahi (n/a) — defensive midfield anchor",
+    "Ramin Rezaeian (n/a) — experienced full-back"
+  ],
+  "injuries_doubts": [
+    {"player": "Sardar Azmoun", "issue": "Excluded from the squad (57 goals in 91 caps); local media reported he was dropped over a perceived act of disloyalty to the government, having also been omitted in March", "status": "out", "source_url": "https://www.flashscore.com/news/soccer-world-championship-taremi-and-jahanbakhsh-lead-iran-s-world-cup-squad-with-azmoun-overlooked/pGYQ1OUq/"}
+  ],
+  "squad_notes": "Ghalenoei named a 26-man squad (3 GK, 6 DF, 10 MF, 5 FW) on June 1, 2026, leaning on veterans Taremi and Jahanbakhsh. The headline omission was top scorer Sardar Azmoun. The squad will be based in Tijuana, Mexico after FIFA approved moving the camp from Arizona amid US-Iran political tensions; visa logistics for entering the US for group matches were a live concern.",
+  "warmup_assessment": "Solid send-off: beat Mali 2-0 in their final pre-tournament friendly, finishing 2026 with three wins and one loss in four matches before departing for their Tijuana base.",
+  "shape_verdict": "Defensively organized and tournament-tested with a quality leader in Taremi, Iran qualified emphatically and warmed up well, though the Azmoun saga and off-pitch visa/logistics uncertainty cloud their preparation.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2025-03-25", "category": "form", "headline": "Iran seal World Cup qualification with 2-2 home draw vs Uzbekistan, topping AFC Group A", "source_url": "https://tribuna.com/en/team/iran/table/2026/world-cup-qualification-asia/"},
+    {"date": "2026-06-01", "category": "squad", "headline": "Ghalenoei names 26-man squad; Taremi and Jahanbakhsh headline, Sardar Azmoun overlooked", "source_url": "https://www.flashscore.com/news/soccer-world-championship-taremi-and-jahanbakhsh-lead-iran-s-world-cup-squad-with-azmoun-overlooked/pGYQ1OUq/"},
+    {"date": "2026-06-05", "category": "form", "headline": "Iran beat Mali 2-0 in final warm-up before heading to Tijuana base", "source_url": "https://www.aljazeera.com/sports/2026/6/5/iran-beat-mali-in-final-warm-up-before-heading-to-world-cup"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/amir-ghalenoei-s-official-iran-squad-for-the-2026-fifa-world-cup-2026-06-01",
+    "https://www.flashscore.com/news/soccer-world-championship-taremi-and-jahanbakhsh-lead-iran-s-world-cup-squad-with-azmoun-overlooked/pGYQ1OUq/",
+    "https://tribuna.com/en/team/iran/table/2026/world-cup-qualification-asia/",
+    "https://www.aljazeera.com/sports/2026/6/5/iran-beat-mali-in-final-warm-up-before-heading-to-world-cup",
+    "https://en.mehrnews.com/news/244999/Iran-announce-26-man-squad-for-the-2026-World-Cup"
+  ]
+}

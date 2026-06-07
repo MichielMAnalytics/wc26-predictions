@@ -1,0 +1,38 @@
+{
+  "team": "Curaçao",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Dick Advocaat",
+  "coach_nationality": "Dutch",
+  "coach_appointed": "2026-05 (reappointed)",
+  "recent_coach_change": "Major recent saga: Advocaat guided Curacao through qualification, then stepped down early 2026 over his daughter's health. Fred Rutten took over but parted ways after two heavy March friendly defeats and player-council pressure; Advocaat was reappointed in May 2026 to lead the team at the finals, becoming the oldest head coach (78) ever at a World Cup.",
+  "base_formation": "Pragmatic, compact 4-2-3-1 / 5-3-2 setup",
+  "qualification_path": "First-ever World Cup qualification via CONCACAF: won all four matches of their initial group, then topped the final group (above Jamaica and Trinidad & Tobago) to claim a direct berth",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Leandro Bacuna (captain) — most-capped player (71), midfield leader with European top-division experience and set-piece quality",
+    "Eloy Room — veteran goalkeeper, joint most-capped (71)",
+    "Rangelo Janga (FC Eindhoven) — all-time top scorer (21 goals in 43 caps)",
+    "Juninho Bacuna — central midfielder, 13 international goals, dangerous through qualifying",
+    "Squad bolstered by Dutch-developed, Curacaoan-heritage players under the FIFA eligibility rule"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Curacao will be the smallest country (population ~150,000) ever to play at a World Cup and one of the most inexperienced squads, leaning heavily on Dutch-developed players of Curacaoan descent eligible via the FIFA rule on youth-level representation.",
+  "warmup_assessment": "Poor and mixed: heavy March defeats (5-1 to Australia, 2-0 to China) helped trigger the coaching change, then a 4-1 loss to Scotland on 30 May; only a 4-0 win over minnows Aruba (6 June) offered late respite.",
+  "momentum": "declining",
+  "shape_verdict": "A historic, feel-good debutant but in shaky form after chastening warm-up defeats and a destabilising coaching merry-go-round; Advocaat's return brings calm but expectations are very low in a brutal group.",
+  "news": [
+    {"date":"2026-05","category":"manager","headline":"Curacao reinstate Dick Advocaat; he will become oldest World Cup coach after Rutten exit","source_url":"https://www.espn.com/soccer/story/_/id/48757275/curacao-reinstate-dick-advocaat-deny-change-due-external-pressure"},
+    {"date":"2026-05-30","category":"form","headline":"Scotland beat Curacao 4-1 in pre-World Cup friendly at Hampden","source_url":"https://www.vavel.com/en-us/soccer/2026/05/30/1262294-scotland-vs-curacao-live-score-friendly-match.html"},
+    {"date":"2026-06-06","category":"form","headline":"Curacao beat Aruba 4-0 in final World Cup warm-up","source_url":"https://www.espn.com/soccer/match/_/gameId/401873741/aruba-curacao"}
+  ],
+  "sources": [
+    "https://www.fourfourtwo.com/team/curacao-world-cup-2026-squad",
+    "https://www.espn.com/soccer/story/_/id/48757275/curacao-reinstate-dick-advocaat-deny-change-due-external-pressure",
+    "https://www.cbssports.com/soccer/news/world-cup-2026-curacao-manager-fred-rutten-steps-down/",
+    "https://www.goal.com/en/lists/dick-advocaat-surprise-return-curacao-boss-ex-netherlands-world-cup-record/bltd46d39ec30daf3fc",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-curacao-players-squad-list-key-stats-schedule",
+    "https://www.vavel.com/en-us/soccer/2026/05/30/1262294-scotland-vs-curacao-live-score-friendly-match.html",
+    "https://www.espn.com/soccer/match/_/gameId/401873741/aruba-curacao",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/curacao-squad-announcement-dick-advocaat"
+  ]
+}

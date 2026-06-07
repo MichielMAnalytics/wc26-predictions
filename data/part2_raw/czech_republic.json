@@ -1,0 +1,40 @@
+{
+  "team": "Czech Republic",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Miroslav Koubek",
+  "coach_nationality": "Czech",
+  "coach_appointed": "2025-12 (succeeded Ivan Hasek in December 2025)",
+  "recent_coach_change": "Yes — Miroslav Koubek replaced Ivan Hasek in December 2025. At 74, Koubek is the oldest manager at the 2026 World Cup; he is a former goalkeeper who won the Czech league with Viktoria Plzen.",
+  "base_formation": "",
+  "qualification_path": "Qualified via the European playoffs, beating Republic of Ireland (2-2, won 4-3 on penalties on 26 March) and then Denmark (2-2, won 3-1 on penalties on 31 March), both in Prague and both on penalty shootouts.",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Patrik Schick (Bayer Leverkusen) — leading striker; scored in the warm-up win over Guatemala",
+    "Ladislav Krejci (Wolves) — captain and defensive leader",
+    "Tomas Soucek (West Ham) — central midfield engine",
+    "Adam Hlozek (Hoffenheim) — forward returning from a long calf/foot injury layoff",
+    "Pavel Sulc — attacking midfielder, one to watch"
+  ],
+  "injuries_doubts": [
+    {"player": "Adam Hlozek", "issue": "Missed most of the club season with calf and foot injuries; recovered to be included and tested in warm-ups", "status": "returned", "source_url": "https://www.fifa.com/en/articles/czechia-world-cup-squad-announced"},
+    {"player": "Jan Kuchta", "issue": "Ankle injury sustained in warm-up against Kosovo; coaching staff expected to manage him carefully before the tournament", "status": "doubt", "source_url": "https://athlonsports.com/soccer/czechia-vs-guatemala-lineups-score-live-where-to-watch"}
+  ],
+  "squad_notes": "Koubek named the final 26 on 31 May 2026, with Wolves defender Ladislav Krejci as captain. Spine of the side: Matej Kovar in goal, Tomas Holes in defence, Tomas Soucek in midfield and Patrik Schick up front, plus Adam Hlozek, Pavel Sulc and Lukas Provod. Hlozek's return from a long injury layoff was a notable inclusion.",
+  "warmup_assessment": "Solid finish to warm-ups: Czechia beat Guatemala 3-1 on 4 June 2026 in Harrison, New Jersey (Schick, Tomas Chory and Denis Visinsky scoring), after an earlier match against Kosovo in which Jan Kuchta picked up an ankle knock.",
+  "momentum": "rising",
+  "shape_verdict": "Czechia return to the World Cup after a 16-year absence carrying late momentum from a 3-1 win over Guatemala, with Schick fit and firing and Hlozek back from injury, though they only scraped through via two playoff penalty shootouts under new 74-year-old coach Miroslav Koubek.",
+  "news": [
+    {"date": "2026-06-04", "category": "form", "headline": "Czechia beat Guatemala 3-1 in World Cup warm-up; Schick, Chory and Visinsky score", "source_url": "https://athlonsports.com/soccer/czechia-vs-guatemala-lineups-score-live-where-to-watch"},
+    {"date": "2026-05-31", "category": "squad", "headline": "Miroslav Koubek names final 26-man Czechia squad with Ladislav Krejci as captain", "source_url": "https://www.olympics.com/en/news/fifa-world-cup-2026-czechia-players-squad-list-key-stats-schedule"},
+    {"date": "2026-05-21", "category": "injury", "headline": "Adam Hlozek returns from long-term calf and foot injury to make Czechia's preliminary World Cup squad", "source_url": "https://www.foxsports.com/articles/soccer/midfielder-hlozek-returns-from-injury-in-czech-republics-preliminary-world-cup-squad"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/articles/czechia-world-cup-squad-announced",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-czechia-players-squad-list-key-stats-schedule",
+    "https://www.fourfourtwo.com/team/czech-republic-world-cup-2026-squad",
+    "https://athlonsports.com/soccer/czechia-vs-guatemala-lineups-score-live-where-to-watch",
+    "https://www.foxsports.com/articles/soccer/midfielder-hlozek-returns-from-injury-in-czech-republics-preliminary-world-cup-squad",
+    "https://www.washingtonpost.com/sports/soccer/2026/05/21/czech-republic-squad-world-cup/2b02b502-550f-11f1-9c40-7a0a12d9e745_story.html",
+    "https://uk.sports.yahoo.com/news/czech-republic-world-cup-2026-154053102.html"
+  ]
+}

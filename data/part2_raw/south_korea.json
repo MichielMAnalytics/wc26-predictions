@@ -1,0 +1,39 @@
+{
+  "team": "South Korea",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Hong Myung-bo",
+  "coach_nationality": "South Korean",
+  "coach_appointed": "2024",
+  "recent_coach_change": "No coaching change in the last 12 months; Hong Myung-bo led the team through AFC qualifying and named the World Cup squad.",
+  "base_formation": "",
+  "qualification_path": "Qualified directly via AFC third round, topping Group C with five wins and one draw (16 points, unbeaten) ahead of nations including China, Thailand and Singapore; an 11th consecutive World Cup appearance.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Son Heung-min (LAFC) — captain, gearing up for his fourth World Cup at age 33",
+    "Lee Kang-in (Paris Saint-Germain) — creative midfielder; limited starts at PSG but top assist provider in qualifying (5 goals, 6 assists in 15 games)",
+    "Kim Min-jae (Bayern Munich) — center-back; third choice at club but a defensive leader who dominated aerial duels in qualifying",
+    "Cho Gue-sung (Midtjylland) — forward",
+    "Oh Hyeon-gyu (Besiktas) — forward"
+  ],
+  "injuries_doubts": [
+    {"player": "Cho Yu-min", "issue": "Withdrew injured from the squad; replaced by Cho Wi-je", "status": "out", "source_url": "https://www.espn.com/soccer/story/_/id/48788433/son-heung-min-south-korea-world-cup-squad-lee-kang-kim-min-jae"}
+  ],
+  "squad_notes": "Final squad revealed on 16 May 2026. Son Heung-min named captain for his fourth World Cup. Cho Wi-je was called up on 2 June 2026 as an injury replacement for Cho Yu-min. No injury concerns reported for Son himself.",
+  "warmup_assessment": "Mixed but ultimately positive: South Korea earned a narrow 1-0 win over El Salvador in their final World Cup warm-up on 4 June 2026 in Provo, Utah, decided by a Lee Dong-gyeong free-kick. Hong acknowledged early offensive difficulties but called the match useful preparation.",
+  "momentum": "steady",
+  "shape_verdict": "South Korea arrive in solid shape after dominant, unbeaten AFC qualifying and a winning final warm-up, anchored by captain Son Heung-min and a core of European-based players, though they were not fully fluent offensively in the El Salvador friendly.",
+  "news": [
+    {"date": "2026-06-04", "category": "form", "headline": "South Korea edge El Salvador 1-0 in final World Cup warm-up via Lee Dong-gyeong free-kick", "source_url": "https://sports.yahoo.com/articles/south-korea-edge-el-salvador-042159296.html"},
+    {"date": "2026-06-02", "category": "injury", "headline": "Cho Wi-je called up as injury replacement for Cho Yu-min in South Korea's World Cup squad", "source_url": "https://www.espn.com/soccer/story/_/id/48788433/son-heung-min-south-korea-world-cup-squad-lee-kang-kim-min-jae"},
+    {"date": "2026-05-16", "category": "squad", "headline": "Hong Myung-bo names South Korea World Cup squad; Son Heung-min set for fourth World Cup as captain", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo"}
+  ],
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48788433/son-heung-min-south-korea-world-cup-squad-lee-kang-kim-min-jae",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-world-cup-squad-hong-myungbo",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-republic-of-korea-all-players-full-squad-list-key-stats-schedule",
+    "https://sports.yahoo.com/articles/south-korea-edge-el-salvador-042159296.html",
+    "https://www.flashscore.com/news/south-korea-earn-narrow-victory-against-el-salvador-in-final-world-cup-warm-up/nqkdgwQr/",
+    "https://theanalyst.com/articles/south-korea-tactical-flexibility-preview-world-cup-2026",
+    "https://www.psg.fr/en/content/south-korea-and-lee-kang-in-qualified-for-the-2026-world-cup"
+  ]
+}

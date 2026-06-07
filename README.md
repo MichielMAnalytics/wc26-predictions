@@ -96,6 +96,29 @@ Everything in `matches.csv` plus, joined on `match_id` (blank where no source ha
 
 ---
 
+## Part 2 — team state going into the tournament (2026-06-07 snapshot)
+
+How in-shape each of the 48 teams is, four days before kickoff. Built in two layers:
+**derived** hard signals from the match data (free, 100% covered) + **researched**
+qualitative info (coach changes, injuries, news, momentum), every claim cited.
+
+| file | rows | grain | built by |
+|---|---|---|---|
+| `team_state.csv` | 48 | per-team snapshot: derived form + coach/qualification/momentum/shape verdict | `build_part2.py` |
+| `team_injuries.csv` | 77 | one row per injury / doubt / suspension — **100% cited** | `build_part2.py` |
+| `team_news.csv` | 144 | one row per dated news item — **100% cited** | `build_part2.py` |
+| `team_key_players.csv` | 232 | one row per key-player note | `build_part2.py` |
+| `team_state_form.csv` | 48 | derived-only: last5/10 form, 2026 warm-up results, streaks, rest days | `build_team_state.py` |
+
+Per-team research is cached as `data/part2_raw/<team>.json` (coach, qualification path,
+injuries, key players, warm-up read, momentum, shape verdict, news — all with source URLs).
+Coverage: head coach 48/48, qualification 48/48, shape verdict 48/48, **23/48 teams had a
+coach change in the last year**, injuries found for 36/48 (the rest honest blanks). Build:
+`python3 build_team_state.py && python3 build_part2.py`. Full 26-man rosters are the one
+remaining Part 2 gap (we have 3–5 key players/team). See [SCHEMA_PART2.md](SCHEMA_PART2.md).
+
+---
+
 ## Verification
 
 Output is checked, not assumed.

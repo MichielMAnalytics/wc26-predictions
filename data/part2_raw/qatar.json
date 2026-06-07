@@ -1,0 +1,36 @@
+{
+  "team": "Qatar",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Julen Lopetegui",
+  "coach_nationality": "Spain",
+  "coach_appointed": "2025-05",
+  "recent_coach_change": "Yes — Lopetegui was appointed in May 2025, replacing Marquez Lopez, and led Qatar through the final qualifying rounds.",
+  "base_formation": "",
+  "qualification_path": "Qualified on merit for the first time via standard AFC qualifying: won their second-round group (16 points from 6 games), advanced through the third round, then came through the fourth round (drew Oman, beat UAE 2-1).",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Akram Afif (Al Sadd) — two-time Asian Player of the Year, creative hub",
+    "Almoez Ali (Al Duhail) — all-time top scorer; 12 goals in Asian qualifying, top scorer",
+    "Hassan Al-Haydos (Al Sadd) — captain and veteran leader, came out of retirement",
+    "Boualem Khoukhi — experienced defender",
+    "Abdelkarim Hassan — defender"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Lopetegui announced the final 26 on June 2, 2026, spearheaded by Afif and Almoez Ali. The squad was trimmed from a 35-man preliminary list (May 18) down through 28 (May 25). Goalkeeper Shehab Al Laithi and midfielder Rayan Al Ali were among the late cuts. The squad is overwhelmingly domestic, developed through the Aspire Academy system.",
+  "warmup_assessment": "Modest: Qatar lost 1-0 to the Republic of Ireland in a warm-up friendly in late May 2026 before final cuts, then continued high-intensity training on the US west coast (Santa Barbara/California).",
+  "shape_verdict": "A cohesive, Aspire-built squad enjoying a historic first merit-based qualification, but depth and quality against elite opposition are unproven and warm-up form (a 1-0 loss to Ireland) was tepid.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-06-02", "category": "squad", "headline": "Lopetegui names final 26-man Qatar squad spearheaded by Afif and Almoez Ali", "source_url": "https://thepeninsulaqatar.com/article/02/06/2026/afif-and-almoez-to-spearhead-qatars-26-player-squad-for-fifa-world-cup"},
+    {"date": "2026-06-03", "category": "form", "headline": "Asian champions Qatar eye first World Cup knockout berth in North America", "source_url": "https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-qatar-squad-team-players-group-knockouts"},
+    {"date": "2026-05-28", "category": "form", "headline": "Qatar lose 1-0 to Republic of Ireland in pre-World Cup friendly", "source_url": "https://thepeninsulaqatar.com/article/02/06/2026/afif-and-almoez-to-spearhead-qatars-26-player-squad-for-fifa-world-cup"}
+  ],
+  "sources": [
+    "https://thepeninsulaqatar.com/article/02/06/2026/afif-and-almoez-to-spearhead-qatars-26-player-squad-for-fifa-world-cup",
+    "https://www.aljazeera.com/sports/2026/6/3/fifa-world-cup-2026-qatar-squad-team-players-group-knockouts",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/qatar-in-the-fifa-world-cup-2026-squad-key-players-and-everything-you-need-to-know-2026-06-01",
+    "https://qna.org.qa/en/News-Area/News/2026-6/2/2026-world-cup-qatar-coach-announces-final-squad",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-qatar-all-players-full-squad-list-key-stats-and-schedule",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads"
+  ]
+}

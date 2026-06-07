@@ -1,0 +1,39 @@
+{
+  "team": "Germany",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Julian Nagelsmann",
+  "coach_nationality": "German",
+  "coach_appointed": "2023-09",
+  "recent_coach_change": "No recent change; Nagelsmann appointed September 2023 and contract extended through 2026.",
+  "base_formation": "4-2-3-1 with a double pivot (Goretzka/Pavlovic) and Kimmich at right-back",
+  "qualification_path": "Won European qualifying group with five wins from six matches",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Jamal Musiala (Bayern Munich) — returning from a serious July broken-leg/ankle injury, limited game time but a key creative threat",
+    "Florian Wirtz (Liverpool) — versatile attacker in improved form after first season in England",
+    "Joshua Kimmich (Bayern Munich) — captain, anchors midfield/right-back",
+    "Antonio Rudiger (Real Madrid) — defensive leader returning after a period out injured",
+    "Manuel Neuer (Bayern Munich, 40) — reversed retirement, confirmed first-choice keeper"
+  ],
+  "injuries_doubts": [
+    {"player":"Lennart Karl","issue":"torn muscle in final training session before USA friendly","status":"out","source_url":"https://www.espn.com/soccer/story/_/id/48977173/lennart-karl-injured-germany-training-miss-world-cup"},
+    {"player":"Jamal Musiala","issue":"recovering from broken leg and dislocated ankle (July), limited recent minutes","status":"doubt","source_url":"https://www.aljazeera.com/sports/2026/5/31/germany-world-cup-2026-team-preview-players-to-watch-group-and-squad-list"}
+  ],
+  "squad_notes": "Manuel Neuer reversed his post-Euro 2024 retirement to be named first-choice keeper. Assan Ouedraogo (RB Leipzig) called up to replace the injured Lennart Karl. Bayern Munich supply around seven players. High-profile omissions include Marc-Andre ter Stegen, Serge Gnabry, Niclas Fullkrug, Karim Adeyemi and Robert Andrich. No world-class out-and-out striker in the squad.",
+  "warmup_assessment": "Encouraging build-up: Germany beat Ghana in a March 2026 friendly and closed preparations with a tune-up against the USA in Chicago; the team looked improved and optimistic relative to recent tournament failures.",
+  "momentum": "rising",
+  "shape_verdict": "Germany look improved and balanced with a blend of youth and experience, but lack a top-level striker and carry doubts over Musiala's sharpness after his long lay-off.",
+  "news": [
+    {"date":"2026-06-06","category":"injury","headline":"Lennart Karl ruled out of World Cup with training injury; Assan Ouedraogo called up as replacement","source_url":"https://www.espn.com/soccer/story/_/id/48977173/lennart-karl-injured-germany-training-miss-world-cup"},
+    {"date":"2026-05-21","category":"squad","headline":"Manuel Neuer makes Germany return in Nagelsmann's 26-man World Cup squad","source_url":"https://www.bundesliga.com/en/bundesliga/news/germany-squad-world-cup-2026-manuel-neuer-nagelsmann-37487"},
+    {"date":"2026-05-31","category":"form","headline":"Germany preview: improved and optimistic but striker question lingers","source_url":"https://www.aljazeera.com/sports/2026/5/31/germany-world-cup-2026-team-preview-players-to-watch-group-and-squad-list"}
+  ],
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/5/31/germany-world-cup-2026-team-preview-players-to-watch-group-and-squad-list",
+    "https://www.fourfourtwo.com/team/germany-world-cup-2026-squad",
+    "https://www.bundesliga.com/en/bundesliga/news/germany-squad-world-cup-2026-manuel-neuer-nagelsmann-37487",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/germany-squad-neuer-nagelsmann-named",
+    "https://www.espn.com/soccer/story/_/id/48977173/lennart-karl-injured-germany-training-miss-world-cup",
+    "https://www.bavarianfootballworks.com/fifa-world-cup/212194/rb-leipzigs-assan-ouedraogo-to-take-lennart-karls-world-cup-spot-with-germany"
+  ]
+}

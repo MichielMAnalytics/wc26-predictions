@@ -1,0 +1,39 @@
+{
+  "team": "Croatia",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Zlatko Dalic",
+  "coach_nationality": "Croatia",
+  "coach_appointed": "2017-10-07",
+  "recent_coach_change": "None recent. Dalic has been in charge since 7 October 2017, when he replaced the sacked Ante Cacic; he remains Croatia's longest-serving and most successful coach.",
+  "base_formation": "4-3-3 (often shifting to a 4-2-3-1), built around a veteran central midfield",
+  "qualification_path": "Won UEFA Group L with a record of P8 W7 D1 L0, 26 goals for and 4 against; group runners-up were the Czech Republic. Sealed direct qualification in November 2025.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Luka Modric (AC Milan) — 40-year-old captain, made 36 competitive appearances for Milan in 2025-26 with 2 goals and 3 assists; still the team's metronome",
+    "Josko Gvardiol (Manchester City) — defensive anchor, returned after recovering from a broken shin",
+    "Mateo Kovacic (Manchester City) — midfield engine who overcame injury to make the squad",
+    "Andrej Kramaric (Hoffenheim) — experienced attacking option",
+    "Ivan Perisic (PSV/veteran) — experienced wide forward retained in the squad"
+  ],
+  "injuries_doubts": [
+    {"player": "Josko Gvardiol", "issue": "Returned after recovering from a broken shin; back in the squad and played the Belgium friendly", "status": "returned", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/zlatko-dali-s-official-croatia-squad-for-the-2026-fifa-world-cup-2026-05-18"},
+    {"player": "Mateo Kovacic", "issue": "Overcame an injury to make the final squad", "status": "returned", "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_L"}
+  ],
+  "squad_notes": "Dalic blended youth and experience. Veterans Luka Modric (captain), Ivan Perisic, Mario Pasalic and Andrej Kramaric were all retained. Gvardiol returned from a broken shin and Kovacic recovered from injury in time. Seven standby players were also named alongside the 26-man squad announced on 18 May 2026.",
+  "warmup_assessment": "Mixed. Croatia lost their first warm-up 0-2 at home to Belgium on 2 June 2026, with Modric starting. A final home tune-up against Slovenia was scheduled for 7 June in Varazdin (result not yet available at snapshot).",
+  "shape_verdict": "An experienced, well-organised side that qualified comfortably, but the ageing core and a flat 0-2 loss to Belgium in their opening warm-up raise questions about whether they can match younger, faster opponents.",
+  "news": [
+    {"date": "2026-05-18", "category": "squad", "headline": "Zlatko Dalic names 26-man Croatia World Cup squad; Modric to captain, Gvardiol returns from injury", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/zlatko-dali-s-official-croatia-squad-for-the-2026-fifa-world-cup-2026-05-18"},
+    {"date": "2026-06-02", "category": "form", "headline": "Croatia 0-2 Belgium in pre-World Cup warm-up friendly", "source_url": "https://www.espn.com/soccer/match/_/gameId/401856361/belgium-croatia"},
+    {"date": "2026-06-07", "category": "form", "headline": "Croatia face Slovenia in final pre-tournament friendly in Varazdin", "source_url": "https://www.uefa.com/european-qualifiers/friendlies/match/2047760--croatia-vs-slovenia/matchinfo/"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/zlatko-dali-s-official-croatia-squad-for-the-2026-fifa-world-cup-2026-05-18",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_L",
+    "https://www.espn.com/soccer/match/_/gameId/401856361/belgium-croatia",
+    "https://www.uefa.com/european-qualifiers/friendlies/match/2047760--croatia-vs-slovenia/matchinfo/",
+    "https://en.wikipedia.org/wiki/Zlatko_Dali%C4%87",
+    "https://www.acmilan.com/en/news/articles/media/2025-07-14/official-statement-luka-modric",
+    "https://www.fifa.com/en/articles/croatia-squad-named"
+  ]
+}

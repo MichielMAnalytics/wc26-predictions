@@ -1,0 +1,38 @@
+{
+  "team": "Norway",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Stale Solbakken",
+  "coach_nationality": "Norwegian",
+  "coach_appointed": "2020-12-03",
+  "recent_coach_change": "No recent change. Solbakken has been in charge since December 2020 (succeeding Lars Lagerback); 2026 is widely expected to be his final tournament in charge.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Won UEFA Group I with a perfect record: eight wins from eight, 37 goals for and 5 against, including a 3-0 win over Italy in Oslo and a 4-1 win at the San Siro. First World Cup since 1998, ending a 28-year absence.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Erling Haaland (Manchester City) — talisman striker; 16 goals in qualifying, double his nearest rival",
+    "Martin Odegaard (Arsenal) — captain and creative hub, Premier League title winner",
+    "Alexander Sorloth (Atletico Madrid) — prolific secondary striker",
+    "Antonio Nusa (RB Leipzig) — dynamic young winger",
+    "Jorgen Strand Larsen (Crystal Palace) — additional attacking option"
+  ],
+  "injuries_doubts": [
+    {"player":"Martin Odegaard","issue":"Multiple injuries through the season limiting appearances; missed March friendlies","status":"returned","source_url":"https://www.aljazeera.com/sports/2026/5/26/norway-world-cup-2026-preview-players-to-watch-group-matches-squad-list"},
+    {"player":"Oscar Bobb","issue":"Disrupted season after a serious earlier injury; struggled to reestablish himself but included in squad","status":"returned","source_url":"https://www.ladbrokes.com/en/news/norway-world-cup-preview-odds-key-players-predictions-2026-06-05/"}
+  ],
+  "squad_notes": "26-man squad unveiled 21 May 2026, fronted by a video message from King Harald V. A genuine golden generation reaching a first major tournament in a generation, built around Haaland and Odegaard with strong attacking depth.",
+  "warmup_assessment": "Positive. Norway beat Sweden 3-1 on 1 June 2026 (with Haaland rested) and faced Morocco in a further warm-up on 7 June, arriving in good form on the back of a flawless qualifying campaign.",
+  "shape_verdict": "Riding the momentum of a perfect qualifying run and a tournament-class attack, Norway look in excellent shape as dark horses, with the main caveat being Odegaard's fitness after an injury-hit season.",
+  "news": [
+    {"date":"2026-06-01","category":"form","headline":"Norway beat Sweden 3-1 in World Cup warm-up","source_url":"https://www.espn.com/soccer/match/_/gameId/401864055/sweden-norway"},
+    {"date":"2026-05-26","category":"injury","headline":"Norway World Cup preview: Odegaard fitness a concern after injury-hit season","source_url":"https://www.aljazeera.com/sports/2026/5/26/norway-world-cup-2026-preview-players-to-watch-group-matches-squad-list"},
+    {"date":"2026-05-21","category":"squad","headline":"Solbakken names Norway's 26-man World Cup squad led by Haaland and Odegaard","source_url":"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-squad-announcement-stale-solbakken"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/norway-squad-announcement-stale-solbakken",
+    "https://www.ladbrokes.com/en/news/norway-world-cup-preview-odds-key-players-predictions-2026-06-05/",
+    "https://www.aljazeera.com/sports/2026/5/26/norway-world-cup-2026-preview-players-to-watch-group-matches-squad-list",
+    "https://www.espn.com/soccer/match/_/gameId/401864055/sweden-norway",
+    "https://en.wikipedia.org/wiki/St%C3%A5le_Solbakken",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-norway-all-players-full-squad-list-key-stats-and-schedule"
+  ]
+}

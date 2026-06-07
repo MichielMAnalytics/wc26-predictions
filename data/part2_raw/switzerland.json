@@ -1,0 +1,43 @@
+{
+  "team": "Switzerland",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Murat Yakin",
+  "coach_nationality": "Switzerland",
+  "coach_appointed": "2021",
+  "recent_coach_change": "No recent change; Yakin retained after a strong Euro 2024 run and leads Switzerland into a sixth consecutive World Cup.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Qualified directly as winners of UEFA Group B, finishing top with 14 points (ahead of Kosovo on 11), unbeaten and three points clear.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Granit Xhaka (Sunderland) — captain, fourth straight World Cup; standout 2025-26 season after summer move to Sunderland",
+    "Manuel Akanji (Inter Milan) — defensive leader",
+    "Dan Ndoye — in-form attacker, scored in warm-up vs Australia",
+    "Ruben Vargas — attacking option",
+    "Remo Freuler — midfield anchor alongside Xhaka"
+  ],
+  "injuries_doubts": [
+    {"player": "Breel Embolo", "issue": "travel authorization to the United States under review, casting doubt on availability", "status": "doubt", "source_url": "https://socceroos.com.au/news/match-preview-commbank-socceroos-v-switzerland-international-friendly"},
+    {"player": "Zeki Amdouni", "issue": "limited playing time at Burnley after returning from a serious ACL injury", "status": "returned", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/murat-yakin-s-official-switzerland-squad-for-the-2026-fifa-world-cup-2026-05-20"},
+    {"player": "Fabian Rieder", "issue": "missed a recent preparation friendly", "status": "doubt", "source_url": "https://socceroos.com.au/news/match-preview-commbank-socceroos-v-switzerland-international-friendly"},
+    {"player": "Noah Okafor", "issue": "missed a recent preparation friendly", "status": "doubt", "source_url": "https://socceroos.com.au/news/match-preview-commbank-socceroos-v-switzerland-international-friendly"}
+  ],
+  "squad_notes": "Switzerland confirmed their 26 on May 20, 2026 (rolled out via social media May 18-19). Yakin trusted an experienced core led by Xhaka and Akanji. The most discussed call was including Zeki Amdouni, who barely played for Burnley after a serious ACL injury.",
+  "warmup_assessment": "Mixed: Switzerland dominated possession but drew 1-1 with Australia in San Diego on June 6, 2026 (Dan Ndoye scoring off a Xhaka assist before Tete Yengi equalized following a defensive error), failing to convert clear superiority.",
+  "shape_verdict": "An experienced, settled side that qualified comfortably and looks structurally sound in a 4-2-3-1, though the Australia draw and Embolo's travel uncertainty leave minor question marks on the attack.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-05-20", "category": "squad", "headline": "Murat Yakin names experienced Switzerland squad led by Xhaka and Akanji", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/murat-yakin-s-official-switzerland-squad-for-the-2026-fifa-world-cup-2026-05-20"},
+    {"date": "2026-06-06", "category": "form", "headline": "Switzerland held to 1-1 draw by Australia in final World Cup warm-up", "source_url": "https://www.vavel.com/en-us/soccer/2026/06/06/1262822-australia-vs-switzerland-live-score-updates-in-international-friendly-match.html"},
+    {"date": "2026-06-05", "category": "injury", "headline": "Breel Embolo's US travel authorization under review casts doubt on availability", "source_url": "https://socceroos.com.au/news/match-preview-commbank-socceroos-v-switzerland-international-friendly"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/switzerland-squad-announcement-murat-yakin",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/murat-yakin-s-official-switzerland-squad-for-the-2026-fifa-world-cup-2026-05-20",
+    "https://www.fourfourtwo.com/team/switzerland-world-cup-2026-squad",
+    "https://thefootballfaithful.com/switzerland-2026-world-cup-squad-fixtures-and-schedule/",
+    "https://socceroos.com.au/news/match-preview-commbank-socceroos-v-switzerland-international-friendly",
+    "https://www.vavel.com/en-us/soccer/2026/06/06/1262822-australia-vs-switzerland-live-score-updates-in-international-friendly-match.html",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_B",
+    "https://www.skysports.com/football/news/11095/13403005/granit-xhaka-transfer-sunderland-agree-deal-to-sign-former-arsenal-midfielder-from-bayer-leverkusen"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "team": "Paraguay",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Gustavo Alfaro",
+  "coach_nationality": "Argentina",
+  "coach_appointed": "2024-08",
+  "recent_coach_change": "Alfaro took charge in August 2024 and rebuilt the team; no change since.",
+  "base_formation": "Floating 3-4-3 (three attacking midfielders behind a centre-forward)",
+  "qualification_path": "Qualified via CONMEBOL, claiming the last automatic South American spot; finished fifth in the group, 10 points behind winners Argentina. Sealed qualification on September 4, 2025, with a goalless draw against Ecuador in Asuncion.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Gustavo Gomez (Palmeiras) — captain, 88+ caps, experienced former AC Milan centre-back and defensive leader",
+    "Julio Enciso (Strasbourg) — creative attacker, fitness doubt after Nicaragua friendly",
+    "Diego Gomez (Brighton & Hove Albion) — Premier League midfielder, key engine",
+    "Antonio Sanabria (Torino) — experienced Serie A centre-forward",
+    "Omar Alderete (Charlotte FC) — established defender"
+  ],
+  "injuries_doubts": [
+    {"player":"Julio Enciso","issue":"double injury (side then lower back) sustained vs Nicaragua on June 5; Alfaro suggested up to ~3 weeks recovery","status":"doubt","source_url":"https://www.fantasyfootballscout.co.uk/2026/06/06/fantasy-fifa-world-cup-2026-team-previews-paraguay"}
+  ],
+  "squad_notes": "Alfaro named the 26-man squad on June 1, 2026, marking La Albirroja's return after a 16-year absence (longest ever). Manchester United's Diego Leon, despite being capped, was not included in the final selection. Squad blends Europe- and South America-based players with veteran spine around captain Gustavo Gomez.",
+  "warmup_assessment": "Positive send-off. Paraguay beat Nicaragua 4-0 at their CARDE high-performance centre on June 5, 2026. Earlier 2026 friendlies were mixed (1-0 win over Greece on March 27, 1-2 loss to Morocco on March 31).",
+  "shape_verdict": "A gritty, physically robust side built on defensive solidity (10 clean sheets in qualifying) but a modest goal threat. Returning to the World Cup with momentum and confidence, though reliant on Enciso's fitness for creativity.",
+  "momentum": "rising",
+  "news": [
+    {"date":"2026-06-01","category":"squad","headline":"Gustavo Alfaro names Paraguay's 26-man World Cup squad; Diego Leon omitted","source_url":"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/paraguay-squad-announcement-gustavo-alfaro"},
+    {"date":"2026-06-05","category":"form","headline":"Paraguay beat Nicaragua 4-0 in pre-World Cup farewell friendly","source_url":"https://www.fantasyfootballscout.co.uk/2026/06/06/fantasy-fifa-world-cup-2026-team-previews-paraguay"},
+    {"date":"2026-06-05","category":"injury","headline":"Julio Enciso picks up side and lower-back injury in Nicaragua friendly","source_url":"https://www.fantasyfootballscout.co.uk/2026/06/06/fantasy-fifa-world-cup-2026-team-previews-paraguay"},
+    {"date":"2025-09-04","category":"form","headline":"Paraguay seal World Cup qualification with goalless draw against Ecuador","source_url":"https://www.fourfourtwo.com/team/paraguay-world-cup-2026-squad"}
+  ],
+  "sources": [
+    "https://www.fourfourtwo.com/team/paraguay-world-cup-2026-squad",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/paraguay-squad-announcement-gustavo-alfaro",
+    "https://www.fantasyfootballscout.co.uk/2026/06/06/fantasy-fifa-world-cup-2026-team-previews-paraguay",
+    "https://sports.yahoo.com/articles/confirmed-paraguay-named-26-man-145500905.html"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "team": "Iraq",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Graham Arnold",
+  "coach_nationality": "Australian",
+  "coach_appointed": "2025-05",
+  "recent_coach_change": "Yes. Graham Arnold took charge in May 2025 with qualification hanging by a thread, replacing Spaniard Jesus Casas.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Qualified via the AFC fourth round and then the inter-confederation play-off, beating Bolivia 2-1 in Monterrey, Mexico on 31 March 2026 to become the 48th and final team to qualify. First World Cup appearance since 1986.",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Mohanad Ali (Dibba Al-Fujairah) — main striker, 70 caps and 27 international goals",
+    "Ali Al-Hamadi (Ipswich Town) — Europe-based forward providing attacking depth",
+    "Zidane Iqbal (FC Utrecht) — creative midfielder, ex-Manchester United youth",
+    "Amir Al-Ammari (Cracovia) — midfield engine",
+    "Jalal Hassan (Al-Zawraa) — captain and goalkeeper, 35, 100 caps"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "26-man squad built around the core that survived one of the longest qualifying roads any nation has taken. Mix of veterans (Jalal Hassan 35, Rebin Sulaka 34) and youth (four players aged 22). Heavy reliance on the Iraqi domestic league plus a growing European-based contingent.",
+  "warmup_assessment": "Encouraging. Iraq held Spain to a 1-1 draw at Estadio de Riazor in La Coruna on 4 June 2026, with Merchas Doski equalising and goalkeeper Ahmed Basil making several key saves; a further warm-up against Venezuela was scheduled.",
+  "shape_verdict": "Tournament debutants after a 40-year absence and the lowest-ranked team in a tough group, but the spirited draw with Spain suggests they are defensively organised and arrive with momentum and belief under Arnold.",
+  "news": [
+    {"date":"2026-06-04","category":"form","headline":"Iraq send World Cup message with 1-1 draw against Spain","source_url":"https://www.iraqinews.com/iraq/iraq-send-world-cup-message-with-spain-draw/"},
+    {"date":"2026-06-01","category":"squad","headline":"Graham Arnold names Iraq's official 26-man World Cup squad","source_url":"https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/graham-arnold-s-official-iraq-squad-for-the-2026-fifa-world-cup-2026-06-01"},
+    {"date":"2026-04-06","category":"manager","headline":"World Cup qualification earns Iraq coach Arnold a hero's welcome in Sydney","source_url":"https://www.aljazeera.com/sports/2026/4/6/world-cup-qualification-earns-iraq-coach-arnold-a-heros-welcome-in-sydney"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/graham-arnold-s-official-iraq-squad-for-the-2026-fifa-world-cup-2026-06-01",
+    "https://sports.yahoo.com/articles/iraq-world-cup-2026-squad-212700517.html",
+    "https://www.espn.com/soccer/story/_/id/48335763/iraqs-world-cup-qualification-one-toughest-jobs-world-arnold",
+    "https://www.aljazeera.com/sports/2026/4/6/world-cup-qualification-earns-iraq-coach-arnold-a-heros-welcome-in-sydney",
+    "https://www.espn.com/soccer/report/_/gameId/401871471",
+    "https://www.iraqinews.com/iraq/iraq-send-world-cup-message-with-spain-draw/"
+  ]
+}

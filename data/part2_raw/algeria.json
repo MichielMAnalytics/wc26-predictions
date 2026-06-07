@@ -1,0 +1,37 @@
+{
+  "team": "Algeria",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Vladimir Petkovic",
+  "coach_nationality": "Bosnian (Swiss-based)",
+  "coach_appointed": "2024",
+  "recent_coach_change": "Petkovic appointed in 2024 (early 2024), bringing stability after federation turmoil; no change since.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Won their CAF (African) qualifying group with eight wins and one draw, scoring 24 goals; sealed their place with a 3-0 win over Somalia. First World Cup since 2014, their fifth appearance overall.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Riyad Mahrez (Al-Ahli, Saudi Arabia) — captain and leader, 130+ caps",
+    "Mohamed Amoura (VfL Wolfsburg) — top scorer in qualifying with 10 goals, blistering pace",
+    "Luca Zidane (Granada) — goalkeeper, Man of the Match vs Netherlands; switched to Algeria in Sept 2025",
+    "Aissa Mandi (Lille) — most-capped player and defensive anchor",
+    "Ramy Bensebaini (Borussia Dortmund) — experienced left-sided defender"
+  ],
+  "injuries_doubts": [
+    {"player": "Rayan Ait-Nouri", "issue": "Manchester City injury setbacks noted ahead of the tournament", "status": "doubt", "source_url": "https://www.thenationalnews.com/sport/2026/06/06/amouras-ascent-petkovics-calming-influence-algeria-world-cup-talking-points/"}
+  ],
+  "squad_notes": "Notable inclusion of Luca Zidane (son of Zinedine) in goal after his France-to-Algeria switch in September 2025, plus emerging midfielder Ibrahim Maza (Bayer Leverkusen). Squad leans on a strong European-based diaspora.",
+  "warmup_assessment": "Very encouraging. Beat the Netherlands 1-0 in Rotterdam (Anis Hadj-Moussa 85th minute) defending resolutely with Luca Zidane outstanding; close out warm-ups vs Bolivia on 10 June in Kansas City.",
+  "shape_verdict": "Algeria arrive in confident, settled shape after a dominant qualifying campaign and an eye-catching win over the Netherlands; Petkovic has restored stability and the attack looks sharp.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-04", "category": "form", "headline": "Algeria stun the Netherlands 1-0 in World Cup warm-up friendly", "source_url": "https://worldsoccertalk.com/world-cup/argentina-on-alert-as-2026-world-cup-opener-rival-algeria-defeat-netherlands-1-0-in-friendly/"},
+    {"date": "2026-05-31", "category": "squad", "headline": "Petkovic names Algeria's 2026 World Cup squad led by Mahrez and Luca Zidane", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/vladimir-petkovi-s-official-algeria-squad-for-the-2026-fifa-world-cup-2026-05-31"},
+    {"date": "2026-06-06", "category": "form", "headline": "Amoura's ascent and Petkovic's calming influence headline Algeria's World Cup talking points", "source_url": "https://www.thenationalnews.com/sport/2026/06/06/amouras-ascent-petkovics-calming-influence-algeria-world-cup-talking-points/"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/vladimir-petkovi-s-official-algeria-squad-for-the-2026-fifa-world-cup-2026-05-31",
+    "https://www.thenationalnews.com/sport/2026/06/06/amouras-ascent-petkovics-calming-influence-algeria-world-cup-talking-points/",
+    "https://worldsoccertalk.com/world-cup/argentina-on-alert-as-2026-world-cup-opener-rival-algeria-defeat-netherlands-1-0-in-friendly/",
+    "https://sports.yahoo.com/articles/algeria-stun-netherlands-friendly-205700659.html",
+    "https://sportnewsafrica.com/en/posts/world-cup-prep-algeria-beat-netherlands-in-friendly"
+  ]
+}

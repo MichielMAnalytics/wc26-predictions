@@ -1,0 +1,37 @@
+{
+  "team": "Portugal",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Roberto Martinez",
+  "coach_nationality": "Spanish",
+  "coach_appointed": "January 2023",
+  "recent_coach_change": "No recent change; Martinez has been in charge since January 2023 and led qualification.",
+  "base_formation": "4-2-3-1 / 4-3-3",
+  "qualification_path": "Qualified through UEFA qualifying as group winners; also won the 2024-25 UEFA Nations League. Reached a record sixth World Cup for Cristiano Ronaldo.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Cristiano Ronaldo (Al-Nassr) — captain, 41, leading the line at a record sixth World Cup",
+    "Bruno Fernandes (Manchester United) — talismanic midfielder, named FWA Player of the Year",
+    "Vitinha (Paris Saint-Germain) — midfield engine arriving on a Champions League high",
+    "Nuno Mendes (Paris Saint-Germain) — among the best left-backs in the world after a trophy-laden 2024-25",
+    "Rafael Leao (AC Milan) — explosive forward, but sent off in the Chile warm-up"
+  ],
+  "injuries_doubts": [
+    {"player": "Rafael Leao", "issue": "Straight red card (punching opponent) in Chile friendly on 6 June 2026", "status": "doubt", "source_url": "https://worldsoccertalk.com/news/portugal-vs-chile-live-updates-minute-by-minute-coverage-of-pre-world-cup-2026-international-friendly/"}
+  ],
+  "squad_notes": "Martinez named a 26-man squad plus a symbolic 'plus one' place in memory of Diogo Jota, who was killed in a car crash in July 2025. Reserve goalkeeper Ricardo Velho travels as cover. Stacked attack and a PSG midfield core (Vitinha, Joao Neves, Nuno Mendes).",
+  "warmup_assessment": "Beat Chile 2-1 on 6 June 2026 (Guedes and Bruno Fernandes scored) but Rafael Leao was sent off and Ronaldo was withdrawn at half-time. A second friendly against Nigeria is set for 10 June.",
+  "momentum": "rising",
+  "shape_verdict": "Portugal arrive among the tournament favourites with elite depth and Nations League momentum, though the Leao red card and Ronaldo's age are minor clouds over an otherwise strong, deep squad.",
+  "news": [
+    {"date": "2026-05-19", "category": "squad", "headline": "Ronaldo set for sixth World Cup as Martinez names Portugal squad with symbolic 'plus one' for Diogo Jota", "source_url": "https://www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-at-sixth-world-cup-as-martinez-names-squad"},
+    {"date": "2026-06-06", "category": "form", "headline": "Portugal edge Chile 2-1 in pre-World Cup friendly; Rafael Leao sent off, Ronaldo subbed at half-time", "source_url": "https://worldsoccertalk.com/news/portugal-vs-chile-live-updates-minute-by-minute-coverage-of-pre-world-cup-2026-international-friendly/"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cristiano-ronaldo-roberto-martinez-portugal-squad-announcement",
+    "https://www.fourfourtwo.com/team/portugal-world-cup-2026-squad",
+    "https://www.aljazeera.com/sports/2026/5/19/ronaldo-to-lead-portugal-at-sixth-world-cup-as-martinez-names-squad",
+    "https://www.irishtimes.com/sport/soccer/2026/05/19/roberto-martinez-names-portugal-world-cup-squad-with-symbolic-plus-one-for-dioga-jota/",
+    "https://worldsoccertalk.com/news/portugal-vs-chile-live-updates-minute-by-minute-coverage-of-pre-world-cup-2026-international-friendly/",
+    "https://www.espn.com/soccer/report/_/gameId/401862883"
+  ]
+}

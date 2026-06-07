@@ -1,0 +1,43 @@
+{
+  "team": "Argentina",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Lionel Scaloni",
+  "coach_nationality": "Argentine",
+  "coach_appointed": "2018",
+  "recent_coach_change": "No change; Scaloni continues since 2018 and won the 2022 World Cup and 2024 Copa America.",
+  "base_formation": "4-3-3 / 4-4-2",
+  "qualification_path": "Qualified via CONMEBOL South American qualifying, finishing top of the table well ahead of the field as the first nation to secure a 2026 berth.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Lionel Messi (Inter Miami) — captain and talisman, returning from late-May muscle injury",
+    "Lautaro Martinez (Inter Milan) — main striker, scored from the spot vs Honduras warm-up",
+    "Julian Alvarez (Atletico Madrid) — versatile forward, strong club season",
+    "Emiliano Martinez (Aston Villa) — first-choice goalkeeper recovering from a finger fracture",
+    "Cristian Romero (Tottenham) — defensive leader managing a knee ligament issue"
+  ],
+  "injuries_doubts": [
+    {"player": "Lionel Messi", "issue": "muscle fatigue / left hamstring strain (sustained 25 May with Inter Miami)", "status": "doubt", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"player": "Emiliano Martinez", "issue": "fractured ring finger from the Europa League final", "status": "doubt", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"player": "Cristian Romero", "issue": "sprained collateral ligament in right knee", "status": "doubt", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"player": "Nahuel Molina", "issue": "muscle injury", "status": "doubt", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"player": "Gonzalo Montiel", "issue": "muscle injury", "status": "doubt", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"player": "Juan Foyth", "issue": "injury ruling him out of the squad", "status": "out", "source_url": "https://worldsoccertalk.com/world-cup/lionel-scaloni-confirms-doubts-for-argentinas-2026-world-cup-roster-explains-criteria-for-selection/"}
+  ],
+  "squad_notes": "Squad built on continuity: 17 of the 26 are 2022 Qatar champions. Paulo Dybala omitted (no call-up since September 2024). Giovani Lo Celso returns after missing 2022 through injury. Scaloni delayed the final 26 to the last minute to assess fitness of several core players.",
+  "warmup_assessment": "Solid. Beat Honduras 2-0 on 6 June (Lautaro Martinez penalty, Giuliano Simeone) with Messi rested; a second friendly vs Iceland follows on 9 June. Scaloni rotated and avoided risking fitness-doubt players.",
+  "shape_verdict": "Defending champions look in good collective shape with depth and continuity, though several key starters including Messi, Emi Martinez and Romero are managing knocks heading into the opener.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-06-06", "category": "form", "headline": "Argentina beat Honduras 2-0 in pre-World Cup friendly as Messi sits out", "source_url": "https://www.espn.com/soccer/report/_/gameId/401868047"},
+    {"date": "2026-06-06", "category": "injury", "headline": "Scaloni calms Messi injury fears, confirms captain in World Cup squad", "source_url": "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/"},
+    {"date": "2026-05-21", "category": "squad", "headline": "Paulo Dybala excluded from Argentina's preliminary World Cup roster", "source_url": "https://www.foxsports.com/stories/soccer/romas-paulo-dybala-excluded-from-argentinas-preliminary-world-cup-roster"}
+  ],
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48898789/lionel-scaloni-take-maximum-name-argentina-world-cup-squad",
+    "https://www.nbcdfw.com/news/local/lionel-messi-is-in-argentinas-world-cup-squad-as-coach-calms-injury-fears/4030661/",
+    "https://www.espn.com/soccer/report/_/gameId/401868047",
+    "https://www.foxsports.com/stories/soccer/romas-paulo-dybala-excluded-from-argentinas-preliminary-world-cup-roster",
+    "https://worldsoccertalk.com/world-cup/lionel-scaloni-confirms-doubts-for-argentinas-2026-world-cup-roster-explains-criteria-for-selection/",
+    "https://www.indiatvnews.com/sports/football/lionel-messi-fitness-update-is-argentina-captain-fit-to-start-fifa-world-cup-2026-scaloni-shares-2026-06-06-1043877"
+  ]
+}

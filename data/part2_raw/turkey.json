@@ -1,0 +1,40 @@
+{
+  "team": "Turkey",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Vincenzo Montella",
+  "coach_nationality": "Italy",
+  "coach_appointed": "2023-09-21",
+  "recent_coach_change": "Montella appointed September 21, 2023, replacing the sacked Stefan Kuntz; led Turkey to Euro 2024 quarterfinals and 2026 World Cup qualification. No change in the last 12 months.",
+  "base_formation": "Balanced setup blending Europe-based stars with domestic talent (attacking, possession-oriented)",
+  "qualification_path": "Qualified via UEFA play-offs after the European group stage: beat Romania 1-0 in the semifinal in Istanbul (Ferdi Kadioglu goal), then won the final 1-0 away at Kosovo in Pristina on March 31, 2026 (Kerem Akturkoglu). First World Cup appearance since 2002.",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Arda Guler (Real Madrid) — attacking centerpiece and creative talisman; recovering from a femoral biceps muscle injury",
+    "Kenan Yildiz (Juventus) — emerging attacking star, one of Europe's brightest young talents",
+    "Hakan Calhanoglu (Inter Milan) — captain and playmaker; managed a soleus strain late in the season but named in squad",
+    "Kerem Akturkoglu — forward, scored the decisive playoff-final goal vs Kosovo",
+    "Orkun Kokcu — central midfielder providing control"
+  ],
+  "injuries_doubts": [
+    {"player":"Hakan Calhanoglu","issue":"muscular strain in the soleus of the left leg late in the season; named in squad and set to captain, managing a minor issue","status":"returned","source_url":"https://www.dailysabah.com/sports/football/turkiye-fret-over-calhanoglu-guler-fitness-ahead-of-crucial-summer"},
+    {"player":"Arda Guler","issue":"muscle injury in the femoral biceps of the right leg (~4 weeks), expected to recover for the tournament; named in squad","status":"returned","source_url":"https://www.dailysabah.com/sports/football/turkiye-fret-over-calhanoglu-guler-fitness-ahead-of-crucial-summer"}
+  ],
+  "squad_notes": "Montella named the final 26-man squad on June 2, 2026, sealing Turkey's return after a 24-year wait. Goalkeepers are Altay Bayindir (Manchester United), Mert Gunok (Fenerbahce) and Ugurcan Cakir (Galatasaray). Three standby players (GK Muhammed Sengezer, Aral Simsir, Demir Ege Tiknaz) were excluded from the 26 but travel as injury replacements. Optimism centers on the young generation led by Guler and Yildiz.",
+  "warmup_assessment": "Encouraging warm-ups. Turkey beat Venezuela 2-1 at Inter Miami's stadium on June 7, 2026 (Akgun goal plus an own goal), with Arda Guler featuring, and earlier defeated North Macedonia 4-0, boosting confidence before the opener.",
+  "shape_verdict": "An exciting, attack-minded side built around a golden generation (Guler, Yildiz, Calhanoglu) arriving with momentum after positive friendlies, though both key playmakers carried late-season muscle injuries and fitness/sharpness is a mild concern.",
+  "momentum": "rising",
+  "news": [
+    {"date":"2026-06-02","category":"squad","headline":"Vincenzo Montella names Turkey's 26-man squad for historic World Cup return","source_url":"https://www.dailysabah.com/sports/football/turkiye-unveil-26-player-squad-for-historic-2026-world-cup-return"},
+    {"date":"2026-06-07","category":"form","headline":"Turkey beat Venezuela 2-1 in pre-World Cup friendly, Arda Guler features","source_url":"https://bolavip.com/en/soccer/venezuela-vs-turkey-live-international-friendly-ahead-of-2026-world-cup"},
+    {"date":"2026-03-31","category":"form","headline":"Turkey qualify for World Cup with 1-0 playoff-final win at Kosovo","source_url":"https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/vincenzo-montella-s-official-turkey-squad-for-the-2026-fifa-world-cup-2026-06-02"},
+    {"date":"2026-05-12","category":"injury","headline":"Turkey fret over Calhanoglu and Guler fitness ahead of crucial summer","source_url":"https://www.dailysabah.com/sports/football/turkiye-fret-over-calhanoglu-guler-fitness-ahead-of-crucial-summer"}
+  ],
+  "sources": [
+    "https://www.dailysabah.com/sports/football/turkiye-unveil-26-player-squad-for-historic-2026-world-cup-return",
+    "https://www.dailysabah.com/sports/football/turkiye-fret-over-calhanoglu-guler-fitness-ahead-of-crucial-summer",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/vincenzo-montella-s-official-turkey-squad-for-the-2026-fifa-world-cup-2026-06-02",
+    "https://bolavip.com/en/soccer/venezuela-vs-turkey-live-international-friendly-ahead-of-2026-world-cup",
+    "https://en.wikipedia.org/wiki/Vincenzo_Montella",
+    "https://www.soccertimes.com/2023/09/20/vincenzo-montella-appointed-turkey-head-coach"
+  ]
+}

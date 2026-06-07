@@ -1,0 +1,36 @@
+{
+  "team": "Scotland",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Steve Clarke",
+  "coach_nationality": "Scottish",
+  "coach_appointed": "2019-05",
+  "recent_coach_change": "No. Steve Clarke has been in charge since May 2019 and led Scotland to a first World Cup since 1998.",
+  "base_formation": "3-4-2-1 / back-three system",
+  "qualification_path": "Qualified as winners of UEFA qualifying Group C, sealed with a 4-2 home win over Denmark at Hampden Park in a winner-takes-all final group game, ending a 28-year World Cup absence.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Scott McTominay (Napoli) — talisman, fresh off a strong season; described as reaching an incredible level",
+    "Andy Robertson (Liverpool) — experienced left-back and leader",
+    "John McGinn (Aston Villa) — midfield driving force",
+    "Billy Gilmour (Napoli) — controls midfield tempo",
+    "Che Adams (Torino) — forward, scored a brace in the Bolivia warm-up"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Steve Clarke named a 26-man squad. Notable inclusion of Ross Stewart (Southampton), ending four years out of the international set-up, plus 19-year-old Findlay Curtis (Kilmarnock). Veteran goalkeeper Craig Gordon (Hearts) selected. Some tough calls were made on Hibs and Hearts players.",
+  "warmup_assessment": "Excellent. Scotland beat Curacao 4-1 at Hampden on 30 May (Shankland brace) and thrashed Bolivia 4-0 in New Jersey on 6 June (Che Adams brace, McTominay, Shankland), a perfect confidence boost in their final tune-up.",
+  "shape_verdict": "Scotland look in fine form and high spirits, with two emphatic warm-up wins and a settled, experienced spine, going into their first World Cup in 28 years on a clear high.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-06", "category": "form", "headline": "Bolivia 0-4 Scotland: Adams scores twice and McTominay reaches 'incredible level' in friendly thrashing", "source_url": "https://www.101greatgoals.com/football/world-cup-news/bolivia-vs-scotland-report-result-goals-adams-mctominay/"},
+    {"date": "2026-05-30", "category": "form", "headline": "Scotland come from behind to beat Curacao 4-1 in World Cup warm-up", "source_url": "https://www.scotsman.com/sport/football/international/for-once-steve-clarke-assesses-scotland-display-and-admits-he-has-big-world-cup-decisions-to-make-8661913"},
+    {"date": "2026-06-01", "category": "squad", "headline": "Steve Clarke names Craig Gordon, Findlay Curtis, Ross Stewart in Scotland's 26-man World Cup squad", "source_url": "https://www.skysports.com/football/news/12017/13545649/world-cup-2026-steve-clarke-names-craig-gordon-findlay-curtis-ross-stewart-in-scotlands-26-man-squad"}
+  ],
+  "sources": [
+    "https://www.skysports.com/football/news/12017/13545649/world-cup-2026-steve-clarke-names-craig-gordon-findlay-curtis-ross-stewart-in-scotlands-26-man-squad",
+    "https://www.espn.com/soccer/story/_/id/48769157/all-26-players-picked-steve-clarke-why",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_C",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/scotland-qualify",
+    "https://www.tsn.ca/soccer/article/scotland-thrash-bolivia-for-perfect-world-cup-preparation-n1-48969794/",
+    "https://www.101greatgoals.com/football/world-cup-news/bolivia-vs-scotland-report-result-goals-adams-mctominay/"
+  ]
+}

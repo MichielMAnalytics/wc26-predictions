@@ -1,0 +1,42 @@
+{
+  "team": "England",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Thomas Tuchel",
+  "coach_nationality": "Germany",
+  "coach_appointed": "2024-10-16 (took up role 2025-01-01)",
+  "recent_coach_change": "Tuchel appointed 16 October 2024 on an 18-month contract, beginning 1 January 2025, succeeding interim boss Lee Carsley after Gareth Southgate stepped down following Euro 2024.",
+  "base_formation": "Tactically flexible; primarily 4-2-3-1, also using 4-3-3 and back-three variants depending on opponent",
+  "qualification_path": "Won UEFA Group K with a perfect record: P8 W8 D0 L0, 22 goals for, 0 conceded; sealed qualification on 14 October 2025 with a 5-0 win in Latvia. Only European team to win all its qualifiers.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Harry Kane (Bayern Munich) — captain, prolific Bundesliga scoring season, at his third World Cup",
+    "Jude Bellingham (Real Madrid) — creative midfield talisman",
+    "Declan Rice (Arsenal) — midfield anchor, reached Champions League final with Arsenal",
+    "Bukayo Saka (Arsenal) — key attacker on the right",
+    "Jordan Pickford (Everton) — first-choice goalkeeper, conceded none in qualifying"
+  ],
+  "injuries_doubts": [
+    {"player": "Tino Livramento", "issue": "Thigh issue after an injury-hit season (earlier knee injury)", "status": "doubt", "source_url": "https://www.skysports.com/football/news/12016/13543455/england-world-cup-squad-announcement-ruthless-thomas-tuchel-leaves-big-names-out-of-26-man-squad"},
+    {"player": "Djed Spence", "issue": "Broke his jaw shortly before squad announcement but was still selected", "status": "doubt", "source_url": "https://www.skysports.com/football/news/12016/13543455/england-world-cup-squad-announcement-ruthless-thomas-tuchel-leaves-big-names-out-of-26-man-squad"},
+    {"player": "Reece James", "issue": "Only just back from a hamstring injury", "status": "returned", "source_url": "https://www.espn.com/soccer/story/_/id/48701061/england-world-cup-2026-schedule-fixtures-results-scores-group-l-how-watch-uk-news-analysis-injuries"},
+    {"player": "John Stones", "issue": "Lack of game time at Manchester City; Tuchel insists he is fit", "status": "doubt", "source_url": "https://www.skysports.com/football/news/12016/13543455/england-world-cup-squad-announcement-ruthless-thomas-tuchel-leaves-big-names-out-of-26-man-squad"}
+  ],
+  "squad_notes": "Ruthless selection by Tuchel. Big-name omissions: Phil Foden, Cole Palmer, Harry Maguire, Trent Alexander-Arnold, Morgan Gibbs-White, Luke Shaw, Jarrod Bowen and Lewis Hall. No Liverpool players selected for the first time since 1986. Shock recall for Ivan Toney. Kane equals Billy Wright's record of captaining England at three World Cups; Jordan Henderson set to equal a record fourth finals appearance.",
+  "warmup_assessment": "Pre-tournament friendlies against New Zealand (Tampa, 6 June) and Costa Rica (Orlando, 10 June). Arsenal contingent (Rice, Saka, Madueke, Eze) joined late after the Champions League final, so England were without them for the first friendly before the group moved to their Kansas City base on 13 June.",
+  "shape_verdict": "England arrive in excellent shape after a flawless qualifying campaign with the meanest defence in Europe, though a cluster of fullback fitness doubts and Tuchel's ruthless omissions of star names add some uncertainty.",
+  "news": [
+    {"date": "2026-05-22", "category": "squad", "headline": "Thomas Tuchel names 26-man England World Cup squad; Toney recalled, Foden and Maguire left out", "source_url": "https://www.englandfootball.com/articles/2026/May/22/england-mens-world-cup-2026-squad-named-by-thomas-tuchel-20262205"},
+    {"date": "2026-06-02", "category": "squad", "headline": "England's World Cup 2026 squad numbers revealed", "source_url": "https://www.englandfootball.com/articles/2026/Jun/02/england-men-fifa-world-cup-2026-squad-numbers-revealed-20260206"},
+    {"date": "2025-10-14", "category": "form", "headline": "England complete perfect World Cup qualifying campaign: 8 wins, 0 goals conceded", "source_url": "https://www.foxsports.com/stories/soccer/england-completes-perfect-world-cup-qualifying-campaign-with-8-wins-0-goals-conceded"}
+  ],
+  "sources": [
+    "https://www.englandfootball.com/articles/2026/May/22/england-mens-world-cup-2026-squad-named-by-thomas-tuchel-20262205",
+    "https://www.englandfootball.com/articles/2026/Jun/02/england-men-fifa-world-cup-2026-squad-numbers-revealed-20260206",
+    "https://www.skysports.com/football/news/12016/13543455/england-world-cup-squad-announcement-ruthless-thomas-tuchel-leaves-big-names-out-of-26-man-squad",
+    "https://www.espn.com/soccer/story/_/id/48701061/england-world-cup-2026-schedule-fixtures-results-scores-group-l-how-watch-uk-news-analysis-injuries",
+    "https://www.foxsports.com/stories/soccer/england-completes-perfect-world-cup-qualifying-campaign-with-8-wins-0-goals-conceded",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_K",
+    "https://www.thefa.com/news/2024/oct/16/fa-appoint-thomas-tuchel-as-england-mens-senior-head-coach-20241510",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/england-squad-named-thomas-tuchel"
+  ]
+}

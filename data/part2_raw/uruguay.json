@@ -1,0 +1,36 @@
+{
+  "team": "Uruguay",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Marcelo Bielsa",
+  "coach_nationality": "Argentine",
+  "coach_appointed": "2023-05-15",
+  "recent_coach_change": "No recent change; Bielsa has led Uruguay since May 2023, though his position is under pressure amid reported dressing-room discontent.",
+  "base_formation": "",
+  "qualification_path": "Qualified directly from CONMEBOL, finishing fourth with 28 points (7 wins, 7 draws, 4 defeats from 18 matches).",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Federico Valverde (Real Madrid) — midfield centerpiece and occasional captain, all-action driving force",
+    "Ronald Araujo (Barcelona) — central defender and squad leader",
+    "Jose Maria Gimenez (Atletico Madrid) — primary captain and defensive organizer",
+    "Darwin Nunez (Al-Hilal) — main striker leading the line",
+    "Rodrigo Bentancur (Tottenham) — midfield engine alongside Valverde"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Luis Suarez is the most notable omission, missing a World Cup for the first time since 2010. Veteran goalkeeper Fernando Muslera returns from international retirement for a fifth World Cup, set to become Uruguay's most-capped World Cup player. Final 26-man squad announced May 31, 2026.",
+  "warmup_assessment": "Worrying. Uruguay did not play an early-June friendly; their most recent results were a 1-1 draw with England and a 0-0 draw with Algeria in March 2026, extending a winless run, following a chastening 5-1 friendly loss to the USA in November 2025.",
+  "shape_verdict": "Talented and experienced on paper, but Uruguay enter with poor recent form and a backdrop of reported player discontent with Bielsa's demanding methods, raising doubts about morale and cohesion.",
+  "momentum": "declining",
+  "news": [
+    {"date": "2026-05-31", "category": "squad", "headline": "Bielsa names Uruguay World Cup squad; no recall for Luis Suarez, Muslera returns", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/marcelo-bielsa-s-official-uruguay-squad-for-the-2026-fifa-world-cup-2026-05-31"},
+    {"date": "2026-05-28", "category": "offpitch", "headline": "Bielsa faces reported World Cup 'mutiny' with Uruguay amid dressing-room discontent", "source_url": "https://www.aljazeera.com/sports/2026/5/28/former-chelsea-boss-biesla-facing-world-cup-mutiny-with-uruguay"},
+    {"date": "2026-03-31", "category": "form", "headline": "Uruguay's winless run continues with goalless draw against Algeria", "source_url": "https://www.aljazeera.com/sports/2026/5/28/former-chelsea-boss-biesla-facing-world-cup-mutiny-with-uruguay"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/marcelo-bielsa-s-official-uruguay-squad-for-the-2026-fifa-world-cup-2026-05-31",
+    "https://www.aljazeera.com/sports/2026/5/28/former-chelsea-boss-biesla-facing-world-cup-mutiny-with-uruguay",
+    "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-h-preview-spain-cape-verde-saudi-arabia-uruguay",
+    "https://www.irishtimes.com/sport/soccer/2023/05/16/former-leeds-boss-marcelo-bielsa-named-head-coach-of-uruguay/",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(CONMEBOL)",
+    "https://www.fifa.com/en/articles/uruguay-world-cup-squad-2026-marcelo-bielsa"
+  ]
+}

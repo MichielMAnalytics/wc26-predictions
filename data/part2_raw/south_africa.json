@@ -1,0 +1,42 @@
+{
+  "team": "South Africa",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Hugo Broos",
+  "coach_nationality": "Belgian",
+  "coach_appointed": "2021-05-05",
+  "recent_coach_change": "No change; Hugo Broos has led Bafana Bafana since May 2021 and the 2026 World Cup is set to be his final role as a manager.",
+  "base_formation": "",
+  "qualification_path": "Won CAF Group C ahead of Nigeria, sealing first place with a 3-0 win over Rwanda in Mbombela on 14 October 2025; first World Cup appearance in 16 years (since 2010 as host).",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Ronwen Williams (Mamelodi Sundowns) — captain and goalkeeper, most-capped player in the group (62 caps)",
+    "Lyle Foster (Burnley) — striker who scored in the final warm-up vs Jamaica",
+    "Teboho Mokoena (Mamelodi Sundowns) — central midfield linchpin",
+    "Relebohile Mofokeng (Orlando Pirates) — attacking No.10",
+    "Oswin Appollis — wide attacker, likely on the left"
+  ],
+  "injuries_doubts": [
+    {"player": "Teboho Mokoena", "issue": "Fitness watched ahead of the opener; described as an almost certain starter assuming he is fit", "status": "doubt", "source_url": "https://www.espn.com/espn/story/_/id/48963775/south-africa-vs-jamaica-hugo-broos-use-warm-iron-tactics-ahead-fifa-world-cup-opener"}
+  ],
+  "squad_notes": "Broos named a 26-man squad on 27 May 2026 in Pretoria alongside President Cyril Ramaphosa, picking a largely tried-and-tested group. Nineteen of the 26 are domestically based, with Mamelodi Sundowns and Orlando Pirates supplying eight players each. The team's departure for Mexico was delayed by a visa issue.",
+  "warmup_assessment": "Poor warm-up form: South Africa drew 1-1 with Jamaica (Lyle Foster scoring) in their final warm-up, played behind closed doors after a delayed arrival, and earlier Foster missed a penalty in a frustrating result against Nicaragua. Bafana entered the tournament winless in their last five matches.",
+  "momentum": "declining",
+  "shape_verdict": "South Africa reach their first World Cup in 16 years on shaky form, winless in five warm-up matches and disrupted by a visa-related travel delay, though a disciplined, mostly home-based squad under departing coach Hugo Broos still carries belief.",
+  "news": [
+    {"date": "2026-06-06", "category": "form", "headline": "South Africa draw 1-1 with Jamaica in final World Cup warm-up; Lyle Foster scores but Bafana extend winless run to five", "source_url": "https://www.soccerladuma.co.za/international/fifa-world-cup-2026/bafana-bafana-draw-against-jamaica-in-final-warm-up"},
+    {"date": "2026-05-31", "category": "offpitch", "headline": "South Africa's World Cup departure delayed over Mexican visa debacle", "source_url": "https://www.aljazeera.com/sports/2026/5/31/south-africas-world-cup-2026-departure-delayed-over-mexican-visa-debacle"},
+    {"date": "2026-05-29", "category": "form", "headline": "Foster misses penalty as Nicaragua frustrate South Africa in warm-up", "source_url": "https://sports.yahoo.com/articles/foster-misses-penalty-nicaragua-frustrate-193816662.html"},
+    {"date": "2026-05-27", "category": "squad", "headline": "Hugo Broos names tried-and-tested 26-man South Africa squad for 2026 World Cup", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hugo-broos-official-south-africa-squad-for-the-2026-fifa-world-cup-2026-05-27"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/south-africa-hugo-broos-squad-announced",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hugo-broos-official-south-africa-squad-for-the-2026-fifa-world-cup-2026-05-27",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-how-far-will-broos-discipline-take-south-africa-s-expressive-team-all-players-full-squad-list-key-stats-and-schedule",
+    "https://www.aljazeera.com/sports/2026/5/31/south-africas-world-cup-2026-departure-delayed-over-mexican-visa-debacle",
+    "https://www.espn.com/espn/story/_/id/48963775/south-africa-vs-jamaica-hugo-broos-use-warm-iron-tactics-ahead-fifa-world-cup-opener",
+    "https://www.soccerladuma.co.za/international/fifa-world-cup-2026/bafana-bafana-draw-against-jamaica-in-final-warm-up",
+    "https://sports.yahoo.com/articles/foster-misses-penalty-nicaragua-frustrate-193816662.html",
+    "https://africanfootball.com/news/838775/South-Africa-extend-winless-run-ahead-of-Mexico-opener",
+    "https://cosafa.com/south-africa-name-final-squad-for-2026-fifa-world-cup/"
+  ]
+}

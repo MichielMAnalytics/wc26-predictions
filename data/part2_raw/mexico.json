@@ -1,0 +1,42 @@
+{
+  "team": "Mexico",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Javier Aguirre",
+  "coach_nationality": "Mexican",
+  "coach_appointed": "2024 (third stint as Mexico head coach)",
+  "recent_coach_change": "No change in the last 12 months; Aguirre has been in charge through the pre-tournament cycle and named the final 26-man squad on 1 June 2026.",
+  "base_formation": "",
+  "qualification_path": "Qualified automatically as co-host of the 2026 World Cup; also won back-to-back CONCACAF titles in the cycle.",
+  "qualification_convincingness": "host",
+  "key_players": [
+    "Guillermo Ochoa (AEL Limassol) — veteran goalkeeper named to a record sixth World Cup squad",
+    "Raul Jimenez (Fulham) — experienced striker leading the line",
+    "Santiago Gimenez (AC Milan) — forward who battled injury problems at Milan late in the season but made the final squad",
+    "Edson Alvarez (Fenerbahce) — midfield anchor and key leader",
+    "Gilberto Mora (Club Tijuana) — 17-year-old midfielder, youngest player in the squad and a breakout talent"
+  ],
+  "injuries_doubts": [
+    {"player": "Santiago Gimenez", "issue": "Injury struggles at AC Milan late in the season; missed March friendlies as both club and country felt it was too soon to return", "status": "returned", "source_url": "https://worldsoccertalk.com/world-cup/report-mexico-star-santiago-gimenez-risks-missing-2026-world-cup-amid-injury-struggles-at-milan/"}
+  ],
+  "squad_notes": "Guillermo Ochoa's inclusion for a record sixth World Cup is the headline. 17-year-old Gilberto Mora was called up and could become the youngest Mexican to play at a World Cup. Hirving 'Chucky' Lozano was left out amid disciplinary questions and limited playing time at San Diego FC. Aguirre leaned toward a new generation seeking redemption after the Qatar 2022 group-stage exit.",
+  "warmup_assessment": "Encouraging pre-tournament form: in March 2026 Mexico drew 0-0 with Portugal at the Estadio Azteca and 1-1 with Belgium (Jorge Sanchez scored), holding two top-10 sides despite missing around 12 regulars to injury. Pundits saw the results as a step in the right direction.",
+  "momentum": "rising",
+  "shape_verdict": "Mexico head into the home World Cup with positive momentum after creditable draws against Portugal and Belgium and back-to-back CONCACAF titles, blending veterans like Ochoa with a promising new generation, though Santiago Gimenez's fitness after an injury-hit Milan season is a minor question.",
+  "news": [
+    {"date": "2026-06-01", "category": "squad", "headline": "Javier Aguirre names Mexico's official 26-man squad for the 2026 World Cup; Ochoa included for record sixth World Cup, 17-year-old Gilberto Mora called up", "source_url": "https://www.foxsports.com/stories/soccer/aguirre-puts-faith-in-a-new-generation-as-mexico-seeks-world-cup-redemption"},
+    {"date": "2026-03-29", "category": "form", "headline": "Mexico draw 0-0 with Portugal at the Estadio Azteca in pre-tournament friendly", "source_url": "https://www.aljazeera.com/sports/2026/3/29/belgium-thrash-usa-5-2-mexico-vs-portugal-ends-0-0-in-football-friendlies"},
+    {"date": "2026-06-11", "category": "form", "headline": "Mexico to open the 2026 World Cup against South Africa at the Estadio Azteca", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-squad-announced"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-squad-announced",
+    "https://sports.yahoo.com/articles/mexico-2026-world-cup-053000703.html",
+    "https://ca.sports.yahoo.com/news/mexico-2026-world-cup-squad-053000703.html",
+    "https://www.foxsports.com/stories/soccer/aguirre-puts-faith-in-a-new-generation-as-mexico-seeks-world-cup-redemption",
+    "https://www.foxsports.com/stories/soccer/mexicos-world-cup-roster-selection",
+    "https://www.espn.com/soccer/story/_/id/48924377/mexico-2026-world-cup-squad-guillermo-ochoa",
+    "https://www.aljazeera.com/sports/2026/3/29/belgium-thrash-usa-5-2-mexico-vs-portugal-ends-0-0-in-football-friendlies",
+    "https://www.espn.com/soccer/story/_/id/48314827/mexico-missing-12-regulars-belgium-portugal-friendlies",
+    "https://worldsoccertalk.com/world-cup/report-mexico-star-santiago-gimenez-risks-missing-2026-world-cup-amid-injury-struggles-at-milan/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-mexico-all-players-full-squad-list-key-stats-schedule"
+  ]
+}

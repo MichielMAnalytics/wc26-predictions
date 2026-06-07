@@ -1,0 +1,40 @@
+{
+  "team": "Netherlands",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Ronald Koeman",
+  "coach_nationality": "Dutch",
+  "coach_appointed": "2023 (second spell; previously 2018-2020)",
+  "recent_coach_change": "No recent change; Koeman has been in charge since his 2023 return.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Qualified as winners of UEFA qualifying group; unbeaten through qualifying (six wins, two draws).",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Virgil van Dijk (Liverpool) — captain and defensive leader",
+    "Frenkie de Jong (Barcelona) — midfield metronome, taking on more creative load after Xavi Simons injury",
+    "Cody Gakpo (Liverpool) — primary attacking outlet",
+    "Tijjani Reijnders — double-pivot midfielder shouldering extra creative responsibility",
+    "Memphis Depay (Corinthians) — all-time leading scorer (55 goals), pursuing possibly his last World Cup"
+  ],
+  "injuries_doubts": [
+    {"player": "Xavi Simons", "issue": "Ruptured ACL suffered vs Wolves on April 25, 2026", "status": "out", "source_url": "https://thedakia.com/sports/football/netherlands-squad-world-cup-2026-talking-points/"},
+    {"player": "Jeremie Frimpong", "issue": "Omitted from the 26-man squad", "status": "out", "source_url": "https://www.flashscore.com/news/soccer-netherlands-football-world-cup-full-squad-list/46hO0YCm/"},
+    {"player": "Memphis Depay", "issue": "Persistent hamstring issues", "status": "returned", "source_url": "https://thedakia.com/sports/football/netherlands-squad-world-cup-2026-talking-points/"}
+  ],
+  "squad_notes": "Koeman delayed the announcement from May 25 to May 27 to assess the fitness of Depay, Jurrien Timber and Justin Kluivert. Shock first-ever senior call-up for West Ham winger Crysencio Summerville, included directly into the World Cup squad. Squad is midfield/forward heavy (eight midfielders, eight forwards) to compensate for the absences of Simons and Jerdy Schouten. Premier League-heavy group (around 15 PL-based players).",
+  "warmup_assessment": "Mixed-to-poor send-off: lost 1-0 to Algeria in Rotterdam on June 3, 2026, with a late Anis Hadj Moussa winner; Koeman called the defeat a 'wake-up call'. A final friendly vs Uzbekistan was scheduled for June 8 in New York.",
+  "shape_verdict": "A talented, deep squad and a flawless qualifying record, but the ACL loss of Xavi Simons removes their natural number 10 and the Algeria defeat exposed a lack of sharpness just before kickoff.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-04-25", "category": "injury", "headline": "Xavi Simons ruptures ACL vs Wolves, ruled out of World Cup", "source_url": "https://thedakia.com/sports/football/netherlands-squad-world-cup-2026-talking-points/"},
+    {"date": "2026-05-27", "category": "squad", "headline": "Koeman names 26-man squad: Timber, De Jong and Depay in, Frimpong out, Summerville shock call-up", "source_url": "https://www.flashscore.com/news/soccer-netherlands-football-world-cup-full-squad-list/46hO0YCm/"},
+    {"date": "2026-06-03", "category": "form", "headline": "Netherlands lose 1-0 to Algeria in warm-up; Koeman calls it a 'wake-up call'", "source_url": "https://www.aninews.in/news/sports/football/netherlands-coach-ronald-koeman-sees-warm-up-loss-to-algeria-as-wake-up-call-ahead-of-fifa-world-cup-202620260604221034/"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-ronald-koeman-squad-announced",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-netherlands-players-squad-list-key-stats-schedule",
+    "https://thedakia.com/sports/football/netherlands-squad-world-cup-2026-talking-points/",
+    "https://www.flashscore.com/news/soccer-netherlands-football-world-cup-full-squad-list/46hO0YCm/",
+    "https://www.aninews.in/news/sports/football/netherlands-coach-ronald-koeman-sees-warm-up-loss-to-algeria-as-wake-up-call-ahead-of-fifa-world-cup-202620260604221034/",
+    "https://rg.org/en-ca/sportsbooks/world-cup-2026/netherlands"
+  ]
+}

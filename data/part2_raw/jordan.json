@@ -1,0 +1,40 @@
+{
+  "team": "Jordan",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Jamal Sellami",
+  "coach_nationality": "Moroccan (granted Jordanian citizenship)",
+  "coach_appointed": "2024-06",
+  "recent_coach_change": "Sellami appointed June 2024 after Hussein Ammouta left for family reasons; Sellami then guided Jordan to its first-ever World Cup qualification.",
+  "base_formation": "4-3-3 / quick-transition, compact defensive block",
+  "qualification_path": "Qualified directly by finishing second in Group B of the AFC third round with 16 points, behind South Korea; sealed it on 5 June 2025 with a 3-0 away win over Oman (Ali Olwan hat-trick). First-ever World Cup appearance.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Mousa Al-Tamari (Rennes) — captain and main attacking threat, 7 goals & 11 assists in Ligue 1 this season",
+    "Ali Olwan (striker) — qualifying hero with hat-trick vs Oman, racing back from ankle surgery",
+    "Yazan Al-Arab (defender) — defensive leader",
+    "Nour Al-Rawabdeh — midfield contributor",
+    "Abdullah Nasib — goalkeeper"
+  ],
+  "injuries_doubts": [
+    {"player": "Yazan Al-Naimat", "issue": "ACL injury, ruled out completely", "status": "out", "source_url": "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/"},
+    {"player": "Ali Olwan", "issue": "ankle ligament surgery in February, racing to prove fitness", "status": "doubt", "source_url": "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/"},
+    {"player": "Adham Al-Qurashi", "issue": "unavailable for the World Cup", "status": "out", "source_url": "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/"}
+  ],
+  "squad_notes": "Historic first World Cup squad, confirmed by Sellami on 2 June. Built on the generation that reached the 2023 Asian Cup final and 2025 Arab Cup final. Key striker Ali Olwan included despite limited match fitness; ACL victim Yazan Al-Naimat misses out.",
+  "warmup_assessment": "Limited public results before the snapshot date; Jordan are scheduled to play Colombia on 8 June as their main high-profile warm-up. Preparation focused on integrating returning/injured forwards.",
+  "shape_verdict": "Debutants arrive on a genuine high after first-ever qualification, but injuries to key forwards (Al-Naimat out, Olwan short of fitness) leave them leaning heavily on captain Al-Tamari in a brutal group.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-02", "category": "squad", "headline": "Sellami names Jordan's first-ever World Cup squad led by Mousa Al-Tamari", "source_url": "https://english.aawsat.com/sports/5279641-forward-al%E2%80%91tamari-headlines-jordan%E2%80%99s-first-world-cup-squad"},
+    {"date": "2026-06-05", "category": "injury", "headline": "Jordan World Cup talking points: Al-Tamari carries hopes amid forward injury concerns", "source_url": "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/"},
+    {"date": "2026-06-06", "category": "form", "headline": "Jordan dream big on tournament debut in Group J", "source_url": "https://www.aljazeera.com/sports/2026/6/6/jordan-world-cup-2026-preview-players-to-watch-group-matches-and-squad"}
+  ],
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/6/6/jordan-world-cup-2026-preview-players-to-watch-group-matches-and-squad",
+    "https://www.thenationalnews.com/sport/football/2026/06/05/jordan-world-cup-talking-points-mousa-al-tamari-carries-nations-hopes-up-against-lionel-messi-and-co/",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_AFC_third_round",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/jordan-qualify",
+    "https://english.aawsat.com/sports/5279641-forward-al%E2%80%91tamari-headlines-jordan%E2%80%99s-first-world-cup-squad",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-jordan-all-players-full-squad-list-key-stats-schedule"
+  ]
+}

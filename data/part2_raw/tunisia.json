@@ -1,0 +1,35 @@
+{
+  "team": "Tunisia",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Sabri Lamouchi",
+  "coach_nationality": "French-Tunisian",
+  "coach_appointed": "Early 2026 (after the Africa Cup of Nations)",
+  "recent_coach_change": "Yes — Lamouchi succeeded Sami Trabelsi following a disappointing AFCON showing earlier in 2026. Lamouchi credited Trabelsi and the players for the qualifying campaign run under the previous regime.",
+  "base_formation": "",
+  "qualification_path": "Won CAF qualifying Group H, taking 9 wins from 10 matches without conceding a single goal across the entire campaign.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Ellyes Skhiri (Eintracht Frankfurt) — captain and midfield leader",
+    "Hannibal Mejbri (Burnley) — energetic midfielder, key to the engine room",
+    "Elias Achouri (FC Copenhagen) — creative midfielder, Tunisia's engine",
+    "Montassar Talbi — central defender, anchor of the record clean-sheet qualifying defense",
+    "Aymen Dahmene — goalkeeper, part of the unbeaten-clean-sheet qualifying run"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Lamouchi named a much-changed 26-man squad (announced mid-May 2026) compared to recent campaigns. Defensive identity is the team's calling card, built on Montassar Talbi, Dylan Bronn and goalkeeper Aymen Dahmene. This is Tunisia's third consecutive World Cup appearance; they have never advanced past the group stage in six previous campaigns (beat France at Qatar 2022 but went out on goal difference).",
+  "warmup_assessment": "Poor: hammered 5-0 by Belgium in their final World Cup warm-up, a heavy defeat that exposed the gap between their clean-sheet qualifying form and elite opposition. Lamouchi warned his defense to expect far more intense competition at the World Cup.",
+  "shape_verdict": "Defensively excellent during qualifying (record clean-sheet run) but the chastening 5-0 friendly loss to Belgium and a relatively new coach raise doubts about whether that record holds against top-tier attacks.",
+  "momentum": "declining",
+  "news": [
+    {"date": "2026-05-15", "category": "squad", "headline": "Lamouchi names much-changed Tunisia squad for the World Cup", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-squad-named-sabri-lamouchi"},
+    {"date": "2026-06-05", "category": "form", "headline": "Lamouchi makes case for the defence as Tunisia target World Cup knockouts", "source_url": "https://www.thenationalnews.com/sport/football/2026/06/05/sabri-lamouchi-makes-case-for-the-defence-as-tunisia-target-world-cup-knockouts/"},
+    {"date": "2026-06-06", "category": "form", "headline": "Belgium thump Tunisia 5-0 in final World Cup warm-up", "source_url": "https://www.daily-sun.com/sports/878648/belgium-thump-tunisia-in-final-wc-warm-up"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-squad-named-sabri-lamouchi",
+    "https://www.thenationalnews.com/sport/football/2026/06/05/sabri-lamouchi-makes-case-for-the-defence-as-tunisia-target-world-cup-knockouts/",
+    "https://www.daily-sun.com/sports/878648/belgium-thump-tunisia-in-final-wc-warm-up",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-qualify",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/tunisia-s-official-squad-for-the-2026-fifa-world-cup-2026-05-15"
+  ]
+}

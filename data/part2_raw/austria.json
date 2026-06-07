@@ -1,0 +1,37 @@
+{
+  "team": "Austria",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Ralf Rangnick",
+  "coach_nationality": "German",
+  "coach_appointed": "2022",
+  "recent_coach_change": "No change; Rangnick has led Austria since 2022 and reportedly turned down a Bayern Munich approach to stay through World Cup qualification.",
+  "base_formation": "4-2-2-2 / high-pressing gegenpressing setup",
+  "qualification_path": "Topped UEFA Group H with 19 points from eight matches, two clear of Bosnia and Herzegovina; included a 10-0 win over San Marino. First World Cup appearance in 28 years (since 1998).",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "David Alaba (Real Madrid) — captain, returned from the knee injury that cost him Euro 2024",
+    "Marcel Sabitzer (Borussia Dortmund) — central midfield engine nearing 100 caps",
+    "Konrad Laimer (Bayern Munich) — high-energy box-to-box/defensive midfielder",
+    "Christoph Baumgartner (RB Leipzig) — attacking midfielder",
+    "Marko Arnautovic (Red Star Belgrade) — veteran all-time top scorer leading the line"
+  ],
+  "injuries_doubts": [
+    {"player": "David Alaba", "issue": "history of knee injury (missed Euro 2024); back in squad but injury-prone", "status": "returned", "source_url": "https://www.sofascore.com/news/the-2026-world-cup-warm-up-austria"}
+  ],
+  "squad_notes": "Eye-catching naturalised inclusions Paul Wanner (Vienna-born, ex-Germany youth) and Carney Chukwuemeka (Vienna-born, ex-England youth), both personally recruited by Rangnick. Alaba returns as captain for his first World Cup at 33.",
+  "warmup_assessment": "Functional. Beat Tunisia 1-0 in Vienna on 1 June; arrived on the back of winning eight of their last ten including wins over Ghana and South Korea, though the attack relies on the ageing Arnautovic.",
+  "shape_verdict": "Austria look organised and in good form under Rangnick's intense pressing system, but questions remain over attacking depth and the fitness durability of captain Alaba.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-01", "category": "form", "headline": "Austria edge Tunisia 1-0 in final pre-World Cup warm-up in Vienna", "source_url": "https://www.football365.com/news/world-cup-2026-warm-up-friendly-fixtures-results-kick-off-times-what-tv-channel"},
+    {"date": "2026-05-18", "category": "squad", "headline": "Rangnick names Austria's 2026 World Cup squad with Alaba and Arnautovic", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-ralf-rangnick-world-cup-squad"},
+    {"date": "2026-06-05", "category": "offpitch", "headline": "Austria national team set up base at Harder Stadium for the 2026 World Cup", "source_url": "https://www.newspress.com/2026/06/05/harder-stadium-holds-austria-national-soccer-team-during-the-2026-fifa-world-cup/"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/austria-ralf-rangnick-world-cup-squad",
+    "https://www.sofascore.com/news/the-2026-world-cup-warm-up-austria",
+    "https://www.football365.com/news/world-cup-2026-warm-up-friendly-fixtures-results-kick-off-times-what-tv-channel",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/ralf-rangnick-s-official-austria-squad-for-the-2026-fifa-world-cup-2026-05-18",
+    "https://www.newspress.com/2026/06/05/harder-stadium-holds-austria-national-soccer-team-during-the-2026-fifa-world-cup/"
+  ]
+}

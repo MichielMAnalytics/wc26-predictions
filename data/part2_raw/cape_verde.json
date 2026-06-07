@@ -1,0 +1,39 @@
+{
+  "team": "Cape Verde",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Pedro Leitao Brito (\"Bubista\")",
+  "coach_nationality": "Cape Verdean",
+  "coach_appointed": "2020",
+  "recent_coach_change": "No recent change; Bubista has been in charge since 2020 and led the country to its first-ever World Cup.",
+  "base_formation": "",
+  "qualification_path": "Qualified for their first-ever World Cup by winning CAF qualifying Group D in October 2025.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Logan Costa (Villarreal) — centre-back, regarded as the country's best player; only player from a top-five European league but a major fitness gamble after an ACL injury",
+    "Ryan Mendes — captain, all-time leading scorer and record appearance-maker, leading the line",
+    "Steven Moreira (Columbus Crew) — 2024 MLS Defender of the Year",
+    "Carlos 'CJ' dos Santos (San Diego FC) — goalkeeper, former US youth international who switched allegiance",
+    "Kevin Pina — attacker, scored in the warm-up win over Serbia"
+  ],
+  "injuries_doubts": [
+    {"player": "Logan Costa", "issue": "Ruptured ACL in pre-season (July 2025); returned only for a 13-minute LaLiga cameo before being named in the squad", "status": "doubt", "source_url": "https://www.flashscore.com/news/soccer-world-cup-cape-verde-announce-world-cup-squad-take-gamble-on-star-defender-logan-costa/WhzAMbFi/"}
+  ],
+  "squad_notes": "First World Cup appearance for the nation of roughly 600,000 (third-smallest World Cup country). Squad is heavily diaspora-based (players born in France, Portugal, Netherlands, Ireland). Bubista kept the core that secured qualification; Logan Costa's inclusion despite minimal match fitness is the headline gamble. Carlos dos Santos is the only uncapped player.",
+  "warmup_assessment": "Excellent and confidence-building: Cape Verde won both June warm-ups 3-0, beating Serbia in Lisbon on May 31, 2026 and Bermuda in Connecticut on June 6, 2026.",
+  "shape_verdict": "The debutants arrive in buoyant form after two convincing 3-0 warm-up wins, though they are the lowest-ranked side in Group H and lean on an injury-doubtful Logan Costa at the back.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-06", "category": "form", "headline": "Cape Verde beat Bermuda 3-0 in final World Cup warm-up", "source_url": "https://bernews.com/2026/06/football-cape-verde-defeat-bermuda-3-0/"},
+    {"date": "2026-05-31", "category": "form", "headline": "Cape Verde thrash Serbia 3-0 in Lisbon warm-up", "source_url": "https://www.espn.com/soccer/match/_/gameId/401871172/serbia-cape-verde"},
+    {"date": "2026-05-19", "category": "squad", "headline": "Bubista names World Cup squad, takes gamble on injury-returning Logan Costa", "source_url": "https://www.flashscore.com/news/soccer-world-cup-cape-verde-announce-world-cup-squad-take-gamble-on-star-defender-logan-costa/WhzAMbFi/"}
+  ],
+  "sources": [
+    "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-h-preview-spain-cape-verde-saudi-arabia-uruguay",
+    "https://www.flashscore.com/news/soccer-world-cup-cape-verde-announce-world-cup-squad-take-gamble-on-star-defender-logan-costa/WhzAMbFi/",
+    "https://www.fourfourtwo.com/team/cape-verde-world-cup-2026-squad",
+    "https://en.wikipedia.org/wiki/Cape_Verde_national_football_team",
+    "https://www.espn.com/soccer/match/_/gameId/401871172/serbia-cape-verde",
+    "https://bernews.com/2026/06/football-cape-verde-defeat-bermuda-3-0/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cabo-verde-team-profile-history"
+  ]
+}

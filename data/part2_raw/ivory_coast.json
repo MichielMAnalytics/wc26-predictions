@@ -1,0 +1,40 @@
+{
+  "team": "Ivory Coast",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Emerse Fae",
+  "coach_nationality": "Ivorian",
+  "coach_appointed": "2024-02",
+  "recent_coach_change": "No recent change. Fae took over mid-tournament at AFCON 2023 (replacing Jean-Louis Gasset), won the title, and was made permanent in early 2024.",
+  "base_formation": "4-3-3 / 4-2-3-1",
+  "qualification_path": "Won CAF qualifying Group F unbeaten, conceding zero goals across 10 matches, edging Gabon by one point",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Amad Diallo (Manchester United) — electric two-footed winger, key creative threat",
+    "Franck Kessie (Al-Ahli) — midfield commander, crucial to control",
+    "Ibrahim Sangare (Nottingham Forest) — physical defensive midfielder",
+    "Yan Diomande (RB Leipzig) — highly coveted young forward",
+    "Evan Ndicka / Ousmane Diomande — defensive stability that conceded zero goals in qualifying"
+  ],
+  "injuries_doubts": [
+    {"player":"Clement Akpa","issue":"adductor/thigh injury in Auxerre training; ruled out, missed end of Ligue 1 season","status":"out","source_url":"https://africanfootball.com/news/838645/Operi-profits-from-Akpa-misfortune"},
+    {"player":"Christopher Operi","issue":"called up as Akpa's replacement; had own injury problems at Basaksehir, missing three of last five Super Lig games","status":"returned","source_url":"https://www.timeslive.co.za/sport/2026-05-30-operi-gets-world-cup-call-up-as-injury-replacement/"}
+  ],
+  "squad_notes": "Left-back Clement Akpa (Auxerre) withdrew injured and was replaced by Christopher Operi (Istanbul Basaksehir) on/around 29-30 May. Sebastien Haller (Borussia Dortmund), the AFCON 2023 hero, was a surprise omission, leaving the side without a traditional focal-point striker. Young talents Yan Diomande and Bazoumana Toure included.",
+  "warmup_assessment": "Strong build-up: wins over Scotland and South Korea, capped by a creditable 1-1 draw away to France in Nantes (4 June 2026), Pepe assisting the equaliser.",
+  "momentum": "rising",
+  "shape_verdict": "Ivory Coast look settled and confident under Fae with a deep, talented squad and excellent defensive record, though the lack of an established centre-forward after Haller's omission is a question mark.",
+  "news": [
+    {"date":"2026-05-30","category":"injury","headline":"Clement Akpa ruled out of World Cup; Christopher Operi called up as replacement","source_url":"https://www.timeslive.co.za/sport/2026-05-30-operi-gets-world-cup-call-up-as-injury-replacement/"},
+    {"date":"2026-06-04","category":"form","headline":"France draw 1-1 with Ivory Coast in final World Cup warm-up in Nantes","source_url":"https://mabumbe.com/people/france-draw-1-1-with-ivory-coast-in-final-world-cup-2026-warm-up-match/"},
+    {"date":"2026-05-29","category":"squad","headline":"Emerse Fae names Ivory Coast 2026 World Cup squad; Haller surprisingly absent","source_url":"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"}
+  ],
+  "sources": [
+    "https://www.goal.com/en/lists/ivory-coast-squad-world-cup-2026/bltd60ba61f4582cc11",
+    "https://www.fourfourtwo.com/team/ivory-coast-world-cup-2026-squad",
+    "https://africanfootball.com/news/838645/Operi-profits-from-Akpa-misfortune",
+    "https://www.timeslive.co.za/sport/2026-05-30-operi-gets-world-cup-call-up-as-injury-replacement/",
+    "https://www.sabcsport.com/soccer/news/ivory-coast-forced-into-late-change-after-clement-akpa-is-ruled-out-of-fifa-world-cup",
+    "https://mabumbe.com/people/france-draw-1-1-with-ivory-coast-in-final-world-cup-2026-warm-up-match/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-squad-announcement-emerse-fae"
+  ]
+}

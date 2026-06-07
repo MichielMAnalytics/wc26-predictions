@@ -1,0 +1,37 @@
+{
+  "team": "France",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Didier Deschamps",
+  "coach_nationality": "French",
+  "coach_appointed": "2012-07",
+  "recent_coach_change": "No change. Deschamps has announced the 2026 World Cup will be his final tournament in charge before stepping down.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Qualified through UEFA qualifying as group winners.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Kylian Mbappe (Real Madrid) — captain and main attacking force; needs two goals to break France's World Cup scoring record",
+    "Ousmane Dembele (Paris Saint-Germain) — reigning Ballon d'Or winner and Champions League title holder",
+    "William Saliba (Arsenal) — anchor of the back line",
+    "Michael Olise (Bayern Munich) — strong club season, key attacking option",
+    "Mike Maignan (AC Milan) — first-choice goalkeeper"
+  ],
+  "injuries_doubts": [
+    {"player":"Kylian Mbappe","issue":"Various niggles/injuries through the season; managed minutes in warm-ups","status":"returned","source_url":"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-world-cup-squad-named"}
+  ],
+  "squad_notes": "Eduardo Camavinga left out after a difficult, injury-affected season with reduced minutes at Real Madrid. Randal Kolo Muani also missed the cut. Squad still regarded as the most richly talented pool in world football.",
+  "warmup_assessment": "Mixed. France were stunned 2-1 by Ivory Coast in Nantes on 4 June 2026 in their final warm-up; Rayan Cherki opened the scoring but a heavily rotated second-half side conceded twice, raising questions about depth and Deschamps' tactical approach.",
+  "shape_verdict": "Loaded with talent and among the tournament favourites, but the late friendly defeat to Ivory Coast exposed vulnerability when rotating and questions persist over whether Deschamps maximises the squad.",
+  "news": [
+    {"date":"2026-06-04","category":"form","headline":"France stunned 2-1 by Ivory Coast in World Cup warm-up defeat","source_url":"https://www.france24.com/en/sport/20260604-france-stunned-by-ivory-coast-in-world-cup-warm-up-defeat"},
+    {"date":"2026-06-02","category":"squad","headline":"France World Cup squad named; Camavinga and Kolo Muani miss out","source_url":"https://www.espn.com/soccer/story/_/id/48771039/france-2026-world-cup-squad-mbappe-camavinga-kolo-muani-dembele"},
+    {"date":"2026-06-02","category":"form","headline":"France World Cup 2026 preview: among the favourites under outgoing Deschamps","source_url":"https://www.aljazeera.com/sports/2026/6/2/france-world-cup-2026-preview-players-to-watch-group-matches-and-squad"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-world-cup-squad-named",
+    "https://www.espn.com/soccer/story/_/id/48771039/france-2026-world-cup-squad-mbappe-camavinga-kolo-muani-dembele",
+    "https://www.aljazeera.com/sports/2026/6/2/france-world-cup-2026-preview-players-to-watch-group-matches-and-squad",
+    "https://www.france24.com/en/sport/20260604-france-stunned-by-ivory-coast-in-world-cup-warm-up-defeat",
+    "https://www.espn.com/soccer/report/_/gameId/401864934",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-france-players-full-squad-list-key-stats-schedule"
+  ]
+}

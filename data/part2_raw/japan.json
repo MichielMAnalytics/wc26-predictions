@@ -1,0 +1,40 @@
+{
+  "team": "Japan",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Hajime Moriyasu",
+  "coach_nationality": "Japanese",
+  "coach_appointed": "2018 (in charge for a second consecutive World Cup)",
+  "recent_coach_change": "No recent change; Moriyasu has led Japan since 2018 and through Qatar 2022.",
+  "base_formation": "",
+  "qualification_path": "Won AFC Third Round Group C; became the first nation outside the three hosts to qualify, securing their place with a win over Bahrain in March 2025.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Takefusa Kubo (Real Sociedad) — primary attacking threat with creativity and dribbling",
+    "Wataru Endo (Liverpool) — captain and midfield anchor",
+    "Daichi Kamada (Crystal Palace) — creative midfielder",
+    "Ao Tanaka (Leeds United) — energetic central midfielder",
+    "Daizen Maeda (Celtic) — forward/winger, 14 league goals this season"
+  ],
+  "injuries_doubts": [
+    {"player": "Kaoru Mitoma", "issue": "Hamstring injury", "status": "out", "source_url": "https://www.aljazeera.com/sports/2026/5/22/japans-world-cup-2026-team-preview-players-to-watch-group-squad"},
+    {"player": "Takumi Minamino", "issue": "Injury", "status": "out", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hajime-moriyasu-s-official-japan-squad-for-the-2026-fifa-world-cup-2026-05-15"},
+    {"player": "Hidemasa Morita", "issue": "Injury", "status": "out", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hajime-moriyasu-s-official-japan-squad-for-the-2026-fifa-world-cup-2026-05-15"}
+  ],
+  "squad_notes": "26-man squad: 3 GK, 9 defenders, 9 midfielders, 5 forwards. Three notable injury absences (Mitoma, Minamino, Morita) which Moriyasu called 'a huge blow'. Veteran Yuto Nagatomo (FC Tokyo) included for a record fifth consecutive World Cup. Squad blends youth with European-based talent across the Premier League, Bundesliga and LaLiga.",
+  "warmup_assessment": "Positive but unspectacular: edged Iceland 1-0 in their final pre-tournament friendly in Tokyo on June 7, 2026 (Koki Ogawa, 87th minute), in front of 60,000+. Earlier the team posted statement away wins over Scotland and England (1-0 at Wembley in March) before the squad was named.",
+  "shape_verdict": "A confident, well-organized side that recently beat England away and qualified first of all non-host nations, though the injury losses of Mitoma, Minamino and Morita blunt their attack and a flat win over Iceland showed limited cutting edge.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-05-15", "category": "squad", "headline": "Moriyasu names 26-man squad; Mitoma, Minamino and Morita out injured", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hajime-moriyasu-s-official-japan-squad-for-the-2026-fifa-world-cup-2026-05-15"},
+    {"date": "2026-05-15", "category": "injury", "headline": "Moriyasu on Mitoma omission: 'It's a huge blow'", "source_url": "https://www.olympics.com/en/news/football-japan-2026-world-cup-squad-announcement"},
+    {"date": "2026-06-07", "category": "form", "headline": "Japan edge Iceland 1-0 in final pre-World Cup friendly via late Ogawa goal", "source_url": "https://japantoday.com/category/2026-fifa-world-cup/japan-edge-iceland-in-final-pre-world-cup-friendly"}
+  ],
+  "sources": [
+    "https://www.aljazeera.com/sports/2026/5/22/japans-world-cup-2026-team-preview-players-to-watch-group-squad",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/hajime-moriyasu-s-official-japan-squad-for-the-2026-fifa-world-cup-2026-05-15",
+    "https://www.olympics.com/en/news/football-japan-2026-world-cup-squad-announcement",
+    "https://japantoday.com/category/2026-fifa-world-cup/japan-edge-iceland-in-final-pre-world-cup-friendly",
+    "https://www.olympics.com/en/news/japan-qualify-mens-2026-football-world-cup",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_(AFC)"
+  ]
+}

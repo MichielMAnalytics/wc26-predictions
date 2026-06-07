@@ -1,0 +1,43 @@
+{
+  "team": "United States",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Mauricio Pochettino",
+  "coach_nationality": "Argentina",
+  "coach_appointed": "2024-09",
+  "recent_coach_change": "Pochettino appointed September 2024, replacing interim Mikey Varas after Gregg Berhalter's departure following Copa America 2024; no change in the last 12 months.",
+  "base_formation": "Back three (3-4-2-1 / 3-4-3 variants tested through qualifying and friendlies)",
+  "qualification_path": "Automatic qualification as co-host (USA, Canada, Mexico host the 2026 World Cup).",
+  "qualification_convincingness": "host",
+  "key_players": [
+    "Christian Pulisic (AC Milan) — talisman captain, 84 caps and 32 goals, strong Serie A season",
+    "Weston McKennie (Juventus) — versatile midfield engine, regular for Juventus",
+    "Folarin Balogun (Monaco) — first-choice striker option after Ligue 1 spell",
+    "Antonee Robinson (Fulham) — attacking left-back, established Premier League starter",
+    "Gio Reyna (Borussia Monchengladbach) — included after move to Gladbach revived form"
+  ],
+  "injuries_doubts": [
+    {"player":"Johnny Cardoso","issue":"high-grade right ankle sprain requiring surgery","status":"out","source_url":"https://www.cbssports.com/soccer/news/usmnts-johnny-cardoso-injury-mauricio-pochettinos-world-cup-may/"},
+    {"player":"Chris Richards","issue":"two torn ankle ligaments suffered vs Brentford on May 17; training individually, not yet match-fit","status":"doubt","source_url":"https://www.cbssports.com/soccer/news/usmnts-chris-richards-training-individually-injury-status-still-unclear-for-world-cup-opener/"},
+    {"player":"Patrick Agyemang","issue":"injury ruling him out of the World Cup","status":"out","source_url":"https://www.espn.com/soccer/story/_/id/48854192/usa-2026-world-cup-roster-gio-reyna-diego-luna-zendejas"}
+  ],
+  "squad_notes": "Pochettino named a 26-man roster on May 26, 2026, in New York. Gio Reyna and Joe Scally (both Borussia Monchengladbach) and Club America's Alejandro Zendejas were notable inclusions; Real Salt Lake's Diego Luna was a surprise omission, along with Tanner Tessmann and Aidan Morris, leaving Tyler Adams as the lone specialist defensive midfielder. 13 players are first-time World Cup participants; 13 returnees from 2022. All three goalkeepers are MLS-based.",
+  "warmup_assessment": "Mixed final tune-ups. The USA lost 2-1 to Germany at Soldier Field on June 6, 2026 (Mark McKenzie deputizing for the injured Richards), with earlier 2026 friendlies producing varied results; performances suggested unsettled defensive personnel due to injuries.",
+  "shape_verdict": "A talented host nation with its strongest attacking core (Pulisic, McKennie, Balogun) but unsettled at defensive midfield after losing Cardoso and with Richards a fitness doubt at center-back. Tactically still flexible under Pochettino but not yet convincingly cohesive.",
+  "momentum": "steady",
+  "news": [
+    {"date":"2026-05-26","category":"squad","headline":"Pochettino names 26-man USMNT World Cup roster; Gio Reyna in, Diego Luna out","source_url":"https://www.cbssports.com/soccer/news/full-usmnt-world-cup-roster-2026/"},
+    {"date":"2026-05-17","category":"injury","headline":"Chris Richards suffers two torn ankle ligaments vs Brentford, casting World Cup doubt","source_url":"https://www.cbssports.com/soccer/news/usmnts-chris-richards-training-individually-injury-status-still-unclear-for-world-cup-opener/"},
+    {"date":"2026-06-06","category":"form","headline":"USMNT fall 2-1 to Germany at Soldier Field in final pre-World Cup friendly","source_url":"https://www.fox32chicago.com/sports/usmnt-soccer-live-scores-updates-from-2026-world-cup-friendly-vs-germany"},
+    {"date":"2026-05-01","category":"injury","headline":"Johnny Cardoso to undergo ankle surgery, ruled out of World Cup","source_url":"https://www.si.com/soccer/usmnt-champions-league-star-midfielder-johnny-cardoso-ruled-out-of-world-cup"}
+  ],
+  "sources": [
+    "https://www.ussoccer.com/stories/2026/05/usmnt/us-mens-national-team-head-coach-mauricio-pochettino-names-26-player-roster-for-fifa-world-cup-2026",
+    "https://www.cbssports.com/soccer/news/full-usmnt-world-cup-roster-2026/",
+    "https://www.espn.com/soccer/story/_/id/48854192/usa-2026-world-cup-roster-gio-reyna-diego-luna-zendejas",
+    "https://www.cbssports.com/soccer/news/usmnts-johnny-cardoso-injury-mauricio-pochettinos-world-cup-may/",
+    "https://www.si.com/soccer/usmnt-champions-league-star-midfielder-johnny-cardoso-ruled-out-of-world-cup",
+    "https://www.cbssports.com/soccer/news/usmnts-chris-richards-training-individually-injury-status-still-unclear-for-world-cup-opener/",
+    "https://www.fox32chicago.com/sports/usmnt-soccer-live-scores-updates-from-2026-world-cup-friendly-vs-germany",
+    "https://www.backheeled.com/pochettino-usmnt-tactics-2026-world-cup-formation-analysis-shape/"
+  ]
+}

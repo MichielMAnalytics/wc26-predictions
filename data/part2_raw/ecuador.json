@@ -1,0 +1,35 @@
+{
+  "team": "Ecuador",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Sebastian Beccacece",
+  "coach_nationality": "Argentine",
+  "coach_appointed": "2024-08",
+  "recent_coach_change": "Beccacece appointed August 2024 (after Copa America); no change since.",
+  "base_formation": "Compact, defensively organised setup (typically 4-4-2 / 4-2-3-1)",
+  "qualification_path": "Finished 2nd in CONMEBOL qualifying, behind only Argentina, despite starting on -3 points (Byron Castillo/CAS sanction)",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Moises Caicedo (Chelsea) — midfield engine, strong Premier League/Champions League season",
+    "Willian Pacho (Paris Saint-Germain) — central defender, key part of a treble-chasing PSG backline",
+    "Piero Hincapie (defender) — versatile, experienced European-based defender",
+    "Kendry Paez (River Plate) — highly rated young attacking midfielder",
+    "Enner Valencia — veteran forward and leader, experience up front"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Squad blends experienced core (Pacho, Hincapie, Estupinan, Plata, Valencia) with rising talents (Kendry Paez, Joel Ordonez, Yaimar Medina, Jeremy Arevalo). Built on outstanding defensive record in qualifying (only 5 goals conceded across 18 matches).",
+  "warmup_assessment": "Positive: Ecuador beat Saudi Arabia 2-1 in a 2026 warm-up friendly, maintaining the defensive solidity that defined their qualifying run.",
+  "momentum": "rising",
+  "shape_verdict": "Ecuador arrive as one of the tournament's surprise packages, exceptionally hard to break down (overcame a -3 point start to finish 2nd in CONMEBOL); the main question is goal output given modest attacking returns.",
+  "news": [
+    {"date":"2026-06-01","category":"squad","headline":"Beccacece names final 26-man Ecuador squad for 2026 World Cup","source_url":"https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/sebasti%C3%A1n-beccacece-s-official-ecuador-squad-for-the-2026-fifa-world-cup-2026-06-01"},
+    {"date":"2026-05-31","category":"form","headline":"Ecuador preview: defensive solidity built on only 5 goals conceded in qualifying","source_url":"https://www.fourfourtwo.com/team/ecuador-world-cup-2026-squad"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/sebasti%C3%A1n-beccacece-s-official-ecuador-squad-for-the-2026-fifa-world-cup-2026-06-01",
+    "https://www.fourfourtwo.com/team/ecuador-world-cup-2026-squad",
+    "https://sports.yahoo.com/articles/ecuador-2026-world-cup-squad-040000795.html",
+    "https://copaamerica.com/en/news/beccacece-new-coach-ecuador",
+    "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Beccacece",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/pre-tournament-warm-up-results-fixtures-scorers"
+  ]
+}

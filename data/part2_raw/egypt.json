@@ -1,0 +1,38 @@
+{
+  "team": "Egypt",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Hossam Hassan",
+  "coach_nationality": "Egyptian",
+  "coach_appointed": "February 2024",
+  "recent_coach_change": "No recent change since the start of the WC cycle; Hassan was appointed in February 2024 (replacing Rui Vitoria) and has led the qualifying campaign.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Won CAF Group A unbeaten across all 10 matches (8 wins, 2 draws, 26 points, 20 goals for, 2 against, 7 clean sheets); sealed qualification with a 3-0 win away at Djibouti on October 8, 2025.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Mohamed Salah (Liverpool) — captain and talisman, group's top scorer in qualifying with 9 goals",
+    "Omar Marmoush (Manchester City) — attacking partner to Salah and key goal threat",
+    "Mohamed El Shenawy (Al Ahly) — veteran goalkeeper behind a miserly qualifying defense",
+    "Trezeguet (Al Ahly) — experienced winger providing width and goals",
+    "Hamdy Fathy (Al-Wakrah) — combative central midfielder"
+  ],
+  "injuries_doubts": [
+    {"player": "Mostafa Mohamed", "issue": "Nantes striker omitted from the final 26-man squad in favor of teenager Hamza Abdelkarim", "status": "out", "source_url": "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule"}
+  ],
+  "squad_notes": "Hossam Hassan confirmed his final 26-man squad on May 29, 2026. The biggest talking point was the call-up of 18-year-old Barcelona B prospect Hamza Abdelkarim, with Nantes striker Mostafa Mohamed left out. Salah captains a squad chasing Egypt's first-ever World Cup knockout berth.",
+  "warmup_assessment": "Lost 2-1 to Brazil in Cleveland, Ohio on June 6, 2026 in their final warm-up; Salah came on at halftime. Egypt competed well and stretched Brazil but couldn't find an equalizer. Earlier 2025-26 form was mixed (Arab Cup group-stage exit; AFCON semi-final loss to Senegal).",
+  "shape_verdict": "A dominant, defensively miserly qualifying campaign and the world-class Salah-Marmoush axis make Egypt dangerous, but mixed tournament form and a narrow loss to Brazil suggest they remain underdogs against Belgium.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2025-10-08", "category": "form", "headline": "Salah double seals Egypt's 2026 World Cup qualification with 3-0 win at Djibouti", "source_url": "https://www.aljazeera.com/sports/2025/10/8/egypt-qualify-for-fifa-world-cup-2026-with-win-over-djibouti"},
+    {"date": "2026-05-29", "category": "squad", "headline": "Hossam Hassan names final 26-man squad: teenager Hamza Abdelkarim in, Mostafa Mohamed out", "source_url": "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule"},
+    {"date": "2026-06-06", "category": "form", "headline": "Egypt lose 2-1 to Brazil in final World Cup warm-up; Salah featured in second half", "source_url": "https://www.espn.com/soccer/report/_/gameId/401861998"}
+  ],
+  "sources": [
+    "https://www.africanews.com/2024/02/15/egypt-unveils-hossam-hassan-as-new-head-coach/",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-mohamed-salah-and-egypt-chase-first-ever-quarter-final-berth-all-players-full-squad-list-key-stats-and-schedule",
+    "https://www.cafonline.com/fifa-world-cup/news/salah-inspired-egypt-seal-2026-world-cup-qualification-after-dominant-campaign/",
+    "https://www.aljazeera.com/sports/2025/10/8/egypt-qualify-for-fifa-world-cup-2026-with-win-over-djibouti",
+    "https://www.fourfourtwo.com/team/egypt-world-cup-2026-squad",
+    "https://www.espn.com/soccer/report/_/gameId/401861998"
+  ]
+}

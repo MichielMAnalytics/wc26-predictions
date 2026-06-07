@@ -1,0 +1,36 @@
+{
+  "team": "Colombia",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Nestor Lorenzo",
+  "coach_nationality": "Argentine",
+  "coach_appointed": "June 2022",
+  "recent_coach_change": "No recent change; Argentine Nestor Lorenzo has led Colombia since June 2022 (succeeding Reinaldo Rueda) and oversaw qualification.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Finished a strong third (some sources second) in CONMEBOL qualifying with around 28 points from 18 matches, securing automatic qualification behind Argentina. Second-best defensive record in CONMEBOL.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Luis Diaz (Liverpool) — talisman winger, scored in the 4-0 friendly rout of Mexico",
+    "James Rodriguez (Minnesota United / Club Leon) — captain, 34, creative leader but short on minutes and form",
+    "Jhon Arias / Juan Camilo 'Cucho' Hernandez (Real Betis) — in-form forward, among La Liga's top scorers",
+    "Jefferson Lerma (Crystal Palace) — midfield anchor",
+    "Juan Fernando Quintero (River Plate) — attacking midfielder, likely his last World Cup"
+  ],
+  "injuries_doubts": [
+    {"player": "James Rodriguez", "issue": "Fitness/match-sharpness concern after fewer than 200 minutes of recent club football; on an individual training program", "status": "doubt", "source_url": "https://www.olympics.com/en/news/fifa-world-cup-2026-colombia-players-squad-list-key-stats-schedule"}
+  ],
+  "squad_notes": "Lorenzo named his 26-man squad on 25 May 2026. James Rodriguez retained as captain despite limited minutes, with the staff running a special physical program for him. Notable omissions include Wilmar Barrios (Zenit) and Rafael Santos Borre. Real Betis forward 'Cucho' Hernandez among the in-form inclusions.",
+  "warmup_assessment": "Strong recent form: thrashed Mexico 4-0 and beat Australia 3-0 in late-2025 friendlies, showing attacking sharpness and defensive solidity ahead of the tournament.",
+  "momentum": "rising",
+  "shape_verdict": "Colombia look in good shape as group favourites alongside Portugal, blending Luis Diaz's quality with a solid defence; the main question mark is the fitness and form of veteran captain James Rodriguez.",
+  "news": [
+    {"date": "2026-05-25", "category": "squad", "headline": "Lorenzo names 26-man Colombia World Cup squad led by James Rodriguez and Luis Diaz", "source_url": "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-diaz-colombia-world-cup-squad"},
+    {"date": "2026-05-14", "category": "injury", "headline": "Concerns over James Rodriguez's lack of minutes; Lorenzo reveals special fitness plan", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/colombia-s-preliminary-squad-for-the-2026-fifa-world-cup-lorenzo-reveals-special-plan-for-james-rodr%C3%ADguez-2026-05-14"}
+  ],
+  "sources": [
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-colombia-players-squad-list-key-stats-schedule",
+    "https://www.espn.com/soccer/story/_/id/48873914/james-rodriguez-luis-diaz-colombia-world-cup-squad",
+    "https://usports.org/coach-nestor-lorenzo-announces-colombias-26-man-squad-for-the-2026-fifa-world-cup/",
+    "https://en.wikipedia.org/wiki/N%C3%A9stor_Lorenzo",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/colombia-s-preliminary-squad-for-the-2026-fifa-world-cup-lorenzo-reveals-special-plan-for-james-rodr%C3%ADguez-2026-05-14"
+  ]
+}

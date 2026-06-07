@@ -1,0 +1,33 @@
+{
+  "team": "Haiti",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Sebastien Migne",
+  "coach_nationality": "French",
+  "coach_appointed": "2024-06",
+  "recent_coach_change": "No recent change immediately before the tournament; Sebastien Migne was appointed in June 2024 and led the qualifying campaign.",
+  "base_formation": "",
+  "qualification_path": "Qualified by topping CONCACAF final-round Group C, sealed with a 2-0 win over Nicaragua on the final matchday (played in Curacao). It is Haiti's second-ever World Cup and first since 1974, ending a 52-year drought.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Johny Placide (goalkeeper) — veteran captain",
+    "Wilson Isidor (Sunderland) — forward, Premier League",
+    "Lenny Joseph (Ferencvaros) — forward",
+    "Duckens Nazon — experienced forward"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Squad of 26 (3 GK, 8 DF, 7 MF, 8 FW) made up almost entirely of diaspora players from Europe, North America, South America and Asia; only one domestic-league player, midfielder Woodensky Pierre (Violette AC). Young group, average age 24, with only five players over 30. Veteran goalkeeper Johny Placide captains the side.",
+  "warmup_assessment": "Mixed/limited information; Haiti arranged warm-up friendlies in early June around Fort Lauderdale and Miami (including matches vs New Zealand and Peru) as final preparation. The squad is realistic about its chances per coach Migne.",
+  "shape_verdict": "Haiti arrive as underdogs and the lowest-profile side in Group C, leaning on a young, diaspora-based squad and the feel-good momentum of ending a 52-year wait, but they look short on tournament pedigree.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-05-16", "category": "squad", "headline": "Haiti unveils 2026 World Cup roster built almost entirely on diaspora players", "source_url": "https://haitiantimes.com/2026/05/16/haiti-team-roster-2026-fifa-world-cup/"},
+    {"date": "2026-05-16", "category": "squad", "headline": "Sebastien Migne names Haiti's final 26-man World Cup squad", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne"}
+  ],
+  "sources": [
+    "https://haitiantimes.com/2026/05/16/haiti-team-roster-2026-fifa-world-cup/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/haiti-squad-announcement-sebastien-migne",
+    "https://www.fourfourtwo.com/team/haiti-world-cup-2026-squad",
+    "https://en.wikipedia.org/wiki/Haiti_national_football_team",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-haiti-players-squad-list-key-stats-schedule"
+  ]
+}

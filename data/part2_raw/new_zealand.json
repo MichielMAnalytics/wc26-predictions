@@ -1,0 +1,34 @@
+{
+  "team": "New Zealand",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Darren Bazeley",
+  "coach_nationality": "English",
+  "coach_appointed": "2023",
+  "recent_coach_change": "No recent change; Bazeley has been New Zealand head coach since 2023 and led the OFC qualifying campaign.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Qualified via Oceania (OFC), claiming the region's guaranteed direct slot in the expanded 48-team format; sealed their place with a 3-0 win over New Caledonia at Eden Park in March 2025, after a 7-0 semi-final rout of Fiji (Chris Wood hat-trick).",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Chris Wood (Nottingham Forest) — captain and all-time top scorer (45 goals), 9 goals in qualifying",
+    "Tommy Smith (Braintree Town) — veteran defender, one of two survivors from the 2010 World Cup",
+    "Lachlan Bayliss (Newcastle Jets) — young midfielder, selected via paternal heritage two months after his debut"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Bazeley skipped FIFA's extended preliminary squad and named his final 26 directly on May 14, 2026 in Auckland. The squad has 15 players based outside New Zealand/the A-League. Chris Wood and Tommy Smith are the only returnees from 2010, NZ's last World Cup. Bazeley becomes the first person to have coached a FIFA U-17 WC, U-20 WC, Men's Olympic tournament and a senior World Cup.",
+  "warmup_assessment": "Poor send-off: thrashed 4-0 by Haiti in Fort Lauderdale on June 2, 2026, then lost 1-0 to England in Tampa on June 6 (Harry Kane header). Wood acknowledged the gulf, noting opponents treated the games more seriously than NZ.",
+  "shape_verdict": "A workmanlike side appearing at its first World Cup in 16 years, captained by Premier League striker Chris Wood, but back-to-back warm-up defeats including a 4-0 loss to Haiti underline how big a step up Group G represents.",
+  "momentum": "declining",
+  "news": [
+    {"date": "2026-05-14", "category": "squad", "headline": "Bazeley names final 26-man All Whites squad; Chris Wood to captain at first World Cup since 2010", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/darren-bazeley-and-new-zealand-s-official-squad-for-the-2026-fifa-world-cup-2026-05-14"},
+    {"date": "2026-06-02", "category": "form", "headline": "All Whites suffer heavy 4-0 defeat to Haiti in first World Cup warm-up in Florida", "source_url": "https://www.1news.co.nz/2026/06/03/live-all-whites-v-haiti-in-florida/"},
+    {"date": "2026-06-06", "category": "form", "headline": "England beat New Zealand 1-0 via Harry Kane header in pre-World Cup friendly", "source_url": "https://www.espn.co.uk/football/story/_/id/48984232/england-vs-new-zealand-live-latest-updates-commentary-result"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/darren-bazeley-and-new-zealand-s-official-squad-for-the-2026-fifa-world-cup-2026-05-14",
+    "https://thefootballfaithful.com/new-zealand-2026-world-cup-squad-fixtures-and-schedule/",
+    "https://inside.fifa.com/news/darren-bazeley-new-zealand-world-cup-1st-coach-all-tournaments",
+    "https://www.1news.co.nz/2026/06/03/live-all-whites-v-haiti-in-florida/",
+    "https://www.espn.co.uk/football/story/_/id/48984232/england-vs-new-zealand-live-latest-updates-commentary-result",
+    "https://www.nzfootball.co.nz/newsarticle/166421?newsfeedId=1275608"
+  ]
+}

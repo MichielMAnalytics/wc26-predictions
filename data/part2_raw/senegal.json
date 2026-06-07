@@ -1,0 +1,37 @@
+{
+  "team": "Senegal",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Pape Thiaw",
+  "coach_nationality": "Senegalese",
+  "coach_appointed": "2024-12-13",
+  "recent_coach_change": "Yes. Pape Thiaw was appointed on 13 December 2024, replacing Aliou Cisse who had been dismissed about two months earlier.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Won CAF Group B unbeaten with 24 points from 30 (seven wins, three draws), finishing two points ahead of DR Congo; sealed top spot with a 4-0 win over Mauritania.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Sadio Mane (Al-Nassr) — attacking talisman, scored a double against Mauritania to seal qualification",
+    "Kalidou Koulibaly (Al-Hilal) — captain and defensive leader",
+    "Edouard Mendy (Al-Ahli) — first-choice goalkeeper",
+    "Idrissa Gana Gueye (Everton) — veteran midfield anchor",
+    "Nicolas Jackson (Chelsea) — forward providing European-club firepower"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Final 26 trimmed from a 28-man preliminary list; Ilay Camara and Moustapha Mbow were the two players cut after the USA friendly. Malang Sarr was omitted, with Thiaw explaining the decision publicly. Core of the 2022 AFCON-winning golden generation, several of whom are likely at their final World Cup.",
+  "warmup_assessment": "Underwhelming. Senegal lost 3-2 to the United States on 31 May 2026, with a wobbly defensive display, and faced Saudi Arabia on 9 June. Preparations were further disrupted by an off-pitch contract standoff involving coach Pape Thiaw.",
+  "shape_verdict": "A talented, experienced squad with one of the deepest player pools at the tournament, but defensive frailty in the USA friendly and coaching-contract turmoil cloud their build-up.",
+  "news": [
+    {"date":"2026-05-31","category":"form","headline":"USA beat Senegal 3-2 in World Cup warm-up as Senegal defence wobbles","source_url":"https://www.espn.com/soccer/report/_/gameId/762592"},
+    {"date":"2026-05-28","category":"offpitch","headline":"Senegal preparations thrown into chaos amid Pape Thiaw contract standoff","source_url":"https://en.africatopsports.com/senegal-world-cup-preparations-thrown-into-chaos-amid-pape-thiaw-contract-standoff/"},
+    {"date":"2026-06-01","category":"squad","headline":"Senegal finalize squad, parting ways with Ilay Camara and Moustapha Mbow","source_url":"https://en.africatopsports.com/world-cup-2026-senegal-finalizes-its-squad-and-parts-ways-with-two-players/"}
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pape_Thiaw",
+    "https://www.fifa.com/en/articles/senegal-world-cup-squad-announcement-pape-thiaw",
+    "https://www.fourfourtwo.com/team/senegal-world-cup-2026-squad",
+    "https://www.espn.com/soccer/report/_/gameId/762592",
+    "https://en.africatopsports.com/senegal-world-cup-preparations-thrown-into-chaos-amid-pape-thiaw-contract-standoff/",
+    "https://en.africatopsports.com/world-cup-2026-senegal-finalizes-its-squad-and-parts-ways-with-two-players/",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_CAF_Group_B",
+    "https://ghanasoccernet.com/pape-thiaw-explains-malang-sarr-omission-from-senegal-world-cup-squad"
+  ]
+}

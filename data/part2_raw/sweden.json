@@ -1,0 +1,39 @@
+{
+  "team": "Sweden",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Graham Potter",
+  "coach_nationality": "English",
+  "coach_appointed": "October 20, 2025",
+  "recent_coach_change": "Yes — Jon Dahl Tomasson was sacked on October 14, 2025 after a 1-0 home loss to Kosovo; Graham Potter was appointed six days later, on October 20, 2025.",
+  "base_formation": "",
+  "qualification_path": "Reached the finals via the playoffs. Sweden finished last in their qualifying group (two points, behind Switzerland, Slovenia and Kosovo) but earned a playoff lifeline through their UEFA Nations League group win, then beat Ukraine 3-1 (Gyokeres hat-trick) in the semifinal and Poland 3-2 in the final.",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Alexander Isak (Liverpool) — forward, focal point of the attack",
+    "Viktor Gyokeres (Arsenal) — forward; scored a hat-trick in the playoff semifinal vs Ukraine",
+    "Victor Lindelof (Aston Villa) — captain, 75+ caps, defensive leader",
+    "Gustaf Nilsson — forward, scored in the final warm-up vs Greece"
+  ],
+  "injuries_doubts": [
+    {"player": "Emil Holm", "issue": "Muscular/pre-tournament injury forcing withdrawal", "status": "out", "source_url": "https://football-italia.net/juventus-holm-withdrawal-sweden-wc-squad/"},
+    {"player": "Herman Johansson", "issue": "Called up on May 30 as injury replacement for Emil Holm", "status": "returned", "source_url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/herman-johansson-world-cup-profile-sweden-fc-dallas-defender"}
+  ],
+  "squad_notes": "26-man squad announced mid-May 2026 headlined by strike pairing Alexander Isak and Viktor Gyokeres. Defender Emil Holm withdrew injured and was replaced on May 30 by FC Dallas defender Herman Johansson, who had narrowly missed the original cut. Note: sources variously list Holm at Juventus/Bologna.",
+  "warmup_assessment": "Underwhelming send-off: drew 2-2 at home to Greece on June 4, 2026 at Friends Arena, conceding a stoppage-time equalizer to Giorgos Masouras after Gyokeres and Gustaf Nilsson goals had put them ahead. Isak and Gyokeres both started.",
+  "shape_verdict": "Loaded with elite attacking talent in Isak and Gyokeres but arriving on the back of a chaotic playoff qualification and a new coach in Potter, with defensive questions underlined by the Holm withdrawal and a late-conceded draw with Greece.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2025-10-20", "category": "manager", "headline": "Graham Potter appointed Sweden head coach after Tomasson sacking", "source_url": "https://www.olympics.com/en/news/fifa-world-cup-2026-sweden-great-escape-graham-potter-all-players-full-squad-list-key-stats-schedule"},
+    {"date": "2026-05-30", "category": "injury", "headline": "Emil Holm withdraws injured; Herman Johansson called up as replacement", "source_url": "https://sports.yahoo.com/articles/juventus-defender-holm-forced-withdraw-134000914.html"},
+    {"date": "2026-06-04", "category": "form", "headline": "Sweden draw 2-2 with Greece in final World Cup warm-up after stoppage-time equalizer", "source_url": "https://www.espn.com/soccer/match/_/gameId/401870034/greece-sweden"}
+  ],
+  "sources": [
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-sweden-great-escape-graham-potter-all-players-full-squad-list-key-stats-schedule",
+    "https://heavy.com/sports/soccer/world-cup/sweden-announces-squad-fifa-world-cup/",
+    "https://football-italia.net/juventus-holm-withdrawal-sweden-wc-squad/",
+    "https://sports.yahoo.com/articles/juventus-defender-holm-forced-withdraw-134000914.html",
+    "https://www.mlssoccer.com/competitions/fifa-world-cup/news/herman-johansson-world-cup-profile-sweden-fc-dallas-defender",
+    "https://www.espn.com/soccer/match/_/gameId/401870034/greece-sweden",
+    "https://www.bigdsoccer.com/sweden-2026-world-cup-preview/"
+  ]
+}

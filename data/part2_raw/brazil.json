@@ -1,0 +1,44 @@
+{
+  "team": "Brazil",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Carlo Ancelotti",
+  "coach_nationality": "Italian",
+  "coach_appointed": "2025-05-26",
+  "recent_coach_change": "Yes. Dorival Junior was sacked after a poor CONMEBOL qualifying campaign and Carlo Ancelotti took over with an official start date of 26 May 2025, becoming Brazil's first permanent foreign manager.",
+  "base_formation": "4-2-3-1 / flexible attacking setup, with Ancelotti having trialled Vinicius Jr as a central striker",
+  "qualification_path": "Qualified via CONMEBOL South American qualifying; finished fifth in the table, a campaign described as underwhelming that cost Dorival Junior his job.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Vinicius Jr (Real Madrid) — scored 16 La Liga goals; Ancelotti has experimented with him centrally",
+    "Raphinha (Barcelona) — arrives high on confidence after a standout season for the La Liga champions",
+    "Bruno Guimaraes (Newcastle) — established as one of the Premier League's most accomplished midfielders; scored in the Egypt warm-up",
+    "Marquinhos (PSG) — captain, marshals the defence",
+    "Alisson (Liverpool) — still regarded as world-class in goal"
+  ],
+  "injuries_doubts": [
+    {"player": "Neymar", "issue": "Grade-two calf injury suffered playing for Santos vs Coritiba on 17 May 2026; missed warm-ups vs Panama and Egypt", "status": "doubt", "source_url": "https://www.espn.com/soccer/story/_/id/48965996/neymar-miss-brazil-final-pre-world-cup-friendly-vs-egypt"},
+    {"player": "Estevao", "issue": "Right thigh muscle injury suffered playing for Chelsea on 18 April 2026; left off the squad", "status": "out", "source_url": "https://www.espn.com/soccer/story/_/id/48745620/chelsea-estevao-miss-world-cup-neymar-makes-brazil-preliminary-cut"},
+    {"player": "Rodrygo", "issue": "Serious injury; ruled out, described as a big blow", "status": "out", "source_url": "https://www.aljazeera.com/sports/2026/5/28/brazils-world-cup-2026-team-preview-players-to-watch-group-matches-squad"},
+    {"player": "Eder Militao", "issue": "Serious injury; would have been a certain selection but misses the World Cup", "status": "out", "source_url": "https://www.espn.com/soccer/story/_/id/48745620/chelsea-estevao-miss-world-cup-neymar-makes-brazil-preliminary-cut"}
+  ],
+  "squad_notes": "Headline story is the surprise inclusion of 34-year-old Neymar (Santos) despite limited recent minutes and a fresh calf injury; he effectively took Estevao's spot. Joao Pedro (Chelsea) was cut to make room. Brazil go in without injured trio Estevao, Rodrygo and Eder Militao.",
+  "warmup_assessment": "Strong. Brazil thrashed Panama 6-2 (Vinicius, Casemiro and Paqueta among the scorers) and beat Egypt 2-1 (Bruno Guimaraes scoring), showing fluid attacking play under Ancelotti despite Neymar's absence from both.",
+  "shape_verdict": "Brazil look sharp and confident going in, with a settled Ancelotti attacking identity and two winning warm-ups, but the injury losses of Rodrygo, Militao and Estevao plus uncertainty over Neymar's fitness are real caveats.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-06", "category": "injury", "headline": "Neymar to miss Brazil's final pre-World Cup friendly vs Egypt due to calf injury", "source_url": "https://www.espn.com/soccer/story/_/id/48965996/neymar-miss-brazil-final-pre-world-cup-friendly-vs-egypt"},
+    {"date": "2026-06-06", "category": "form", "headline": "Brazil beat Egypt 2-1 in final warm-up ahead of World Cup", "source_url": "https://timesofoman.com/article/172666-brazil-beat-egypt-2-1-in-warm-up-fixture-ahead-of-fifa-world-cup-2026"},
+    {"date": "2026-06-02", "category": "form", "headline": "Brazil 6-2 Panama: Ancelotti's men produce statement win in World Cup warm-up", "source_url": "https://www.fotmob.com/news/scl1bwapbtrb18qt8mgvclgzn-brazil-6-2-panama-ancelottis-men-produce-statement-win-world-cup-warm-up"},
+    {"date": "2026-05-18", "category": "squad", "headline": "Carlo Ancelotti names Brazil's 26-man World Cup squad featuring Neymar", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-squad-announcement-carlo-ancelotti"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-squad-announcement-carlo-ancelotti",
+    "https://www.aljazeera.com/sports/2026/5/28/brazils-world-cup-2026-team-preview-players-to-watch-group-matches-squad",
+    "https://www.espn.com/soccer/story/_/id/48745620/chelsea-estevao-miss-world-cup-neymar-makes-brazil-preliminary-cut",
+    "https://www.espn.com/soccer/story/_/id/48965996/neymar-miss-brazil-final-pre-world-cup-friendly-vs-egypt",
+    "https://www.fotmob.com/news/scl1bwapbtrb18qt8mgvclgzn-brazil-6-2-panama-ancelottis-men-produce-statement-win-world-cup-warm-up",
+    "https://timesofoman.com/article/172666-brazil-beat-egypt-2-1-in-warm-up-fixture-ahead-of-fifa-world-cup-2026",
+    "https://www.cbssports.com/soccer/news/carlo-ancelotti-to-brazil-italian-manager-signs-with-brazil-on-reported-one-year-deal-through-2026-world-cup/",
+    "https://www.footboom1.com/en/news/football/2559521-carlo-ancelotti-to-announce-first-brazil-squad-on-may-26-2025"
+  ]
+}

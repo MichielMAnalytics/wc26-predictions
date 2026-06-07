@@ -14,6 +14,13 @@ repeatable offline. Nothing here is fabricated; fields with no source are left b
 | **FBref / StatsBomb (via fbref)** | would add broad xG/shots beyond the 4 majors | — (not used) | — | **Blocked from this VM**: FBref returns Cloudflare 403 to datacenter IPs. Not a reliable source from here; documented gap. |
 | `BBC_WC_26_WALL_CHART.pdf` | the 2026 fixtures/bracket reference for `index.html` | committed locally | — | **BBC copyright.** Reference only, do not redistribute. |
 
+## Part 2 — team-state research (2026-06-07 snapshot)
+
+| source | provides | files / cache | how pulled | notes |
+|---|---|---|---|---|
+| **team_match_log.csv (this repo)** | derived form, 2026 warm-up results, streaks, rest days | `team_state_form.csv` | `build_team_state.py` (no external calls) | 100% covered; reproducible from the match data. |
+| **Web research** (Wikipedia "2026 FIFA World Cup squads", ESPN squad & injury trackers, Yahoo Sports WC tracker, Al Jazeera, FIFA.com, BBC, Sky Sports, transfermarkt, national outlets) | current coach + recent changes, injuries/doubts/suspensions, key players, warm-up read, momentum, news | `data/part2_raw/<team>.json` (committed) → `team_state.csv`, `team_injuries.csv`, `team_news.csv`, `team_key_players.csv` | parallel cited research agents; assembled by `build_part2.py` | **Every injury (77) and news (144) row carries a real `source_url`.** No fabrication: injuries found for 36/48 teams, rest left blank. Each source's own terms apply; URLs retained for attribution/audit. |
+
 ## API keys
 
 Keys live in `.env` (gitignored, never committed). To rebuild the API layers, create

@@ -1,0 +1,39 @@
+{
+  "team": "Australia",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Tony Popovic",
+  "coach_nationality": "Australia",
+  "coach_appointed": "2024-09",
+  "recent_coach_change": "Popovic took over in September 2024, replacing Graham Arnold; led Australia on an eight-game unbeaten run to direct qualification. No change since.",
+  "base_formation": "Balanced structure built around a veteran spine; back four with experienced GK Mathew Ryan",
+  "qualification_path": "Qualified directly via AFC third round (Group C runners-up), reaching the World Cup without a playoff for the first time since 2014.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Mathew Ryan (GK) — captain, 104 caps, experienced leader anchoring the defense",
+    "Jackson Irvine (33, 81 caps) — midfield leader and energy",
+    "Harry Souttar — returning centre-back providing aerial presence",
+    "Nestory Irankunda (Watford) — rising 20-year-old winger with pace and shooting power",
+    "Mohamed Toure (Norwich) — young striker, nine Championship goals"
+  ],
+  "injuries_doubts": [
+    {"player":"Riley McGree","issue":"hamstring injury suffered in Middlesbrough's Championship play-off final defeat to Hull City","status":"out","source_url":"https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html"},
+    {"player":"Hayden Matthews","issue":"withdrew pre-tournament","status":"out","source_url":"https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html"},
+    {"player":"Nick D'Agostino","issue":"withdrew pre-tournament","status":"out","source_url":"https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html"}
+  ],
+  "squad_notes": "Popovic named his 26-man squad on June 1, 2026 after an extended camp in Sarasota, Florida (running since April), rotating eight players in and eight out. Cristian Volpato (Sassuolo) was a notable inclusion after switching allegiance from Italy; Tete Yengi was also a first-time call-up. Harry Souttar and Matthew Leckie returned from long absences, as did Jackson Irvine, Mohamed Toure and Cameron Devlin. Veteran Martin Boyle was omitted. 17 players set for World Cup debuts.",
+  "warmup_assessment": "Underwhelming final tune-up. Australia lost 1-0 to Mexico in their last friendly on June 2, 2026. Leckie's appearance in that match was his first since June 2024 following hip surgery in December 2025.",
+  "shape_verdict": "An experienced, well-drilled but goal-light Socceroos side leaning on a veteran spine and youthful wide threats. Losing creator Riley McGree to injury on the eve of the tournament dents their attacking depth.",
+  "momentum": "steady",
+  "news": [
+    {"date":"2026-06-01","category":"squad","headline":"Tony Popovic names 26-man Socceroos World Cup squad; Volpato switches from Italy, Boyle omitted","source_url":"https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/tony-popovic-s-official-australia-squad-for-the-2026-fifa-world-cup-2026-06-01"},
+    {"date":"2026-06-02","category":"form","headline":"Australia fall 1-0 to Mexico in final pre-World Cup friendly","source_url":"https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html"},
+    {"date":"2026-05-24","category":"injury","headline":"Riley McGree suffers hamstring injury in Middlesbrough play-off final, ruled out of World Cup","source_url":"https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html"},
+    {"date":"2026-06-01","category":"squad","headline":"Socceroos squad notes: two potential debutants, five returnees for World Cup 2026","source_url":"https://socceroos.com.au/news/squad-notes-two-potential-debutants-five-return-fifa-world-cup-2026tm"}
+  ],
+  "sources": [
+    "https://sports.yahoo.com/articles/inside-australias-world-cup-roster-011010681.html",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/tony-popovic-s-official-australia-squad-for-the-2026-fifa-world-cup-2026-06-01",
+    "https://socceroos.com.au/news/squad-notes-two-potential-debutants-five-return-fifa-world-cup-2026tm",
+    "https://www.fifaworldcupnews.com/australia-world-cup-2026-squad/"
+  ]
+}

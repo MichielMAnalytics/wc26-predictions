@@ -1,0 +1,43 @@
+{
+  "team": "Canada",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Jesse Marsch",
+  "coach_nationality": "United States",
+  "coach_appointed": "2024",
+  "recent_coach_change": "No recent change; Marsch (appointed 2024) signed a contract extension ahead of the tournament and leads Canada into his first World Cup as host-nation manager.",
+  "base_formation": "",
+  "qualification_path": "Automatic qualification as co-host nation (Canada, Mexico, USA host 2026).",
+  "qualification_convincingness": "host",
+  "key_players": [
+    "Alphonso Davies (Bayern Munich) — captain and talisman, returning from hamstring trouble",
+    "Jonathan David (Juventus) — lead striker, moved to Juventus and key goal threat",
+    "Tajon Buchanan (Villarreal) — wide attacker",
+    "Stephen Eustaquio (FC Porto) — midfield anchor",
+    "Cyle Larin — experienced forward option"
+  ],
+  "injuries_doubts": [
+    {"player": "Alphonso Davies", "issue": "hamstring injury", "status": "doubt", "source_url": "https://rg.org/en-ca/sportsbooks/world-cup-2026/canada"},
+    {"player": "Marcelo Flores", "issue": "torn ACL (right knee) suffered in Concacaf Champions Cup tie", "status": "out", "source_url": "https://www.foxsports.com/stories/soccer/canadas-marcelo-flores-ruled-out-world-cup-acl-injury"},
+    {"player": "Moise Bombito", "issue": "leg injury, recovered", "status": "returned", "source_url": "https://www.foxsports.com/stories/soccer/winners-and-losers-from-canadas-world-cup-squad-promise-davids-recovery-alphonso-davies-progress-and-ralph-prisos-heartbreak"},
+    {"player": "Promise David", "issue": "hip surgery earlier in 2026, recovered", "status": "returned", "source_url": "https://www.foxsports.com/stories/soccer/winners-and-losers-from-canadas-world-cup-squad-promise-davids-recovery-alphonso-davies-progress-and-ralph-prisos-heartbreak"}
+  ],
+  "squad_notes": "Marsch revealed his final 26 (3 GK, 9 DF, 10 MF, 4 FW) on May 29, 2026 via a CN Tower TV special after a 32-man preliminary squad on May 25. He called it the best squad Canada has assembled. Injuries shaped the selection, most notably Marcelo Flores withdrawing with an ACL tear; Maxime Crepeau and Dayne St. Clair competed for the No. 1 spot.",
+  "warmup_assessment": "Positive momentum: Canada beat Uzbekistan 2-0 in Edmonton on June 1, 2026 (Jonathan Osorio and Jayden Nelson scoring), with a final tune-up against the Republic of Ireland before the June 12 opener.",
+  "shape_verdict": "Canada look upbeat and well-organized under Marsch as hosts, but the squad is four years older than 2022 and the fitness of captain Alphonso Davies is the key unknown.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-05-31", "category": "injury", "headline": "Marcelo Flores ruled out of World Cup with ACL injury", "source_url": "https://www.foxsports.com/stories/soccer/canadas-marcelo-flores-ruled-out-world-cup-acl-injury"},
+    {"date": "2026-06-01", "category": "form", "headline": "Canada beat Uzbekistan 2-0 in pre-World Cup friendly", "source_url": "https://www.mlssoccer.com/news/osorio-nelson-lead-canada-to-win-over-uzbekistan-in-pre-world-cup-friendly"},
+    {"date": "2026-05-29", "category": "squad", "headline": "Jesse Marsch names final 26-man Canada World Cup squad", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/jesse-marsch-and-canada-s-official-fifa-world-cup-squad-2026-05-30"}
+  ],
+  "sources": [
+    "https://www.fourfourtwo.com/team/canada-world-cup-2026-squad",
+    "https://rg.org/en-ca/sportsbooks/world-cup-2026/canada",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/jesse-marsch-and-canada-s-official-fifa-world-cup-squad-2026-05-30",
+    "https://www.foxsports.com/stories/soccer/winners-and-losers-from-canadas-world-cup-squad-promise-davids-recovery-alphonso-davies-progress-and-ralph-prisos-heartbreak",
+    "https://www.foxsports.com/stories/soccer/canadas-marcelo-flores-ruled-out-world-cup-acl-injury",
+    "https://www.mlssoccer.com/news/osorio-nelson-lead-canada-to-win-over-uzbekistan-in-pre-world-cup-friendly",
+    "https://www.espn.com/soccer/match/_/gameId/401853575/uzbekistan-canada",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads"
+  ]
+}

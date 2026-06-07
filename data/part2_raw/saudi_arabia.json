@@ -1,0 +1,38 @@
+{
+  "team": "Saudi Arabia",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Georgios Donis",
+  "coach_nationality": "Greek",
+  "coach_appointed": "2026-04 (appointed weeks before the finals after Renard's dismissal)",
+  "recent_coach_change": "Yes — the Saudi Football Federation sacked Herve Renard on 17 April 2026 and appointed Greek coach Georgios Donis just two months before the tournament.",
+  "base_formation": "",
+  "qualification_path": "Reached the finals via the AFC fourth round, finishing first in their group ahead of Iraq and Indonesia after failing to qualify directly in the earlier third round (finished third behind Japan and Australia).",
+  "qualification_convincingness": "scraped",
+  "key_players": [
+    "Salem Al-Dawsari (Al-Hilal) — captain and 2025 AFC Player of the Year, talisman who scored the famous winner against Argentina in 2022",
+    "Saud Abdulhamid (RC Lens) — right-back, the only squad member playing outside the Saudi domestic league",
+    "Feras Al-Buraikan (Al-Ahli) — striker who scored five goals in qualifying",
+    "Abdullah Al-Hamddan — forward, scored in the Puerto Rico warm-up win",
+    "Sultan Mandash — scored in the Puerto Rico warm-up win"
+  ],
+  "injuries_doubts": [
+    {"player": "Salman Al-Faraj", "issue": "Veteran midfielder omitted by Donis after an injury-plagued spell; not selected despite returning to friendlies under Renard", "status": "out", "source_url": "https://www.fourfourtwo.com/team/saudi-arabia-world-cup-2026-squad"}
+  ],
+  "squad_notes": "Major late managerial upheaval with Donis replacing Renard. Final 26-man squad confirmed ahead of FIFA's 2 June deadline (preliminary 30 on 23 May, final on 31 May). Squad is almost entirely domestic-based (only Saud Abdulhamid plays abroad). Veteran Salman Al-Faraj left out by the new coach.",
+  "warmup_assessment": "Encouraging under the new boss: Saudi Arabia recorded a 3-0 win over Puerto Rico in Austin (their first under Donis), a match disrupted for nearly two hours by severe weather, with goals from Mandash, Al-Hamddan and Al-Dawsari.",
+  "shape_verdict": "A domestically based side rebuilding under a coach appointed only weeks ago; a tidy 3-0 warm-up win offers some optimism but the late coaching change and a scrappy qualification leave them as clear group underdogs against Spain and Uruguay.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-06-06", "category": "form", "headline": "Saudi Arabia beat Puerto Rico 3-0 after weather delay in first win under Donis", "source_url": "https://english.aawsat.com/sports/5280994-saudi-arabia-beat-puerto-rico-3-0-after-weather-delay"},
+    {"date": "2026-05-31", "category": "squad", "headline": "Donis names final 26-man Saudi squad; Salem Al-Dawsari leads attack", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/saudi-arabia-at-the-2026-world-cup-squad-key-players-and-everything-you-need-to-know-2026-06-01"},
+    {"date": "2026-04-17", "category": "manager", "headline": "Saudi Arabia sack Herve Renard and turn to Georgios Donis weeks before the World Cup", "source_url": "https://english.alarabiya.net/sports/2026/05/25/saudi-arabia-s-fifa-world-cup-2026-squad-who-s-in-and-who-s-out"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/saudi-arabia-at-the-2026-world-cup-squad-key-players-and-everything-you-need-to-know-2026-06-01",
+    "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-h-preview-spain-cape-verde-saudi-arabia-uruguay",
+    "https://english.alarabiya.net/sports/2026/05/25/saudi-arabia-s-fifa-world-cup-2026-squad-who-s-in-and-who-s-out",
+    "https://www.fourfourtwo.com/team/saudi-arabia-world-cup-2026-squad",
+    "https://english.aawsat.com/sports/5280994-saudi-arabia-beat-puerto-rico-3-0-after-weather-delay",
+    "https://www.olympics.com/en/news/fifa-world-cup-2026-saudi-arabia-all-players-full-squad-list-key-stats-schedule"
+  ]
+}

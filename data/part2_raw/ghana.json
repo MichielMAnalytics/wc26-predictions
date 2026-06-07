@@ -1,0 +1,40 @@
+{
+  "team": "Ghana",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Carlos Queiroz",
+  "coach_nationality": "Portugal",
+  "coach_appointed": "2026-04-14",
+  "recent_coach_change": "Yes - major recent change. Otto Addo was dismissed in March 2026 and replaced by veteran Portuguese coach Carlos Queiroz, appointed on 14 April 2026, just two months before the World Cup.",
+  "base_formation": "Built around high intensity, quick transitions and vertical attacks; Queiroz typically favours a compact, organised structure (4-3-3 / 4-2-3-1)",
+  "qualification_path": "Won CAF Group I with 25 points (8 wins, 1 draw, 1 defeat), finishing ahead of Madagascar and Mali. Sealed qualification on 12 October 2025 with a 1-0 home win over Comoros, Mohammed Kudus scoring the decisive goal.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Antoine Semenyo (Bournemouth) — primary attacking threat following Kudus' absence; pace, power and one-v-one ability",
+    "Thomas Partey (free agent/veteran) — experienced midfield anchor headlining the squad",
+    "Mohammed Salisu (defender) — defensive leader",
+    "Jordan Ayew (forward) — experienced attacker and senior figure",
+    "Lawrence Ati-Zigi (goalkeeper) — first-choice keeper, started the Wales friendly"
+  ],
+  "injuries_doubts": [
+    {"player": "Mohammed Kudus", "issue": "Quadriceps muscle injury suffered in January with the Tottenham; complications in recovery ruled him out of the tournament entirely", "status": "out", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/mohammed-kudus-ruled-out-of-the-2026-world-cup-as-ghana-loses-one-of-its-biggest-stars-ahead-of-the-tournament-2026-05-26"},
+    {"player": "Alexander Djiku", "issue": "Centre-back sidelined by injury, missed the cut", "status": "out", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/ghana-at-the-2026-fifa-world-cup-squad-schedule-and-everything-you-need-to-know-2026-05-27"}
+  ],
+  "squad_notes": "Queiroz named his final 26-man squad after trimming a 28-man pre-tournament camp in Cardiff, Wales. Star attacker Mohammed Kudus was ruled out injured. Former captain Andre Ayew missed the cut, ending what would have been his fourth World Cup. Centre-back Alexander Djiku also out injured. Antoine Semenyo and Thomas Partey headline the squad.",
+  "warmup_assessment": "Underwhelming. Ghana drew 1-1 with Wales in Cardiff on 2 June 2026, conceding a stoppage-time equaliser to substitute Lewis Koumas after Caleb Yirenkyi had put them ahead, before flying to Washington to continue preparations.",
+  "shape_verdict": "Ghana qualified comfortably but arrive destabilised by a March coaching change and the loss of talisman Kudus to injury; a late equaliser conceded against Wales underlined lingering defensive fragility under new boss Queiroz.",
+  "news": [
+    {"date": "2026-04-14", "category": "manager", "headline": "Carlos Queiroz appointed Ghana head coach for the 2026 World Cup, replacing the dismissed Otto Addo", "source_url": "https://www.aljazeera.com/sports/2026/4/14/carlos-queiroz-named-ghana-head-coach-before-world-cup"},
+    {"date": "2026-05-26", "category": "injury", "headline": "Mohammed Kudus ruled out of the 2026 World Cup with a quadriceps injury", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/mohammed-kudus-ruled-out-of-the-2026-world-cup-as-ghana-loses-one-of-its-biggest-stars-ahead-of-the-tournament-2026-05-26"},
+    {"date": "2026-06-02", "category": "form", "headline": "Wales 1-1 Ghana in pre-World Cup friendly; Black Stars concede late equaliser", "source_url": "https://www.espn.com/soccer/match/_/gameId/401863573/ghana-wales"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/ghana-at-the-2026-fifa-world-cup-squad-schedule-and-everything-you-need-to-know-2026-05-27",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/mohammed-kudus-ruled-out-of-the-2026-world-cup-as-ghana-loses-one-of-its-biggest-stars-ahead-of-the-tournament-2026-05-26",
+    "https://www.aljazeera.com/sports/2026/4/14/carlos-queiroz-named-ghana-head-coach-before-world-cup",
+    "https://www.ghanafa.org/carlos-queiroz-appointed-black-stars-head-coach-for-2026-fifa-world-cup",
+    "https://www.espn.com/soccer/match/_/gameId/401863573/ghana-wales",
+    "https://www.espn.com/espn/story/_/id/48878999/antoine-semenyo-thomas-partey-headline-ghana-provisional-fifa-world-cup-squad-injured-mohammed-kudus-out",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_CAF_Group_I",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/ghana-qualify"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "team": "DR Congo",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Sebastien Desabre",
+  "coach_nationality": "French",
+  "coach_appointed": "August 2022",
+  "recent_coach_change": "No recent change; Desabre has led the Leopards since August 2022 (succeeding Hector Cuper) and guided their return to the World Cup.",
+  "base_formation": "4-2-3-1 / 4-3-3",
+  "qualification_path": "Finished second in CAF qualifying Group B behind Senegal (22 points), then won the CAF play-off mini-tournament in Morocco (beat Cameroon and Nigeria on penalties) before defeating Jamaica 1-0 in the intercontinental play-off final. First World Cup since 1974 (as Zaire).",
+  "qualification_convincingness": "playoff",
+  "key_players": [
+    "Chancel Mbemba (free agent / Olympique de Marseille) — captain and leader, scored the decisive play-off penalties",
+    "Yoane Wissa (Newcastle United) — most influential attacker, strong in the Denmark warm-up",
+    "Aaron Wan-Bissaka (West Ham United) — experienced right-back who switched allegiance to DR Congo",
+    "Axel Tuanzebe — defender adding Premier League experience"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "26-man squad announced 18 May 2026. Belgium-born Mario Stroeykens and France-born Warren Bondo both miss out after declaring for DR Congo, as does former Manchester United and France youth defender Willy Kambwala. Squad mixes diaspora talent from Europe with the captain Mbemba.",
+  "warmup_assessment": "Drew 0-0 with Denmark on 3 June 2026 in Liege, a competitive showing with Wissa a constant outlet; a further friendly against Chile was scheduled for 9 June.",
+  "momentum": "steady",
+  "shape_verdict": "DR Congo arrive as plucky play-off qualifiers on their first World Cup in 52 years, organised under Desabre and led by Mbemba and Wissa, but lacking the elite depth of the group's bigger names.",
+  "news": [
+    {"date": "2026-05-18", "category": "squad", "headline": "Desabre names DR Congo's 26-man squad for first World Cup since 1974", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/congo-dr-squad-announcement-sebastien-desabre"},
+    {"date": "2026-06-03", "category": "form", "headline": "DR Congo held to 0-0 draw by Denmark in World Cup warm-up in Liege", "source_url": "https://roundtable.io/sports/soccer/premier-league/newcastle-united/news/osula-v-wissa-denmark-congo-dr-in-world-cup-warm-up-0-0-draw"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/congo-dr-squad-announcement-sebastien-desabre",
+    "https://www.fourfourtwo.com/team/dr-congo-world-cup-2026-squad",
+    "https://en.wikipedia.org/wiki/S%C3%A9bastien_Desabre",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/congo-dr-at-the-2026-fifa-world-cup-squad-schedule-and-everything-you-need-to-know-2026-05-18",
+    "https://roundtable.io/sports/soccer/premier-league/newcastle-united/news/osula-v-wissa-denmark-congo-dr-in-world-cup-warm-up-0-0-draw"
+  ]
+}

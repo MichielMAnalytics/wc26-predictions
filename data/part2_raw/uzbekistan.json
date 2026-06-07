@@ -1,0 +1,31 @@
+{
+  "team": "Uzbekistan",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Fabio Cannavaro",
+  "coach_nationality": "Italian",
+  "coach_appointed": "October 2025",
+  "recent_coach_change": "Yes. Timur Kapadze guided Uzbekistan to qualification, then Italian World Cup winner Fabio Cannavaro was appointed in October 2025, inheriting an already-qualified side; Kapadze stepped back into the staff.",
+  "base_formation": "Defensively oriented (squad carries 13 defenders)",
+  "qualification_path": "Finished second in their AFC third-round qualifying group behind Iran (ahead of UAE, Qatar, Kyrgyzstan and North Korea), sealing qualification with a goalless draw away to the UAE in June 2025. First-ever World Cup and first Central Asian nation to qualify.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Abdukodir Khusanov (Manchester City) — 22-year-old defender, the only squad member at the top level of European football",
+    "Eldor Shomurodov (Istanbul Basaksehir) — captain and all-time top scorer (44 international goals)"
+  ],
+  "injuries_doubts": [],
+  "squad_notes": "Cannavaro announced the 26-man squad on 2 June 2026, hours before FIFA's deadline. Squad is defence-heavy (3 GKs, 13 defenders, 6 midfielders, 7 forwards) and largely domestic-based, with Khusanov at Manchester City the standout name playing in elite European football.",
+  "warmup_assessment": "Lost 2-0 to Canada in Edmonton in their first warm-up (Osorio and Nelson scored, Khusanov played the full match); a final friendly against the Netherlands was set for 8 June 2026.",
+  "momentum": "steady",
+  "shape_verdict": "Tournament debutants arriving with modest expectations: well-organised defensively and buoyed by their historic qualification, but thin on elite attacking quality and tested by stronger opponents in warm-ups.",
+  "news": [
+    {"date": "2026-06-02", "category": "squad", "headline": "Cannavaro names Uzbekistan's 26 for first World Cup; Khusanov and Shomurodov lead", "source_url": "https://onefootball.com/en/news/fabio-cannavaro-names-uzbekistans-26-for-first-world-cup-abdukodir-khusanov-included-42959731"},
+    {"date": "2026-06-07", "category": "form", "headline": "Uzbekistan beaten 2-0 by Canada in pre-World Cup warm-up in Edmonton", "source_url": "https://sports.yahoo.com/articles/khusanov-features-uzbekistan-073600241.html"}
+  ],
+  "sources": [
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/fabio-cannavaro-s-official-squad-for-uzbekistan-at-the-2026-fifa-world-cup-2026-06-02",
+    "https://onefootball.com/en/news/fabio-cannavaro-names-uzbekistans-26-for-first-world-cup-abdukodir-khusanov-included-42959731",
+    "https://www.nst.com.my/amp/sports/football/2026/06/1453855/shomurodov-and-khusanov-lead-uzbekistans-first-world-cup-squad",
+    "https://sports.yahoo.com/articles/khusanov-features-uzbekistan-073600241.html",
+    "https://en.wikipedia.org/wiki/Uzbekistan_national_football_team"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "team": "Belgium",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Rudi Garcia",
+  "coach_nationality": "French",
+  "coach_appointed": "January 24, 2025",
+  "recent_coach_change": "Yes — Rudi Garcia appointed in January 2025, replacing Domenico Tedesco, on a contract running through the 2026 World Cup.",
+  "base_formation": "4-2-3-1",
+  "qualification_path": "Qualified by topping UEFA qualifying Group J unbeaten (W5 D3 L0, 29 goals for, 7 against), sealing it with a 7-0 win over Liechtenstein; group also contained Wales, North Macedonia and Kazakhstan.",
+  "qualification_convincingness": "comfortable",
+  "key_players": [
+    "Kevin De Bruyne (Napoli) — playmaker at a fourth successive World Cup after his move to Napoli",
+    "Thibaut Courtois (Real Madrid) — first-choice goalkeeper and defensive anchor",
+    "Romelu Lukaku (n/a) — veteran striker, selected despite an injury-affected season for his World Cup scoring record",
+    "Jeremy Doku (Manchester City) — explosive winger and primary attacking threat",
+    "Leandro Trossard (Arsenal) — versatile forward providing depth and goals"
+  ],
+  "injuries_doubts": [
+    {"player": "Romelu Lukaku", "issue": "Limited playing time due to injury during the club season", "status": "returned", "source_url": "https://onefootball.com/en/news/rudi-garcia-names-belgium-squad-for-world-cup-42870752"},
+    {"player": "Malick Fofana", "issue": "Top scorer in qualifying but omitted from the final 26-man squad", "status": "out", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/rudi-garcia-s-official-belgium-squad-for-the-2026-fifa-world-cup-2026-05-15"}
+  ],
+  "squad_notes": "Garcia kept faith with the golden-generation veterans (De Bruyne, Lukaku, Courtois) while blending younger talent. Youri Tielemans was handed the captain's armband. The biggest talking point was the omission of qualifying top scorer Malick Fofana.",
+  "warmup_assessment": "Mixed warm-ups: a 0-0 draw away to North Macedonia in Skopje on June 6, 2026, then a 4-3 win over Wales in Brussels on June 9. Attacking output was strong but the defense looked leaky.",
+  "shape_verdict": "A deep, experienced squad and a comfortable qualifying campaign make Belgium clear Group G favorites, but an aging core and shaky defensive showings in warm-ups leave questions over their ceiling.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-05-15", "category": "squad", "headline": "Rudi Garcia names 26-man squad: De Bruyne, Lukaku and Courtois in, qualifying top scorer Malick Fofana left out, Tielemans captain", "source_url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/rudi-garcia-s-official-belgium-squad-for-the-2026-fifa-world-cup-2026-05-15"},
+    {"date": "2026-06-06", "category": "form", "headline": "Belgium held to 0-0 draw away to North Macedonia in World Cup warm-up", "source_url": "https://www.football365.com/news/world-cup-2026-warm-up-friendly-fixtures-results-kick-off-times-what-tv-channel"},
+    {"date": "2026-06-09", "category": "form", "headline": "Belgium beat Wales 4-3 in final pre-World Cup friendly in Brussels", "source_url": "https://www.football365.com/news/world-cup-2026-warm-up-friendly-fixtures-results-kick-off-times-what-tv-channel"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/articles/rudi-garcia-appointed-belgium-coach",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/rudi-garcia-s-official-belgium-squad-for-the-2026-fifa-world-cup-2026-05-15",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-squad-garcia-lukaku-named",
+    "https://onefootball.com/en/news/rudi-garcia-names-belgium-squad-for-world-cup-42870752",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification_%E2%80%93_UEFA_Group_J",
+    "https://www.football365.com/news/world-cup-2026-warm-up-friendly-fixtures-results-kick-off-times-what-tv-channel"
+  ]
+}

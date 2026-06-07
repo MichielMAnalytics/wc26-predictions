@@ -1,0 +1,38 @@
+{
+  "team": "Morocco",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Mohamed Ouahbi",
+  "coach_nationality": "Moroccan",
+  "coach_appointed": "2026-03",
+  "recent_coach_change": "Yes. Walid Regragui departed in March 2026 (following the AFCON final loss to Senegal and reported friction with the federation). Mohamed Ouahbi, 49, who had led Morocco's U-20 side to the 2025 U-20 World Cup title, was promoted to the senior role just months before the World Cup.",
+  "base_formation": "",
+  "qualification_path": "Qualified by winning CAF Group E with a perfect record, becoming the first African nation to secure a 2026 berth, sealing it with two matchdays to spare.",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Achraf Hakimi (PSG) — captain, named CAF African Player of the Year after a treble-winning PSG season",
+    "Brahim Diaz (Real Madrid) — won the AFCON Golden Boot with five goals but missed a key penalty in the final",
+    "Bilal El Khannouss (Stuttgart) — provides creativity and technical control in midfield",
+    "Sofyan Amrabat (Real Betis) — anchors the midfield",
+    "Yassine Bono (goalkeeper) — experienced number one"
+  ],
+  "injuries_doubts": [
+    {"player": "Nayef Aguerd", "issue": "Selected despite not having played since March due to injury", "status": "doubt", "source_url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"}
+  ],
+  "squad_notes": "Notable omission of Youssef En-Nesyri (scorer in the 2022 quarter-final). Bright inclusion of 18-year-old Ayyoub Bouaddi (Lille), who switched allegiance from France's youth teams. Squad built around the core of the 2022 semi-final side.",
+  "warmup_assessment": "Positive. Morocco beat Madagascar 4-0 in Rabat on 2 June (Saibari brace, Rahimi penalty, El Kaabi) after a closed-doors game vs Burundi, and closed preparations against Norway in New Jersey on 7 June; the team looked well-drilled and confident under Ouahbi.",
+  "shape_verdict": "Morocco look organised and confident going in, riding a perfect qualifying record and strong warm-up form, though the abrupt promotion of an untested senior coach in Ouahbi just before the tournament is a question mark.",
+  "momentum": "rising",
+  "news": [
+    {"date": "2026-06-02", "category": "form", "headline": "Morocco win World Cup warm-up 4-0 against Madagascar", "source_url": "https://www.moroccoworldnews.com/2026/06/313612/world-cup-preparatory-campaign-morocco-wins-friendly-game-2-0-against-madagascar/"},
+    {"date": "2026-06-03", "category": "squad", "headline": "Morocco World Cup 2026 preview: players to watch, group and squad list", "source_url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"},
+    {"date": "2026-03-05", "category": "manager", "headline": "Mohamed Ouahbi replaces Walid Regragui as Morocco coach", "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco"}
+  ],
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mohamed-ouahbi-replaces-walid-regragui-morocco",
+    "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list",
+    "https://www.cafonline.com/fifa-world-cup/news/morocco-first-african-nation-to-punch-2026-world-cup-ticket-group-races-tighten/",
+    "https://www.moroccoworldnews.com/2026/06/313612/world-cup-preparatory-campaign-morocco-wins-friendly-game-2-0-against-madagascar/",
+    "https://www.fourfourtwo.com/team/morocco-world-cup-2026-squad",
+    "https://www.espn.com/soccer/match/_/gameId/401866598/norway-morocco"
+  ]
+}

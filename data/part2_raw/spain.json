@@ -1,0 +1,41 @@
+{
+  "team": "Spain",
+  "snapshot_date": "2026-06-07",
+  "head_coach": "Luis de la Fuente",
+  "coach_nationality": "Spanish",
+  "coach_appointed": "2022-12 (took over after Luis Enrique following the 2022 World Cup)",
+  "recent_coach_change": "No recent change; De la Fuente has been in charge since late 2022 and won Euro 2024.",
+  "base_formation": "4-3-3",
+  "qualification_path": "Qualified as winners of UEFA qualifying Group E, taking 16 of a possible 18 points (5 wins, 1 draw).",
+  "qualification_convincingness": "dominant",
+  "key_players": [
+    "Lamine Yamal (FC Barcelona) — star winger, Euro 2024 champion, dazzling club season though carrying a minor knock into camp",
+    "Rodri (Manchester City) — captain and 2024 Ballon d'Or winner, midfield anchor and most-capped player in the squad",
+    "Pedri (FC Barcelona) — chief playmaker providing vision and tempo control",
+    "Nico Williams (Athletic Club) — pacey winger, one of the squad's attacking outlets",
+    "Mikel Merino (Arsenal) — versatile midfielder coming off a strong Premier League campaign"
+  ],
+  "injuries_doubts": [
+    {"player": "Lamine Yamal", "issue": "Minor knock; rested for the Iraq warm-up but expected fit for the opener", "status": "doubt", "source_url": "https://www.espn.com/soccer/story/_/id/48957472/spain-lamine-yamal-injury-2026-world-cup-cape-verde-de-la-fuente"},
+    {"player": "Nico Williams", "issue": "Carrying an injury; did not play the Iraq warm-up", "status": "doubt", "source_url": "https://russpain.com/en/news-3/spain-begins-2026-world-cup-prep-with-iraq-match-in-la-coruna-476870/"},
+    {"player": "Victor Munoz", "issue": "Injured; did not feature in the Iraq warm-up", "status": "doubt", "source_url": "https://www.espn.com/soccer/story/_/id/48957472/spain-lamine-yamal-injury-2026-world-cup-cape-verde-de-la-fuente"}
+  ],
+  "squad_notes": "No Real Madrid players were included in the final 26. Rodri named captain; goalkeepers are Unai Simon (Athletic Club), David Raya (Arsenal) and Joan Garcia (Barcelona), with Alex Remiro left out. Gavi returns to the squad after recovering from a serious knee injury.",
+  "warmup_assessment": "Underwhelming on the scoreline: a heavily rotated Spain were held to a 1-1 draw by Iraq in La Coruna on June 5, 2026 (Ferran Torres scored), with De la Fuente resting most first-choice players and handing several youngsters debuts.",
+  "shape_verdict": "Spain arrive as one of the tournament favourites with an elite, deep squad, though several key attackers are managing knocks and a tired post-Champions-League core means fitness management is the main concern.",
+  "momentum": "steady",
+  "news": [
+    {"date": "2026-06-05", "category": "form", "headline": "Rotated Spain held to 1-1 draw by Iraq in final World Cup warm-up", "source_url": "https://en.tempo.co/read/2106935/spain-holds-iraq-to-1-1-draw-at-2026-world-cup-friendlies"},
+    {"date": "2026-06-04", "category": "injury", "headline": "De la Fuente expects Lamine Yamal to be fit for World Cup opener despite missing warm-up", "source_url": "https://www.espn.com/soccer/story/_/id/48957472/spain-lamine-yamal-injury-2026-world-cup-cape-verde-de-la-fuente"},
+    {"date": "2026-06-01", "category": "squad", "headline": "Spain name 26-man World Cup squad with no Real Madrid players; Rodri captain", "source_url": "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed-lamine-yamal-stars-no-real-madrid-players"}
+  ],
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48870392/spain-world-cup-2026-squad-confirmed-lamine-yamal-stars-no-real-madrid-players",
+    "https://www.espn.com/soccer/story/_/id/48957472/spain-lamine-yamal-injury-2026-world-cup-cape-verde-de-la-fuente",
+    "https://www.mlssoccer.com/competitions/fifa-world-cup/news/2026-fifa-world-cup-group-h-preview-spain-cape-verde-saudi-arabia-uruguay",
+    "https://en.tempo.co/read/2106935/spain-holds-iraq-to-1-1-draw-at-2026-world-cup-friendlies",
+    "https://russpain.com/en/news-3/spain-begins-2026-world-cup-prep-with-iraq-match-in-la-coruna-476870/",
+    "https://news.williamhill.com/football/world-cup/spain/",
+    "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/spain-at-the-2026-fifa-world-cup-squad-schedule-and-everything-you-need-to-know-2026-05-25"
+  ]
+}

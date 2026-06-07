@@ -1,10 +1,23 @@
-# Part 2 schema — recent team developments (DESIGN ONLY, not yet populated)
+# Part 2 schema — recent team developments
 
-> Status: **schema only.** No data has been collected for Part 2. This document
-> defines the tables and columns so collection can start once Part 1 is signed off.
-> All Part 2 collection must follow the same rules as Part 1: scripted (`fetch_*.py`),
-> raw pulls cached as `data/*_raw.*`, no fabrication, blanks where unknown, coverage
-> recorded. One row is never hand-edited.
+> Status: **populated (qualitative layer), 2026-06-07 snapshot.** The coach / form /
+> injuries / news / momentum layer is collected for all 48 teams; see the tables below.
+> Still open: full 26-man squad rosters (we have 3–5 *key players* per team, not the
+> complete roster) and per-player club-season stat lines.
+>
+> What was built (`build_team_state.py` + `build_part2.py`, from cited research in
+> `data/part2_raw/<team>.json`):
+> | file | rows | grain |
+> |---|---|---|
+> | `team_state.csv` | 48 | one row per team — derived form + researched coach/qual/momentum/shape verdict |
+> | `team_injuries.csv` | 77 | one row per injury/doubt/suspension (100% cited) |
+> | `team_news.csv` | 144 | one row per dated news item (100% cited) |
+> | `team_key_players.csv` | 232 | one row per key-player note |
+> | `team_state_form.csv` | 48 | derived-only form/warm-up signals (no external calls) |
+>
+> Rules followed: scripted + cached (raw research JSON per team under `data/part2_raw/`),
+> no fabrication (honest blanks — injuries found for 36/48, the rest left empty), every
+> injury and news row carries a real `source_url`. The original schema design follows.
 
 Goal: per participating team, a super-detailed snapshot of the state going **into**
 the 2026 tournament — form, squad, injuries, manager/tactics, qualification path,
