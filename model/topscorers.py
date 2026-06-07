@@ -52,33 +52,52 @@ def exp_matches(team):
     return 3.0 + float(r["p_advance_R32"]) + float(r["p_reach_R16"]) + \
            float(r["p_reach_QF"]) + float(r["p_reach_SF"]) + float(r["p_final"])
 
-# team goal "mass": sum of squad international goals (the denominator for shares)
-mass = defaultdict(float)
-for p in roster:
-    if p["intl_goals"].isdigit(): mass[p["team"]] += int(p["intl_goals"])
+# current club-season form (2025-26), from Wikipedia (model/fetch_club_form.py)
+club = {}
+if os.path.exists("data/club_form_raw.csv"):
+    for r in csv.DictReader(open("data/club_form_raw.csv")):
+        if str(r["club_goals_2526"]).strip() and str(r["club_apps_2526"]).strip():
+            club[r["player"]] = (int(r["club_goals_2526"]), int(r["club_apps_2526"]))
 
-rows = []
-for p in roster:
-    team = p["team"]; pos = p["position"]
+def scoring_prop(p):
+    """Per-game scoring propensity: international history blended with current club form."""
     caps = int(p["caps"]) if p["caps"].isdigit() else 0
     g = int(p["intl_goals"]) if p["intl_goals"].isdigit() else 0
-    if caps < 5: continue                               # too little signal
-    # share of team goals, lightly shrunk toward the squad-average share
-    n = sum(1 for q in roster if q["team"] == team)
-    share = (g + 0.5) / (mass[team] + 0.5 * n)          # additive-smoothed share
+    career = (g + 0.6) / (caps + 5)                      # shrunk intl goals/cap
+    cf = club.get(p["player"])
+    if cf and cf[1] >= 3:
+        cg, ca = cf
+        club_rate = min(1.6, cg / ca)                    # cap absurd parses (low-apps)
+        w = min(0.55, ca / 45 * 0.55)                    # trust current form more with more apps
+        return (1 - w) * career + w * club_rate, cg, ca
+    return career, (cf[0] if cf else ""), (cf[1] if cf else "")
+
+# pass 1: per-player weight (prop × availability × mild age decay) and per-team totals
+weight = {}; meta = {}; team_w = defaultdict(float)
+for p in roster:
     av = avail_mult(p)
-    if av == 0.0: continue                              # ruled out / suspended
     age = int(p["age"]) if p["age"].isdigit() else 27
-    age_mult = max(0.4, min(1.0, 1 - 0.06*max(0, age-32)))   # output declines past ~32
+    age_mult = max(0.55, min(1.0, 1 - 0.05*max(0, age-34)))   # club form already captures most decline
+    prop, cg, ca = scoring_prop(p)
+    wt = prop * av * age_mult
+    weight[id(p)] = wt; meta[id(p)] = (cg, ca, prop)
+    team_w[p["team"]] += wt
+
+# pass 2: distribute each team's expected goals by weight share
+rows = []
+for p in roster:
+    caps = int(p["caps"]) if p["caps"].isdigit() else 0
+    if caps < 5 or weight[id(p)] == 0: continue
+    team = p["team"]
+    cg, ca, prop = meta[id(p)]
     tl, em = team_lambda(team), exp_matches(team)
-    team_total = tl * em                                # expected team goals over the tournament
-    exp_goals = share * team_total * av * age_mult      # doubts ×0.5, veterans decayed
+    exp_goals = (weight[id(p)] / team_w[team]) * tl * em
     rows.append({
-        "player": p["player"], "team": team, "position": pos,
-        "caps": caps, "intl_goals": g,
-        "exp_matches": round(em, 2), "team_xg_per_match": round(tl, 2),
-        "exp_goals": round(exp_goals, 2),
-        "scorito_ev": round(exp_goals * POS_W.get(pos, 8), 1),
+        "player": p["player"], "team": team, "position": p["position"],
+        "caps": caps, "intl_goals": int(p["intl_goals"]) if p["intl_goals"].isdigit() else 0,
+        "club_goals_2526": cg, "club_apps_2526": ca,
+        "exp_matches": round(em, 2), "exp_goals": round(exp_goals, 2),
+        "scorito_ev": round(exp_goals * POS_W.get(p["position"], 8), 1),
     })
 
 rows.sort(key=lambda r: -r["exp_goals"])

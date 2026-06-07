@@ -231,37 +231,37 @@ Expected tournament goals = career scoring rate × team expected goals (model at
 
 **Golden Boot (most goals):**
 
-| # | player | team | pos | exp. goals |
-|---|---|---|---|---|
-| 1 | Kylian Mbappé | France | FW | 7.50 |
-| 2 | Harry Kane | England | FW | 7.37 |
-| 3 | Romelu Lukaku | Belgium | FW | 4.56 |
-| 4 | Erling Haaland | Norway | FW | 4.49 |
-| 5 | Memphis Depay | Netherlands | FW | 4.05 |
-| 6 | Cristiano Ronaldo | Portugal | FW | 3.92 |
-| 7 | Ayoub El Kaabi | Morocco | FW | 3.84 |
-| 8 | Ferran Torres | Spain | FW | 3.70 |
-| 9 | Mikel Oyarzabal | Spain | FW | 3.70 |
-| 10 | Mehdi Taremi | Iran | FW | 3.35 |
-| 11 | Raúl Jiménez | Mexico | FW | 3.30 |
-| 12 | James Rodríguez | Colombia | MF | 3.14 |
+| # | player | team | pos | club 25/26 | exp. goals |
+|---|---|---|---|---|---|
+| 1 | Harry Kane | England | FW | 61g/51a | 4.19 |
+| 2 | Kylian Mbappé | France | FW | 42g/44a | 3.02 |
+| 3 | Lautaro Martínez | Argentina | FW | 22g/41a | 2.94 |
+| 4 | Erling Haaland | Norway | FW | 38g/52a | 2.92 |
+| 5 | Mikel Oyarzabal | Spain | FW | 18g/40a | 2.84 |
+| 6 | Ferran Torres | Spain | FW | — | 2.60 |
+| 7 | Deniz Undav | Germany | FW | 25g/46a | 2.40 |
+| 8 | Romelu Lukaku | Belgium | FW | 1g/7a | 2.38 |
+| 9 | Luis Suárez (footballer, born 1997) | Colombia | FW | 38g/53a | 2.28 |
+| 10 | Cristiano Ronaldo | Portugal | FW | 30g/37a | 2.12 |
+| 11 | Ayase Ueda | Japan | FW | 26g/40a | 2.04 |
+| 12 | Julián Alvarez | Argentina | FW | 20g/49a | 2.01 |
 
 **Best Scorito top-scorer picks** (expected goals × position points — DF/GK 32, MF 16, FW 8 per goal, so attacking defenders/mids are value):
 
 | player | team | pos | exp. goals | Scorito EV |
 |---|---|---|---|---|
-| Kylian Mbappé | France | FW | 7.50 | 60 |
-| Harry Kane | England | FW | 7.37 | 59 |
-| James Rodríguez | Colombia | MF | 3.14 | 50 |
-| Joshua Kimmich | Germany | DF | 1.30 | 41 |
-| Achraf Hakimi | Morocco | DF | 1.18 | 38 |
-| Romelu Lukaku | Belgium | FW | 4.56 | 36 |
-| Erling Haaland | Norway | FW | 4.49 | 36 |
-| Harry Souttar | Australia | DF | 1.09 | 35 |
-| Leroy Sané | Germany | MF | 2.16 | 34 |
-| Memphis Depay | Netherlands | FW | 4.05 | 32 |
-| Cristiano Ronaldo | Portugal | FW | 3.92 | 31 |
-| Yerry Mina | Colombia | DF | 0.96 | 31 |
+| Harry Kane | England | FW | 4.19 | 34 |
+| Harry Souttar | Australia | DF | 0.80 | 26 |
+| Keito Nakamura | Japan | MF | 1.54 | 25 |
+| Kylian Mbappé | France | FW | 3.02 | 24 |
+| Lautaro Martínez | Argentina | FW | 2.94 | 24 |
+| Erling Haaland | Norway | FW | 2.92 | 23 |
+| Ismael Saibari | Morocco | MF | 1.46 | 23 |
+| Mikel Oyarzabal | Spain | FW | 2.84 | 23 |
+| Maxim De Cuyper | Belgium | DF | 0.71 | 23 |
+| João Cancelo | Portugal | DF | 0.69 | 22 |
+| Mikel Merino | Spain | MF | 1.32 | 21 |
+| Gustavo Puerta | Colombia | DF | 0.66 | 21 |
 
 ## How to use / caveats
 

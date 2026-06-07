@@ -16,8 +16,9 @@ results_raw (martj42)
    ├─ model/adjust.py     bounded injury/momentum + market nudges        -> data/model/adjustments.csv
    ├─ model/simulate.py   N-tournament Monte Carlo (adj-aware)           -> data/model/sim_team_probs.csv
    ├─ model/predict.py    EV-optimal Scorito picks + bracket + champion  -> data/predictions/*.csv
-   ├─ model/topscorers.py expected goals per player -> Golden Boot +
-   │                      Scorito position-weighted picks                -> data/predictions/topscorers.csv
+   ├─ model/fetch_club_form.py 2025-26 club goals (Wikipedia)            -> data/club_form_raw.csv
+   ├─ model/topscorers.py intl rate × club form × team xG × matches ->
+   │                      Golden Boot + Scorito position-weighted picks  -> data/predictions/topscorers.csv
    └─ model/write_report.py (+ fill_sheet/inject_topscorers/build_public) -> SCORITO_PREDICTIONS.md, index.html
 ```
 
@@ -107,7 +108,9 @@ python3 build_dataset.py && python3 build_extras.py        # data spine (if not 
 - xG (StatsBomb, 173 matches) could replace goals in the fit where available for sharper rates.
 - Market odds now included (CBS Sports, cached) but it's a one-off snapshot — re-pull near
   kickoff for live movement. Only outright + group-winner were available, not per-match 1X2.
-- Top-scorer model uses career international scoring rate (no club-season form feed), so
-  it's age-decayed to avoid over-rating veterans; a player's *recent* club form isn't in it.
-  Golden Boot pick: Mbappé, then Kane. Scorito (position-weighted) surfaces attacking
-  defenders/mids (Hakimi, Kimmich, Davies, James Rodríguez) as value.
+- Top-scorer model blends international scoring rate with **2025-26 club form** (Wikipedia,
+  `model/fetch_club_form.py`, 286 players) — apps-weighted so small samples count little.
+  Golden Boot pick: **Kane** (61 club goals), then Mbappé, Lautaro, Haaland; aged/quiet
+  Ronaldo and doubtful Messi correctly drop out. Scorito (position-weighted) surfaces
+  attacking defenders/mids as value. Club form is a one-off snapshot (re-pull near kickoff);
+  it doesn't adjust for league strength.

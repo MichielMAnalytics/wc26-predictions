@@ -62,10 +62,11 @@ if os.path.exists("data/predictions/topscorers.csv"):
              "(model attack, injury+market adjusted) × expected matches (deeper run = more games). "
              "Veterans age-decayed; injury doubts halved; ruled-out players excluded.\n")
     L.append("**Golden Boot (most goals):**\n")
-    L.append("| # | player | team | pos | exp. goals |")
-    L.append("|---|---|---|---|---|")
+    L.append("| # | player | team | pos | club 25/26 | exp. goals |")
+    L.append("|---|---|---|---|---|---|")
     for i,r in enumerate(ts[:12],1):
-        L.append(f"| {i} | {r['player']} | {r['team']} | {r['position']} | {float(r['exp_goals']):.2f} |")
+        cf = f"{r['club_goals_2526']}g/{r['club_apps_2526']}a" if r.get('club_goals_2526') else "—"
+        L.append(f"| {i} | {r['player']} | {r['team']} | {r['position']} | {cf} | {float(r['exp_goals']):.2f} |")
     L.append("\n**Best Scorito top-scorer picks** (expected goals × position points — DF/GK 32, MF 16, FW 8 per goal, so attacking defenders/mids are value):\n")
     L.append("| player | team | pos | exp. goals | Scorito EV |")
     L.append("|---|---|---|---|---|")
