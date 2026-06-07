@@ -55,11 +55,22 @@ L.append("|---|---|---|---|")
 for r in ko:
     L.append(f"| {r['round']} | {r['home']} – {r['away']} | {r['pred']} | **{r['advances']}** |")
 
-L.append("\n## Topscorer suggestions (heuristic)\n")
-L.append("Forwards/mids from teams the sim sends deep, weighted by international scoring rate. "
-         "Note Scorito pays more per goal for defenders/midfielders (32/16/8) — a contrarian "
-         "mid/defender from a strong side can out-score a forward pick.\n")
-L.append(", ".join(f"{p['player']} ({p['team']})" for p in summ["topscorers"][:10]))
+if os.path.exists("data/predictions/topscorers.csv"):
+    ts=list(csv.DictReader(open("data/predictions/topscorers.csv")))
+    L.append("\n## Top scorers\n")
+    L.append("Expected tournament goals = career scoring rate × team expected goals "
+             "(model attack, injury+market adjusted) × expected matches (deeper run = more games). "
+             "Veterans age-decayed; injury doubts halved; ruled-out players excluded.\n")
+    L.append("**Golden Boot (most goals):**\n")
+    L.append("| # | player | team | pos | exp. goals |")
+    L.append("|---|---|---|---|---|")
+    for i,r in enumerate(ts[:12],1):
+        L.append(f"| {i} | {r['player']} | {r['team']} | {r['position']} | {float(r['exp_goals']):.2f} |")
+    L.append("\n**Best Scorito top-scorer picks** (expected goals × position points — DF/GK 32, MF 16, FW 8 per goal, so attacking defenders/mids are value):\n")
+    L.append("| player | team | pos | exp. goals | Scorito EV |")
+    L.append("|---|---|---|---|---|")
+    for r in sorted(ts,key=lambda r:-float(r['scorito_ev']))[:12]:
+        L.append(f"| {r['player']} | {r['team']} | {r['position']} | {float(r['exp_goals']):.2f} | {float(r['scorito_ev']):.0f} |")
 
 L.append("\n## How to use / caveats\n")
 L.append("- Scores are tuned to **maximise Scorito expected points**, not to look realistic: "

@@ -16,7 +16,9 @@ results_raw (martj42)
    ├─ model/adjust.py     bounded injury/momentum + market nudges        -> data/model/adjustments.csv
    ├─ model/simulate.py   N-tournament Monte Carlo (adj-aware)           -> data/model/sim_team_probs.csv
    ├─ model/predict.py    EV-optimal Scorito picks + bracket + champion  -> data/predictions/*.csv
-   └─ model/write_report.py                                              -> SCORITO_PREDICTIONS.md
+   ├─ model/topscorers.py expected goals per player -> Golden Boot +
+   │                      Scorito position-weighted picks                -> data/predictions/topscorers.csv
+   └─ model/write_report.py (+ fill_sheet/inject_topscorers/build_public) -> SCORITO_PREDICTIONS.md, index.html
 ```
 
 ## Why this design
@@ -105,4 +107,7 @@ python3 build_dataset.py && python3 build_extras.py        # data spine (if not 
 - xG (StatsBomb, 173 matches) could replace goals in the fit where available for sharper rates.
 - Market odds now included (CBS Sports, cached) but it's a one-off snapshot — re-pull near
   kickoff for live movement. Only outright + group-winner were available, not per-match 1X2.
-- Topscorer picks are heuristic (rate × deep-run prob), not a per-player goals model.
+- Top-scorer model uses career international scoring rate (no club-season form feed), so
+  it's age-decayed to avoid over-rating veterans; a player's *recent* club form isn't in it.
+  Golden Boot pick: Mbappé, then Kane. Scorito (position-weighted) surfaces attacking
+  defenders/mids (Hakimi, Kimmich, Davies, James Rodríguez) as value.

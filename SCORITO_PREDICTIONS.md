@@ -225,11 +225,43 @@ Predicted standings: 1. England (9p) · 2. Croatia (6p) · 3. Panama (3p) · 4. 
 | 3rd place | France – England | 0-1 | **France** |
 | final | Spain – Argentina | 0-1 | **Spain** |
 
-## Topscorer suggestions (heuristic)
+## Top scorers
 
-Forwards/mids from teams the sim sends deep, weighted by international scoring rate. Note Scorito pays more per goal for defenders/midfielders (32/16/8) — a contrarian mid/defender from a strong side can out-score a forward pick.
+Expected tournament goals = career scoring rate × team expected goals (model attack, injury+market adjusted) × expected matches (deeper run = more games). Veterans age-decayed; injury doubts halved; ruled-out players excluded.
 
-Lionel Messi (Argentina), Harry Kane (England), Lautaro Martínez (Argentina), Mikel Oyarzabal (Spain), Ferran Torres (Spain), Cristiano Ronaldo (Portugal), Neymar (Brazil), Kōki Ogawa (footballer) (Japan), Kylian Mbappé (France), Ayoub El Kaabi (Morocco)
+**Golden Boot (most goals):**
+
+| # | player | team | pos | exp. goals |
+|---|---|---|---|---|
+| 1 | Kylian Mbappé | France | FW | 7.50 |
+| 2 | Harry Kane | England | FW | 7.37 |
+| 3 | Romelu Lukaku | Belgium | FW | 4.56 |
+| 4 | Erling Haaland | Norway | FW | 4.49 |
+| 5 | Memphis Depay | Netherlands | FW | 4.05 |
+| 6 | Cristiano Ronaldo | Portugal | FW | 3.92 |
+| 7 | Ayoub El Kaabi | Morocco | FW | 3.84 |
+| 8 | Ferran Torres | Spain | FW | 3.70 |
+| 9 | Mikel Oyarzabal | Spain | FW | 3.70 |
+| 10 | Mehdi Taremi | Iran | FW | 3.35 |
+| 11 | Raúl Jiménez | Mexico | FW | 3.30 |
+| 12 | James Rodríguez | Colombia | MF | 3.14 |
+
+**Best Scorito top-scorer picks** (expected goals × position points — DF/GK 32, MF 16, FW 8 per goal, so attacking defenders/mids are value):
+
+| player | team | pos | exp. goals | Scorito EV |
+|---|---|---|---|---|
+| Kylian Mbappé | France | FW | 7.50 | 60 |
+| Harry Kane | England | FW | 7.37 | 59 |
+| James Rodríguez | Colombia | MF | 3.14 | 50 |
+| Joshua Kimmich | Germany | DF | 1.30 | 41 |
+| Achraf Hakimi | Morocco | DF | 1.18 | 38 |
+| Romelu Lukaku | Belgium | FW | 4.56 | 36 |
+| Erling Haaland | Norway | FW | 4.49 | 36 |
+| Harry Souttar | Australia | DF | 1.09 | 35 |
+| Leroy Sané | Germany | MF | 2.16 | 34 |
+| Memphis Depay | Netherlands | FW | 4.05 | 32 |
+| Cristiano Ronaldo | Portugal | FW | 3.92 | 31 |
+| Yerry Mina | Colombia | DF | 0.96 | 31 |
 
 ## How to use / caveats
 
