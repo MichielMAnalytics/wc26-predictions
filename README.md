@@ -4,7 +4,9 @@ Tools and data for predicting the 2026 FIFA World Cup (USA / Canada / Mexico, 11
 
 Two things live here:
 
-1. **`index.html`** - a fill-in wall chart (clone of the BBC chart) for entering score predictions. Live standings per group, an auto-advancing knockout bracket, saves to your browser. Open the file directly or serve the folder (`python3 -m http.server 8777`). **It now opens pre-filled with the model's predictions** (all 104 matches + bracket, champion Spain); edit any cell to override, or hit **⚡ Fill with model** to re-apply / **Reset** to clear. Regenerate the fill with `python3 model/fill_sheet.py`.
+1. **`index.html`** - a fill-in wall chart (clone of the BBC chart) for entering score predictions. Live standings per group, an auto-advancing knockout bracket, saves to your browser. Open the file directly or serve the folder (`python3 -m http.server 8777`). **It opens pre-filled with the model's predictions** (all 104 matches + bracket, champion Spain); edit any cell to override, or hit **⚡ Fill with model** to re-apply / **Reset** to clear. Regenerate the fill with `python3 model/fill_sheet.py`.
+
+   **Live (shared) link:** served at `https://wc26-predictions.boxd.sh` by a systemd unit (`wc26-sheet`) from a clean webroot `/home/boxd/site/` containing only `index.html` (so `.env`/repo aren't web-exposed). The public copy is button-stripped (no Reset / Fill-with-model) via `python3 model/build_public.py` so visitors can't wipe the shared chart. Workflow when predictions change: `model/fill_sheet.py` (updates repo index.html) → `model/build_public.py` (regenerates the public copy).
 2. **`data/`** - a verified historical-form dataset for all 48 qualified teams, covering the 4 years before the tournament. This is the training base for a match-prediction model.
 
 ---
