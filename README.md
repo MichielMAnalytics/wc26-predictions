@@ -11,6 +11,8 @@ A data-driven forecast of the **2026 FIFA World Cup** (USA · Canada · Mexico, 
 - **`index.html`** — the interactive wall chart: live group standings, an auto-advancing knockout bracket, saved in your browser, pre-filled with the model. Open it directly or `python3 -m http.server 8777`.
 - **`data/`** — a verified 4-year historical dataset for all 48 teams, plus enrichment (xG, context, lineups) and a current-form snapshot. The model's training base.
 - **`model/`** — the prediction pipeline (Elo + Dixon-Coles + Monte-Carlo, blended with bookmaker odds and squad form). Full write-up in **[MODEL.md](MODEL.md)**; the picks in **[SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md)**.
+- **`chat_server/`** — the FastAPI web app: serves the chart + the **"Ask the model"** transparency chat (a Claude tool-use agent grounded in the real model outputs). See [chat_server/README.md](chat_server/README.md).
+- **`deploy/`** — systemd unit + env template + deploy notes for the live site.
 
 ### Serving / regenerating
 
