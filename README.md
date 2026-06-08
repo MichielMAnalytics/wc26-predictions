@@ -165,3 +165,5 @@ Output is checked, not assumed.
 ## Sources & licensing
 
 Full table in **[SOURCES.md](SOURCES.md)**. In short: match spine = martj42/international_results (open, attribution); xG = **StatsBomb open data (CC BY-NC-SA, attribution required)**; context = api-football (commercial, free tier); `BBC_WC_26_WALL_CHART.pdf` is BBC copyright (reference only, do not redistribute). API keys live in a gitignored `.env`.
+
+🍺 **Licence rider:** if this model wins your Scorito pool, you owe the developer a beer.

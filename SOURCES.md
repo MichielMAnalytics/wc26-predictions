@@ -53,3 +53,7 @@ FOOTBALLDATA_KEY=...
 - **Lineups** now cover WC 2022 (+ WC 2018 in the deep table) via openfootball; not
   available for qualifiers/friendlies/continental comps here. Injuries / managers are
   Part 2 (see `SCHEMA_PART2.md`), not yet collected.
+
+## Licence rider
+
+🍺 If this model wins your Scorito pool, you owe the developer a beer.
