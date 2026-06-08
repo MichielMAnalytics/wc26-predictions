@@ -1,13 +1,20 @@
-# WC2026 Predictions
+# WC 2026 Predictions
 
-Tools and data for predicting the 2026 FIFA World Cup (USA / Canada / Mexico, 11 Jun - 19 Jul 2026).
+![WC 2026 prediction wall chart](docs/screenshot.png)
 
-Two things live here:
+A data-driven forecast of the **2026 FIFA World Cup** (USA · Canada · Mexico, 11 Jun – 19 Jul 2026): an interactive **wall chart** pre-filled by a statistical model, plus the dataset and pipeline behind every pick.
 
-1. **`index.html`** - a fill-in wall chart (clone of the BBC chart) for entering score predictions. Live standings per group, an auto-advancing knockout bracket, saves to your browser. Open the file directly or serve the folder (`python3 -m http.server 8777`). **It opens pre-filled with the model's predictions** (all 104 matches + bracket, champion Spain); edit any cell to override, or hit **⚡ Fill with model** to re-apply / **Reset** to clear. Regenerate the fill with `python3 model/fill_sheet.py`.
+**🔗 Live: https://wc26-predictions.boxd.sh** — opens pre-filled with the model's predictions (all 104 matches + bracket, champion **Spain**). Tap **ℹ️ How it works**, or the **💬 Ask the model** chat, to see how any pick was made. Mobile-friendly.
 
-   **Live (shared) link:** served at `https://wc26-predictions.boxd.sh` by a systemd unit (`wc26-sheet`) from a clean webroot `/home/boxd/site/` containing only `index.html` (so `.env`/repo aren't web-exposed). The public copy is button-stripped (no Reset / Fill-with-model) via `python3 model/build_public.py` so visitors can't wipe the shared chart. Workflow when predictions change: `model/fill_sheet.py` (updates repo index.html) → `model/build_public.py` (regenerates the public copy).
-2. **`data/`** - a verified historical-form dataset for all 48 qualified teams, covering the 4 years before the tournament. This is the training base for a match-prediction model.
+### What's here
+
+- **`index.html`** — the interactive wall chart: live group standings, an auto-advancing knockout bracket, saved in your browser, pre-filled with the model. Open it directly or `python3 -m http.server 8777`.
+- **`data/`** — a verified 4-year historical dataset for all 48 teams, plus enrichment (xG, context, lineups) and a current-form snapshot. The model's training base.
+- **`model/`** — the prediction pipeline (Elo + Dixon-Coles + Monte-Carlo, blended with bookmaker odds and squad form). Full write-up in **[MODEL.md](MODEL.md)**; the picks in **[SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md)**.
+
+### Serving / regenerating
+
+The live site is served by the `wc26-chat` service (FastAPI: the chart + an "Ask the model" chat widget) from a clean webroot so `.env`/repo internals aren't web-exposed. The public chart is button-stripped (no Reset / Fill-with-model) so visitors can't wipe it. When predictions change: `python3 model/fill_sheet.py` → `python3 model/build_public.py`.
 
 ---
 

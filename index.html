@@ -322,7 +322,7 @@
       <p style="margin:10px 0"><b>Does it actually work?</b> Tested on matches it had never seen, it's about <b>26% more accurate than a naïve baseline</b>, calls the correct result <b>~60%</b> of the time, and beats both a plain Elo model and an "always 1-1" strategy. Caveat: tournaments are high-variance — upsets (hello, 2022) happen, so treat deep runs as <i>likelihoods, not certainties</i>.</p>
       <h3 style="margin:16px 0 4px;font-size:16px">🥇 Predicted top scorers</h3>
       <div id="topscorers" style="font-size:13.5px"></div>
-      <p style="margin:12px 0 0;font-size:13px;opacity:.8">Full methodology, data sources and code: <a href="https://github.com/MichielMAnalytics/wc26-predictions" style="color:#7ee2a8">github.com/MichielMAnalytics/wc26-predictions</a> (see <code>MODEL.md</code> &amp; <code>SCORITO_PREDICTIONS.md</code>). Data: martj42 results, StatsBomb xG, api-football, openfootball, CBS Sports odds.</p>
+      <p style="margin:12px 0 0;font-size:13px;opacity:.8">Method: a time-weighted <b>Dixon-Coles</b> goals model + <b>Monte-Carlo</b> simulation, blended with bookmaker odds and current squad form. Data: martj42 results, StatsBomb xG, api-football, openfootball, CBS Sports odds. Tap <b>ℹ️ How it works</b> any time for the full picture.</p>
     </div>
   </div>
 
