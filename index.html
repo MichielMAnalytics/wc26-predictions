@@ -40,6 +40,19 @@
     mix-blend-mode:overlay;
   }
 
+  /* ---------- locked banner ---------- */
+  .lockbanner{
+    width:100%;min-height:1cm;display:flex;align-items:center;justify-content:center;
+    gap:8px;text-align:center;padding:5px 14px;box-sizing:border-box;
+    background:linear-gradient(180deg,#FFD21E,#f5c400);color:#08130a;
+    border-bottom:3px solid #08130a;
+    font-family:"Barlow Semi Condensed",sans-serif;font-weight:800;
+    font-size:clamp(11px,2.6vw,13.5px);letter-spacing:.4px;text-transform:uppercase;
+    line-height:1.15;
+  }
+  .lockbanner b{font-weight:800}
+  .lockbanner .sep{opacity:.55;font-weight:700;padding:0 2px}
+
   /* ---------- top bar ---------- */
   .topbar{
     position:sticky;top:0;z-index:50;
@@ -258,6 +271,7 @@
 </style>
 </head>
 <body>
+  <div class="lockbanner">🔒&nbsp;Predictions locked in since 7 June 2026<span class="sep">·</span>remaining rounds are updated after the group (poule) phase, per Scorito's model</div>
   <div class="topbar">
     <div class="brand">
       <div>
