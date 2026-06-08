@@ -231,6 +231,32 @@
   .legend span{display:inline-flex;align-items:center;gap:5px;color:#06200d}
   .legend i{width:13px;height:13px;border-radius:3px;border:2px solid #000;display:inline-block}
 
+  /* ---------- top-scorers panel (under the bracket legend) ---------- */
+  .tspanel{
+    margin:14px auto 0;max-width:1180px;
+    background:linear-gradient(180deg,var(--card),var(--card2));
+    border:3px solid var(--ink);border-radius:14px;box-shadow:5px 5px 0 rgba(0,0,0,.45);
+    overflow:hidden;
+  }
+  .tspanel .tshead{
+    background:var(--yellow);color:#08130a;border-bottom:3px solid var(--ink);
+    padding:7px 14px;font-family:"Anton",sans-serif;font-style:italic;transform:skewX(-7deg);
+    font-size:18px;letter-spacing:.5px;text-transform:uppercase;
+  }
+  .tsgrid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+  @media(max-width:760px){.tsgrid{grid-template-columns:1fr}}
+  .tscol{padding:10px 14px}
+  .tscol+.tscol{border-left:2px solid rgba(255,255,255,.12)}
+  @media(max-width:760px){.tscol+.tscol{border-left:0;border-top:2px solid rgba(255,255,255,.12)}}
+  .tscol h4{margin:0 0 6px;font-size:12px;letter-spacing:.8px;text-transform:uppercase;color:#bfe9c6;font-weight:800}
+  .tsrow{display:flex;align-items:baseline;gap:8px;padding:3px 0;border-bottom:1px dashed rgba(255,255,255,.12);font-size:14px}
+  .tsrow:last-child{border-bottom:0}
+  .tsrow .rk{width:18px;color:var(--yellow);font-weight:800;flex:0 0 auto;font-size:13px}
+  .tsrow .pl{font-weight:700;color:#eafff0}
+  .tsrow .tm{color:#a8e0b3;font-size:12px}
+  .tsrow .val{margin-left:auto;color:#fff;font-weight:800;font-size:13px;white-space:nowrap}
+  .tscol .note{font-size:11px;color:#a8e0b3;margin-top:6px;letter-spacing:.3px}
+
   .foot{position:relative;z-index:1;text-align:center;font-size:11px;color:#0a3214;padding:16px;letter-spacing:.4px}
 
   @media print{
@@ -308,6 +334,7 @@
           <span><i style="background:#ED2E2A"></i>Semi-final</span>
           <span><i style="background:#34C9E8"></i>Final</span>
         </div>
+        <div class="tspanel" id="tspanel"></div>
       </div>
 
       <div class="col-groups" id="groups-right"></div>
@@ -714,6 +741,25 @@ document.getElementById('resetBtn').addEventListener('click', ()=>{
 });
 
 recompute();
+
+/* render the predicted top scorers into the on-page panel under the bracket legend */
+(function(){
+  var el=document.getElementById('tspanel');
+  if(!el || typeof TOPSCORERS==='undefined') return;
+  var gb=TOPSCORERS.golden_boot.slice(0,8).map(function(p,i){
+    return '<div class="tsrow"><span class="rk">'+(i+1)+'</span><span class="pl">'+p.player+'</span> '
+      +'<span class="tm">'+p.team+'</span><span class="val">'+p.exp_goals.toFixed(1)+' xG</span></div>';
+  }).join('');
+  var sc=TOPSCORERS.scorito.slice(0,8).map(function(p){
+    return '<div class="tsrow"><span class="pl">'+p.player+'</span> '
+      +'<span class="tm">'+p.team+' · '+p.pos+'</span></div>';
+  }).join('');
+  el.innerHTML='<div class="tshead">🥇 Predicted top scorers</div><div class="tsgrid">'
+    +'<div class="tscol"><h4>Golden Boot — most goals</h4>'+gb+'</div>'
+    +'<div class="tscol"><h4>Best Scorito picks (goals × position points)</h4>'+sc
+    +'<div class="note">Defenders &amp; midfielders score fewer goals but are worth 2–4× per goal in Scorito.</div>'
+    +'</div></div>';
+})();
 </script>
 </body>
 </html>
