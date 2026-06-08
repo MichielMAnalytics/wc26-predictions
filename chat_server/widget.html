@@ -1,0 +1,196 @@
+<!-- ===================== WC26 transparency chat widget ===================== -->
+<div id="wc26-chat-root">
+  <button id="wc26-chat-fab" aria-label="Ask how these predictions were made">
+    <span class="wc26-fab-icon">💬</span>
+    <span class="wc26-fab-label">Ask the model</span>
+  </button>
+
+  <div id="wc26-chat-panel" role="dialog" aria-label="Prediction explainer" hidden>
+    <header class="wc26-chat-head">
+      <div class="wc26-chat-title">
+        <strong>How we predicted this</strong>
+        <small>grounded in the real model &amp; data</small>
+      </div>
+      <button id="wc26-chat-min" aria-label="Close">×</button>
+    </header>
+
+    <div id="wc26-chat-log" aria-live="polite"></div>
+
+    <div id="wc26-chat-suggest">
+      <button>Why is Spain the champion pick?</button>
+      <button>How does the model actually work?</button>
+      <button>How accurate is it?</button>
+      <button>Who wins the Golden Boot?</button>
+    </div>
+
+    <form id="wc26-chat-form" autocomplete="off">
+      <input id="wc26-chat-input" type="text" maxlength="500"
+             placeholder="Ask anything about the predictions…" />
+      <button type="submit" id="wc26-chat-send" aria-label="Send">➤</button>
+    </form>
+  </div>
+</div>
+
+<style>
+#wc26-chat-root{position:fixed;right:20px;bottom:20px;z-index:9999;
+  font-family:"Barlow Semi Condensed","Barlow Condensed",system-ui,sans-serif;}
+#wc26-chat-root *{box-sizing:border-box}
+
+#wc26-chat-fab{display:flex;align-items:center;gap:9px;cursor:pointer;border:3px solid #08130a;
+  background:linear-gradient(180deg,#62F06B,#22C93B);color:#08130a;
+  font-family:"Anton",sans-serif;font-style:italic;letter-spacing:.5px;text-transform:uppercase;
+  font-size:18px;padding:12px 18px;border-radius:999px;box-shadow:4px 4px 0 #08130a;
+  transition:transform .12s ease, box-shadow .12s ease;}
+#wc26-chat-fab:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 #08130a}
+#wc26-chat-fab:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #08130a}
+.wc26-fab-icon{font-size:20px;font-style:normal}
+
+#wc26-chat-panel{position:absolute;right:0;bottom:0;width:min(92vw,400px);height:min(78vh,600px);
+  display:flex;flex-direction:column;background:#0a2f13;border:3px solid #08130a;border-radius:16px;
+  box-shadow:8px 8px 0 rgba(8,19,10,.55);overflow:hidden;color:#fff}
+#wc26-chat-panel[hidden]{display:none}  /* ID+attr beats the ID-only display:flex above */
+
+.wc26-chat-head{display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:12px 14px;background:linear-gradient(180deg,#0d3a18,#0a2f13);border-bottom:3px solid #08130a}
+.wc26-chat-title strong{font-family:"Anton",sans-serif;font-style:italic;font-weight:400;
+  font-size:20px;color:#62F06B;text-transform:uppercase;letter-spacing:.4px;display:block;line-height:1}
+.wc26-chat-title small{color:#bdeccb;font-size:12px;letter-spacing:.3px}
+#wc26-chat-min{background:none;border:none;color:#bdeccb;font-size:26px;line-height:1;cursor:pointer;padding:0 4px}
+#wc26-chat-min:hover{color:#fff}
+
+#wc26-chat-log{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;
+  background:radial-gradient(120% 80% at 50% 0%,rgba(98,240,107,.07),transparent 60%)}
+.wc26-msg{max-width:88%;padding:9px 12px;border-radius:13px;font-size:15px;line-height:1.42;
+  word-wrap:break-word;white-space:normal}
+.wc26-user{align-self:flex-end;background:#34C9E8;color:#06222b;border-bottom-right-radius:4px;font-weight:600}
+.wc26-bot{align-self:flex-start;background:#0d3a18;border:1px solid #1c5a2c;border-bottom-left-radius:4px}
+.wc26-bot p{margin:0 0 7px} .wc26-bot p:last-child{margin:0}
+.wc26-bot ul,.wc26-bot ol{margin:5px 0 7px;padding-left:20px} .wc26-bot li{margin:2px 0}
+.wc26-bot strong{color:#9af0a8} .wc26-bot code{background:#06170b;padding:1px 5px;border-radius:5px;font-size:13px}
+.wc26-bot a{color:#34C9E8}
+.wc26-tool{align-self:flex-start;font-size:12.5px;color:#bdeccb;opacity:.85;font-style:italic;
+  display:flex;align-items:center;gap:7px;padding:2px 4px}
+.wc26-tool::before{content:"";width:8px;height:8px;border-radius:50%;background:#FFD21E;
+  animation:wc26pulse 1s infinite}
+@keyframes wc26pulse{0%,100%{opacity:.3}50%{opacity:1}}
+.wc26-dots span{display:inline-block;animation:wc26blink 1.2s infinite}
+.wc26-dots span:nth-child(2){animation-delay:.2s}.wc26-dots span:nth-child(3){animation-delay:.4s}
+@keyframes wc26blink{0%,100%{opacity:.2}50%{opacity:1}}
+
+#wc26-chat-suggest{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px 8px}
+#wc26-chat-suggest button{background:#0d3a18;border:1px solid #1c5a2c;color:#bdeccb;border-radius:999px;
+  font-size:12.5px;padding:5px 11px;cursor:pointer;font-family:inherit}
+#wc26-chat-suggest button:hover{background:#12491f;color:#fff}
+
+#wc26-chat-form{display:flex;gap:8px;padding:10px 12px;border-top:3px solid #08130a;background:#0a2f13}
+#wc26-chat-input{flex:1;background:#06170b;border:2px solid #1c5a2c;color:#fff;border-radius:10px;
+  padding:9px 11px;font-size:15px;font-family:inherit}
+#wc26-chat-input:focus{outline:none;border-color:#62F06B}
+#wc26-chat-send{background:linear-gradient(180deg,#62F06B,#22C93B);border:2px solid #08130a;color:#08130a;
+  font-size:17px;font-weight:700;border-radius:10px;width:46px;cursor:pointer}
+#wc26-chat-send:disabled{opacity:.5;cursor:default}
+
+@media(max-width:480px){#wc26-chat-root{right:12px;bottom:12px}
+  #wc26-chat-panel{width:94vw;height:82vh}.wc26-fab-label{display:none}#wc26-chat-fab{padding:14px}}
+</style>
+
+<script>
+(function(){
+  const root=document.getElementById('wc26-chat-root');
+  const fab=document.getElementById('wc26-chat-fab');
+  const panel=document.getElementById('wc26-chat-panel');
+  const log=document.getElementById('wc26-chat-log');
+  const form=document.getElementById('wc26-chat-form');
+  const input=document.getElementById('wc26-chat-input');
+  const sendBtn=document.getElementById('wc26-chat-send');
+  const suggest=document.getElementById('wc26-chat-suggest');
+  let history=[]; let busy=false; let greeted=false;
+
+  function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+  // minimal, safe markdown: escape first, then re-introduce a few inline/block forms
+  function md(t){
+    let s=esc(t);
+    s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
+    s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+    s=s.replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+    const lines=s.split('\n'); let html=''; let inList=false;
+    for(let ln of lines){
+      const li=ln.match(/^\s*(?:[-*]|\d+\.)\s+(.*)$/);
+      if(li){ if(!inList){html+='<ul>';inList=true;} html+='<li>'+li[1]+'</li>'; }
+      else{ if(inList){html+='</ul>';inList=false;}
+        if(ln.trim()==='') html+=''; else html+='<p>'+ln+'</p>'; }
+    }
+    if(inList)html+='</ul>';
+    return html;
+  }
+
+  function open(){
+    panel.hidden=false; fab.style.display='none'; input.focus();
+    if(!greeted){greeted=true;
+      addBot("Hi! I can explain **how every pick on this chart was produced** — the model, the data, the probabilities. Ask me anything, or tap a suggestion below.");
+    }
+  }
+  function close(){panel.hidden=true; fab.style.display='flex';}
+  fab.addEventListener('click',open);
+  document.getElementById('wc26-chat-min').addEventListener('click',close);
+
+  function scroll(){log.scrollTop=log.scrollHeight;}
+  function addUser(t){const d=document.createElement('div');d.className='wc26-msg wc26-user';d.textContent=t;log.appendChild(d);scroll();}
+  function addBot(t){const d=document.createElement('div');d.className='wc26-msg wc26-bot';d.innerHTML=md(t);log.appendChild(d);scroll();return d;}
+
+  const TOOL_LABEL={get_methodology:'Reading the model write-up',get_headline_picks:'Fetching the headline picks',
+    list_teams:'Ranking the 48 teams',get_team_outlook:'Looking up the team’s numbers',
+    get_group_predictions:'Pulling the group predictions',get_knockout_bracket:'Reading the knockout bracket',
+    get_match_prediction:'Finding that fixture',get_top_scorers:'Loading the top-scorer model'};
+
+  async function ask(message){
+    if(busy||!message.trim())return; busy=true; sendBtn.disabled=true;
+    if(suggest)suggest.style.display='none';
+    addUser(message); history.push({role:'user',content:message});
+
+    let toolEl=null, botEl=null, acc='';
+    const thinking=document.createElement('div');
+    thinking.className='wc26-tool';
+    thinking.innerHTML='Thinking<span class="wc26-dots"><span>.</span><span>.</span><span>.</span></span>';
+    log.appendChild(thinking); scroll();
+
+    try{
+      const res=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({message, history})});
+      if(!res.ok||!res.body)throw new Error('bad response');
+      const reader=res.body.getReader(); const dec=new TextDecoder(); let buf='';
+      while(true){
+        const {value,done}=await reader.read(); if(done)break;
+        buf+=dec.decode(value,{stream:true});
+        let idx;
+        while((idx=buf.indexOf('\n\n'))>=0){
+          const chunk=buf.slice(0,idx); buf=buf.slice(idx+2);
+          const line=chunk.split('\n').find(l=>l.startsWith('data:')); if(!line)continue;
+          const ev=JSON.parse(line.slice(5).trim());
+          if(ev.type==='tool'){
+            if(thinking.parentNode)thinking.remove();
+            if(!toolEl){toolEl=document.createElement('div');toolEl.className='wc26-tool';log.appendChild(toolEl);}
+            toolEl.textContent=(TOOL_LABEL[ev.name]||'Checking the data')+'…'; scroll();
+          }else if(ev.type==='text'){
+            if(thinking.parentNode)thinking.remove();
+            if(toolEl){toolEl.remove();toolEl=null;}
+            if(!botEl)botEl=addBot('');
+            acc+=ev.text; botEl.innerHTML=md(acc); scroll();
+          }else if(ev.type==='error'){
+            if(thinking.parentNode)thinking.remove(); if(toolEl)toolEl.remove();
+            addBot('Sorry — '+esc(ev.text||'something went wrong')+' Please try again.');
+          }
+        }
+      }
+      if(acc)history.push({role:'assistant',content:acc});
+    }catch(e){
+      if(thinking.parentNode)thinking.remove(); if(toolEl)toolEl.remove();
+      addBot('Sorry — I couldn’t reach the model just now. Please try again.');
+    }finally{ busy=false; sendBtn.disabled=false; input.focus(); }
+  }
+
+  form.addEventListener('submit',e=>{e.preventDefault();const m=input.value;input.value='';ask(m);});
+  suggest.addEventListener('click',e=>{const b=e.target.closest('button');if(b)ask(b.textContent);});
+})();
+</script>
+<!-- =================== /WC26 transparency chat widget ==================== -->

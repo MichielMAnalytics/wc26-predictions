@@ -1,0 +1,15 @@
+[Unit]
+Description=WC26 predictions site + transparency chat (FastAPI/uvicorn)
+After=network.target
+
+[Service]
+Type=simple
+User=boxd
+WorkingDirectory=/home/boxd/wc26-predictions/chat_server
+EnvironmentFile=/home/boxd/.config/wc26-chat.env
+ExecStart=/home/boxd/wc26-predictions/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
