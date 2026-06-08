@@ -6,6 +6,8 @@ A data-driven forecast of the **2026 FIFA World Cup** (USA · Canada · Mexico, 
 
 **🔗 Live: https://wc26-predictions.boxd.sh** — opens pre-filled with the model's predictions (all 104 matches + bracket, champion **Spain**). Tap **ℹ️ How it works**, or the **💬 Ask the model** chat, to see how any pick was made. Mobile-friendly.
 
+<sub><img src="docs/boxd-logo.svg" height="14" alt="boxd.sh" valign="middle"> &nbsp;Built and served live entirely on a <a href="https://boxd.sh"><b>boxd.sh</b></a> VM — <b>no deployment step</b>: the VM is the server, so an edit is live the moment it's saved.</sub>
+
 ### What's here
 
 - **`index.html`** — the interactive wall chart: live group standings, an auto-advancing knockout bracket, saved in your browser, pre-filled with the model. Open it directly or `python3 -m http.server 8777`.
