@@ -24,6 +24,19 @@ The live site is served by the `wc26-chat` service (FastAPI: the chart + an "Ask
 
 ---
 
+## How the predictions are made (in brief)
+
+1. **Strength ratings** — a World-Football **Elo** rating for every national team, learned from ~8,000 internationals (2018–2026), weighting World Cups above friendlies and bigger wins more.
+2. **Scoreline model** — a time-weighted **Dixon-Coles** (bivariate-Poisson) goals model turns those strengths into the probability of *every* exact scoreline per fixture (attack/defence per team + home advantage + a low-scoring-draw correction), fit by maximum likelihood.
+3. **Current state** — bounded nudges for **injuries, suspensions, momentum and coach changes** (researched per squad) — e.g. a team missing key forwards is marked down.
+4. **Market calibration** — blended with **vig-free bookmaker odds** (outright + group-winner), which corrected real model quirks (it underrated France/England, overrated Morocco/Japan).
+5. **Tournament simulation** — a **30,000-run Monte-Carlo** of the full 48-team bracket (group tables → best-third placement → knockouts) gives each team's advancement and title probabilities.
+6. **Scorito-optimal picks** — every predicted scoreline is chosen to **maximise expected Scorito points** (`30·P(outcome) + 15·P(exact)`), which is why so many picks are 1-0/0-1.
+
+Out-of-sample it's ~26% better than a naïve baseline (RPS) with ~60% outcome accuracy, and beats both a plain Elo model and an "always 1-1" strategy. Champion pick: **Spain**. Full write-up + backtest in **[MODEL.md](MODEL.md)**; the picks in **[SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md)**.
+
+---
+
 ## The dataset (`data/`)
 
 Window: **2022-06-07 → 2026-06-07** (4 years back from the brief date of 7 Jun 2026), played matches only.
