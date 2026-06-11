@@ -20,6 +20,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse, JSONResponse
 
 from agent import run_agent
+from live import live_matches
 
 SITE = Path(__file__).resolve().parent.parent.parent / "site"
 INDEX = SITE / "index.html"
@@ -62,6 +63,12 @@ async def chat(request: Request) -> StreamingResponse:
         media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
+
+
+@app.get("/api/live")
+def api_live() -> JSONResponse:
+    """Current WC scores/status (cached ~25s server-side)."""
+    return JSONResponse({"matches": live_matches()}, headers={"Cache-Control": "no-store"})
 
 
 # Static assets (CSS/images/etc.) live alongside index.html in site/.

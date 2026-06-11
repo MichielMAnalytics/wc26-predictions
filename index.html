@@ -231,6 +231,21 @@
   .legend span{display:inline-flex;align-items:center;gap:5px;color:#06200d}
   .legend i{width:13px;height:13px;border-radius:3px;border:2px solid #000;display:inline-block}
 
+  /* ---------- live match styling ---------- */
+  .match.islive{background:rgba(237,46,42,.10);border-radius:8px;
+    box-shadow:inset 0 0 0 2px rgba(237,46,42,.9);animation:livepulse 1.6s ease-in-out infinite}
+  @keyframes livepulse{0%,100%{box-shadow:inset 0 0 0 2px rgba(237,46,42,.4)}50%{box-shadow:inset 0 0 0 2px rgba(237,46,42,1)}}
+  .match.finishedlive{background:rgba(10,125,34,.10);border-radius:8px;box-shadow:inset 0 0 0 2px rgba(10,125,34,.55)}
+  .livebadge{display:inline-flex;align-items:center;gap:6px;margin-top:5px;
+    font-size:11px;font-weight:800;color:#fff;background:#ED2E2A;border-radius:6px;
+    padding:2px 8px;letter-spacing:.5px;text-transform:uppercase;box-shadow:2px 2px 0 rgba(0,0,0,.3)}
+  .livebadge.ft{background:#0a7d22}
+  .livebadge .dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:blink 1s steps(2,start) infinite}
+  @keyframes blink{50%{opacity:.12}}
+  .livebadge .sc{font-size:14px;font-weight:800}
+  .livebadge .min{opacity:.92;font-weight:700}
+  .livebadge .act{opacity:.7;font-weight:700;font-size:9px}
+
   /* ---------- top-scorers panel (under the bracket legend) ---------- */
   .tspanel{
     margin:14px auto 0;max-width:1180px;
@@ -761,6 +776,51 @@ recompute();
     +'<div class="tscol"><h4>Best Scorito picks (goals × position points)</h4>'+sc
     +'<div class="note">Defenders &amp; midfielders score fewer goals but are worth 2–4× per goal in Scorito.</div>'
     +'</div></div>';
+})();
+
+/* ===================== LIVE SCORES =====================
+   Poll the ESPN-backed /api/live every 30s; light up in-progress group matches
+   with the real score (kept separate from your predicted inputs). */
+(function(){
+  var ALIAS={BIH:'BOS',CIV:'IVC',COD:'DRC',CUW:'CUR',KSA:'SAU',MAR:'MOR',SUI:'SWI'};
+  var OURCODES={}; for(var c in T) OURCODES[c]=1;
+  function code(ab){ if(!ab) return null; ab=(''+ab).toUpperCase(); return ALIAS[ab]||(OURCODES[ab]?ab:null); }
+  var PAIR={};  // sorted "CODE|CODE" -> {key:'A0', home:'MEX'}
+  for(var g in GROUPS){ GROUPS[g].m.forEach(function(mt,i){
+    PAIR[[mt[0],mt[1]].slice().sort().join('|')]={key:g+i, home:mt[0]};
+  });}
+  function apply(ms){
+    var active={};
+    ms.forEach(function(m){
+      var hc=code(m.home_abbr), ac=code(m.away_abbr); if(!hc||!ac) return;
+      var info=PAIR[[hc,ac].slice().sort().join('|')]; if(!info) return;
+      var inp=document.querySelector('.g-score[data-k="'+info.key+'"]'); if(!inp) return;
+      var el=inp.closest('.match'); if(!el) return;
+      active[info.key]=1;
+      var lh=(info.home===hc)?m.hs:m.as, la=(info.home===hc)?m.as:m.hs;     // orient to our home
+      var sc=(lh==null?'':lh)+'–'+(la==null?'':la);
+      var b=el.querySelector('.livebadge');
+      if(!b){ b=document.createElement('div'); el.appendChild(b); }
+      if(m.state==='in'){
+        el.classList.add('islive'); el.classList.remove('finishedlive');
+        b.className='livebadge';
+        b.innerHTML='<span class="dot"></span>LIVE <span class="sc">'+sc+'</span> <span class="min">'+(m.detail||'')+'</span><span class="act">· actual</span>';
+      } else {
+        el.classList.add('finishedlive'); el.classList.remove('islive');
+        b.className='livebadge ft';
+        b.innerHTML='FT <span class="sc">'+sc+'</span><span class="act">· actual</span>';
+      }
+    });
+    document.querySelectorAll('.match .livebadge').forEach(function(b){
+      var el=b.closest('.match'), inp=el&&el.querySelector('.g-score'), k=inp&&inp.dataset.k;
+      if(k && !active[k]){ b.remove(); el.classList.remove('islive','finishedlive'); }
+    });
+  }
+  function poll(){
+    fetch('/api/live',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
+      .then(function(d){ if(d&&d.matches) apply(d.matches); }).catch(function(){});
+  }
+  poll(); setInterval(poll, 30000);
 })();
 </script>
 </body>
