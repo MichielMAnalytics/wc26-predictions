@@ -44,6 +44,21 @@ else:
                  f"{float(r['p_reach_SF'])*100:.0f}% | {float(r['p_final'])*100:.0f}% | "
                  f"{float(r['p_champion'])*100:.1f}% | {mkt.get(t,0)*100:.1f}% | **{blend[t]*100:.1f}%** |")
 
+L.append("\n> Your **champion bet is locked since 7 Jun (Spain)** and can't change — the table above "
+         "is the model's *current* view. What you predict per round are the match scores below.\n")
+
+# knockout-phase picks (R32 scores + 4 top scorers), if available
+if os.path.exists("data/predictions/r32_predictions.csv"):
+    r32=list(csv.DictReader(open("data/predictions/r32_predictions.csv")))
+    L.append("\n## Knockout phase — Round of 32 (predict now)\n")
+    L.append("Actual R32 fixtures, scores from the model **retrained on the group stage**.\n")
+    L.append("| match | pick |\n|---|---|")
+    for r in r32: L.append(f"| {r['home']} – {r['away']} | **{r['pred']}** |")
+    if os.path.exists("data/predictions/topscorers_ko.csv"):
+        t4=list(csv.DictReader(open("data/predictions/topscorers_ko.csv")))[:4]
+        L.append("\n**Top 4 scorers (knockout phase):** " +
+                 ", ".join(f"{r['player']} ({r['team']})" for r in t4) + ".")
+
 L.append("\n## Group-stage score predictions\n")
 import itertools
 for g, rows in itertools.groupby(gm, key=lambda r:r["group"]):

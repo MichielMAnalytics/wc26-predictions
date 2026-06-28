@@ -1,0 +1,718 @@
+player,team,position,exp_ko_goals
+Harry Kane,England,FW,1.86
+Lautaro Martínez,Argentina,FW,1.79
+Kylian Mbappé,France,FW,1.58
+Mikel Oyarzabal,Spain,FW,1.32
+Erling Haaland,Norway,FW,1.28
+Julián Alvarez,Argentina,FW,1.22
+Ferran Torres,Spain,FW,1.21
+"Luis Suárez (footballer, born 1997)",Colombia,FW,1.14
+Deniz Undav,Germany,FW,1.14
+Romelu Lukaku,Belgium,FW,1.01
+Ayase Ueda,Japan,FW,0.86
+"Luis Díaz (footballer, born 1997)",Colombia,FW,0.85
+Cristiano Ronaldo,Portugal,FW,0.85
+Lionel Messi,Argentina,FW,0.82
+Jhon Córdoba,Colombia,FW,0.82
+Kōki Ogawa (footballer),Japan,FW,0.82
+Ayoub El Kaabi,Morocco,FW,0.81
+Memphis Depay,Netherlands,FW,0.79
+Enzo Fernández,Argentina,MF,0.78
+Kai Havertz,Germany,FW,0.76
+João Félix,Portugal,FW,0.74
+Ricardo Pepi,United States,FW,0.72
+Raphinha,Brazil,FW,0.71
+Michael Olise,France,FW,0.68
+Jonathan David,Canada,FW,0.66
+Keito Nakamura,Japan,MF,0.65
+Folarin Balogun,United States,FW,0.64
+Cyle Larin,Canada,FW,0.63
+Ollie Watkins,England,FW,0.63
+Ousmane Dembélé,France,FW,0.63
+Mikel Merino,Spain,MF,0.62
+Haji Wright,United States,FW,0.62
+Thiago Almada,Argentina,FW,0.6
+Ismael Saibari,Morocco,MF,0.6
+Dani Olmo,Spain,FW,0.59
+Lamine Yamal,Spain,FW,0.59
+Donyell Malen,Netherlands,FW,0.58
+Gonçalo Ramos,Portugal,FW,0.58
+Christian Pulisic,United States,FW,0.58
+Désiré Doué,France,FW,0.57
+Nick Woltemade,Germany,FW,0.56
+Giuliano Simeone,Argentina,FW,0.55
+Marcus Thuram,France,FW,0.54
+Alexander Sørloth,Norway,FW,0.54
+Vinícius Júnior,Brazil,FW,0.53
+Raúl Jiménez,Mexico,FW,0.53
+Bruno Fernandes,Portugal,MF,0.53
+Sadio Mané,Senegal,FW,0.53
+Christian Fassnacht,Switzerland,FW,0.53
+Zeki Amdouni,Switzerland,FW,0.53
+Marcus Rashford,England,FW,0.52
+Neymar,Brazil,FW,0.51
+Promise David,Canada,FW,0.5
+Bukayo Saka,England,FW,0.48
+Soufiane Rahimi,Morocco,FW,0.48
+James Rodríguez,Colombia,MF,0.47
+Ismaïla Sarr,Senegal,FW,0.46
+Viktor Gyökeres,Sweden,FW,0.46
+Adil Boulbina,Algeria,FW,0.45
+Kevin De Bruyne,Belgium,MF,0.45
+Andrés Gómez (footballer),Colombia,FW,0.45
+Thelo Aasgaard,Norway,MF,0.45
+Cedric Itten,Switzerland,FW,0.45
+Nico Paz,Argentina,FW,0.44
+"Nicolás González (footballer, born 1998)",Argentina,MF,0.44
+Bradley Barcola,France,FW,0.44
+Rayan Cherki,France,MF,0.44
+Florian Wirtz,Germany,MF,0.43
+"Endrick (footballer, born 2006)",Brazil,FW,0.42
+Mohamed Salah,Egypt,FW,0.42
+Leroy Sané,Germany,MF,0.42
+Cody Gakpo,Netherlands,FW,0.42
+Wout Weghorst,Netherlands,FW,0.42
+Gonçalo Guedes,Portugal,FW,0.42
+Gavi (footballer),Spain,MF,0.42
+Cucho Hernández,Colombia,FW,0.41
+Guillermo Martínez (footballer),Mexico,FW,0.41
+Brian Gutiérrez,Mexico,MF,0.41
+Daizen Maeda,Japan,MF,0.4
+Alexis Mac Allister,Argentina,MF,0.39
+Jacob Shaffelburg,Canada,MF,0.39
+Enner Valencia,Ecuador,FW,0.39
+Yéremy Pino,Spain,FW,0.39
+Amine Gouiri,Algeria,FW,0.38
+Nishan Velupillay,Australia,FW,0.38
+Andrej Kramarić,Croatia,FW,0.38
+Brahim Díaz,Morocco,FW,0.38
+Houssem Aouar,Algeria,MF,0.37
+Harry Souttar,Australia,DF,0.37
+Lucas Paquetá,Brazil,MF,0.37
+Mohamed Amoura,Algeria,FW,0.36
+Jamie Leweling,Germany,MF,0.36
+Rafael Leão,Portugal,FW,0.36
+Eberechi Eze,England,MF,0.35
+Antonio Nusa,Norway,FW,0.35
+Nicolas Jackson,Senegal,FW,0.35
+Awer Mabil,Australia,FW,0.34
+Ante Budimir,Croatia,FW,0.34
+Leon Goretzka,Germany,MF,0.34
+Junya Itō,Japan,MF,0.34
+Martín Zubimendi,Spain,MF,0.34
+Johan Manzambi,Switzerland,MF,0.34
+Michael Gregoritsch,Austria,FW,0.33
+Gustavo Puerta,Colombia,DF,0.33
+Fabián Ruiz,Spain,MF,0.33
+Hans Vanaken,Belgium,MF,0.32
+Gabriel Martinelli,Brazil,FW,0.32
+Francisco Conceição,Portugal,FW,0.32
+Marko Arnautović,Austria,FW,0.31
+Tajon Buchanan,Canada,FW,0.31
+Jude Bellingham,England,MF,0.31
+Jørgen Strand Larsen,Norway,FW,0.31
+Ibrahim Mbaye,Senegal,FW,0.31
+Giovanni Reyna,United States,MF,0.31
+Weston McKennie,United States,MF,0.31
+Maxim De Cuyper,Belgium,DF,0.3
+Leandro Trossard,Belgium,FW,0.3
+Adrien Rabiot,France,MF,0.3
+Francisco Trincão,Portugal,FW,0.3
+Benjamin Nygren,Sweden,MF,0.3
+Casemiro,Brazil,MF,0.29
+Ritsu Dōan,Japan,MF,0.29
+Azzedine Ounahi,Morocco,MF,0.29
+Noa Lang,Netherlands,FW,0.29
+Tijjani Reijnders,Netherlands,MF,0.29
+Nestory Irankunda,Australia,FW,0.28
+Théo Hernandez,France,DF,0.28
+Ao Tanaka,Japan,MF,0.28
+João Cancelo,Portugal,DF,0.28
+Nico Williams,Spain,FW,0.28
+Giovani Lo Celso,Argentina,MF,0.27
+Ismaël Koné,Canada,MF,0.27
+Nathan Saliba,Canada,MF,0.27
+Felix Nmecha,Germany,MF,0.27
+"Gustaf Nilsson (footballer, born 1997)",Sweden,FW,0.27
+Riyad Mahrez,Algeria,FW,0.26
+Yerry Mina,Colombia,DF,0.26
+Juan Fernando Quintero,Colombia,MF,0.26
+Alexis Vega (Mexican footballer),Mexico,FW,0.26
+"Armando González (footballer, born 2003)",Mexico,FW,0.26
+Orbelín Pineda,Mexico,MF,0.26
+Denzel Dumfries,Netherlands,DF,0.26
+João Neves,Portugal,MF,0.26
+Cherif Ndiaye,Senegal,FW,0.26
+Rubén Vargas,Switzerland,FW,0.26
+Jérémy Doku,Belgium,FW,0.25
+Bruno Guimarães,Brazil,MF,0.25
+Maghnes Akliouche,France,MF,0.25
+Chadi Riad,Morocco,DF,0.25
+Pedri,Spain,MF,0.25
+Alexander Isak,Sweden,FW,0.25
+Dan Ndoye,Switzerland,FW,0.25
+Leandro Paredes,Argentina,MF,0.24
+"Mohamed Touré (soccer, born 2004)",Australia,FW,0.24
+Charles De Ketelaere,Belgium,FW,0.24
+Dodi Lukébakio,Belgium,FW,0.24
+Jaminton Campaz,Colombia,FW,0.24
+Ivan Toney,England,FW,0.24
+Bazoumana Touré,Ivory Coast,FW,0.24
+Yan Diomande,Ivory Coast,FW,0.24
+Takefusa Kubo,Japan,MF,0.24
+Guus Til,Netherlands,MF,0.24
+Habib Diarra,Senegal,MF,0.24
+Álex Baena,Spain,MF,0.24
+Nicolas Raskin,Belgium,MF,0.23
+Niko Sigur,Canada,DF,0.23
+Jonathan Osorio,Canada,MF,0.23
+Trézéguet (Egyptian footballer),Egypt,FW,0.23
+Jamal Musiala,Germany,MF,0.23
+Bilal El Khannouss,Morocco,MF,0.23
+Virgil van Dijk,Netherlands,DF,0.23
+Breel Embolo,Switzerland,FW,0.23
+Alejandro Zendejas,United States,FW,0.23
+Mathew Leckie,Australia,FW,0.22
+Edin Džeko,Bosnia and Herzegovina,FW,0.22
+"Luiz Henrique (footballer, born 2001)",Brazil,FW,0.22
+Igor Matanović,Croatia,FW,0.22
+Ivan Perišić,Croatia,FW,0.22
+Anthony Gordon (footballer),England,FW,0.22
+Aleksandar Pavlović (footballer),Germany,MF,0.22
+Nadiem Amiri,Germany,MF,0.22
+Franck Kessié,Ivory Coast,MF,0.22
+César Huerta,Mexico,FW,0.22
+"Abdoulaye Seck (footballer, born 1992)",Senegal,DF,0.22
+Lamine Camara,Senegal,MF,0.22
+Gleison Bremer,Brazil,DF,0.21
+Jhon Arias (footballer),Colombia,MF,0.21
+Omar Marmoush,Egypt,FW,0.21
+Noni Madueke,England,FW,0.21
+Warren Zaïre-Emery,France,MF,0.21
+Santiago Giménez,Mexico,FW,0.21
+Brenden Aaronson,United States,FW,0.21
+Haris Tabaković,Bosnia and Herzegovina,FW,0.2
+Alphonso Davies,Canada,DF,0.2
+Nikola Vlašić,Croatia,MF,0.2
+Oumar Diakité,Ivory Coast,FW,0.2
+Daichi Kamada,Japan,MF,0.2
+Luis Chávez (footballer),Mexico,MF,0.2
+Neil El Aynaoui,Morocco,MF,0.2
+Matheus Nunes,Portugal,MF,0.2
+Lyle Foster,South Africa,FW,0.2
+"Rodri (footballer, born 1996)",Spain,MF,0.2
+Alex Freeman,United States,DF,0.2
+Saša Kalajdžić,Austria,FW,0.19
+Tani Oluwaseyi,Canada,FW,0.19
+Daniel Muñoz (footballer),Colombia,DF,0.19
+Jorge Carrascal,Colombia,MF,0.19
+Mario Pašalić,Croatia,MF,0.19
+Cédric Bakambu,DR Congo,FW,0.19
+Fiston Mayele,DR Congo,FW,0.19
+Amad Diallo,Ivory Coast,FW,0.19
+Nicolas Pépé,Ivory Coast,FW,0.19
+Gonçalo Inácio,Portugal,DF,0.19
+Jaouen Hadjam,Algeria,DF,0.18
+Lisandro Martínez,Argentina,DF,0.18
+Nicolás Otamendi,Argentina,DF,0.18
+Gerónimo Rulli,Argentina,GK,0.18
+Jordan Bos,Australia,DF,0.18
+Alessandro Schöpf,Austria,MF,0.18
+Marcel Sabitzer,Austria,MF,0.18
+Brandon Mechele,Belgium,DF,0.18
+Gilson Benchimol,Cape Verde,FW,0.18
+Seko Fofana,Ivory Coast,MF,0.18
+Julián Quiñones,Mexico,FW,0.18
+Teun Koopmeiners,Netherlands,MF,0.18
+Timothy Weah,United States,FW,0.18
+Malik Tillman,United States,MF,0.18
+Facundo Medina,Argentina,DF,0.17
+Ajdin Hrustic,Australia,FW,0.17
+Dailon Livramento,Cape Verde,FW,0.17
+Luka Vušković,Croatia,DF,0.17
+Declan Rice,England,MF,0.17
+Ernest Nuamah,Ghana,FW,0.17
+Jordan Ayew,Ghana,FW,0.17
+Yukinari Sugawara,Japan,DF,0.17
+César Montes,Mexico,DF,0.17
+Achraf Hakimi,Morocco,DF,0.17
+Kristian Thorstvedt,Norway,MF,0.17
+Diogo Dalot,Portugal,DF,0.17
+Renato Veiga,Portugal,DF,0.17
+Pedro Neto,Portugal,FW,0.17
+Bernardo Silva,Portugal,MF,0.17
+Oswin Appollis,South Africa,FW,0.17
+Marc Cucurella,Spain,DF,0.17
+Jackson Irvine,Australia,MF,0.16
+Youri Tielemans,Belgium,MF,0.16
+Ryan Mendes,Cape Verde,FW,0.16
+Yoane Wissa,DR Congo,FW,0.16
+Gonzalo Plata,Ecuador,FW,0.16
+Morgan Rogers,England,MF,0.16
+Brian Brobbey,Netherlands,FW,0.16
+Quinten Timber,Netherlands,MF,0.16
+Oscar Bobb,Norway,MF,0.16
+"Julio Enciso (footballer, born 2004)",Paraguay,FW,0.16
+Pape Gueye,Senegal,MF,0.16
+Gustaf Lagerbielke (footballer),Sweden,DF,0.16
+Achref Abada,Algeria,DF,0.15
+Ramy Bensebaini,Algeria,DF,0.15
+Sidny Lopes Cabral,Cape Verde,DF,0.15
+Richard Ríos,Colombia,MF,0.15
+Jordy Caicedo,Ecuador,FW,0.15
+Pascal Groß,Germany,MF,0.15
+Guéla Doué,Ivory Coast,DF,0.15
+Evann Guessand,Ivory Coast,FW,0.15
+Simon Adingra,Ivory Coast,FW,0.15
+Roberto Alvarado,Mexico,FW,0.15
+Andreas Schjelderup,Norway,MF,0.15
+Kaku (footballer),Paraguay,FW,0.15
+Diego Gómez (Paraguayan footballer),Paraguay,MF,0.15
+Iqraam Rayners,South Africa,FW,0.15
+Borja Iglesias,Spain,FW,0.15
+Chris Richards (soccer),United States,DF,0.15
+Sebastian Berhalter,United States,MF,0.15
+Ibrahim Maza,Algeria,MF,0.14
+Alexis Saelemaekers,Belgium,MF,0.14
+Toni Fruk,Croatia,MF,0.14
+Théo Bongonda,DR Congo,MF,0.14
+Joshua Kimmich,Germany,DF,0.14
+Matías Galarza (Paraguayan footballer),Paraguay,MF,0.14
+Miles Robinson (soccer),United States,DF,0.14
+Sergiño Dest,United States,DF,0.14
+Thomas Meunier,Belgium,DF,0.13
+Stephen Eustáquio,Canada,MF,0.13
+Kristijan Jakić,Croatia,DF,0.13
+Gaël Kakuta,DR Congo,FW,0.13
+John Yeboah,Ecuador,FW,0.13
+Ezri Konsa,England,DF,0.13
+Malick Thiaw,Germany,DF,0.13
+Nathaniel Brown (footballer),Germany,DF,0.13
+Thomas Partey,Ghana,MF,0.13
+Israel Reyes,Mexico,DF,0.13
+Luis Romo,Mexico,MF,0.13
+Mats Wieffer,Netherlands,DF,0.13
+Iliman Ndiaye,Senegal,FW,0.13
+Pape Matar Sarr,Senegal,MF,0.13
+Yasin Ayari,Sweden,MF,0.13
+Silvan Widmer,Switzerland,DF,0.13
+Granit Xhaka,Switzerland,MF,0.13
+Antonee Robinson,United States,DF,0.13
+Zineddine Belaïd,Algeria,DF,0.12
+Farès Chaïbi,Algeria,MF,0.12
+Cristian Romero,Argentina,DF,0.12
+Alessandro Circati,Australia,DF,0.12
+David Alaba,Austria,DF,0.12
+Gabriel Magalhães,Brazil,DF,0.12
+Ali Ahmed (soccer),Canada,FW,0.12
+Ibrahim Adel,Egypt,FW,0.12
+Ibrahim Sangaré (Ivorian footballer),Ivory Coast,MF,0.12
+Jens Petter Hauge,Norway,MF,0.12
+Bamba Dieng,Senegal,FW,0.12
+Evidence Makgopa,South Africa,FW,0.12
+Anthony Elanga,Sweden,FW,0.12
+Remo Freuler,Switzerland,MF,0.12
+Gonzalo Montiel,Argentina,DF,0.11
+Marquinhos,Brazil,DF,0.11
+Petar Musa,Croatia,FW,0.11
+Meschak Elia,DR Congo,FW,0.11
+Simon Banza,DR Congo,FW,0.11
+"Félix Torres (footballer, born 1997)",Ecuador,DF,0.11
+Jackson Porozo,Ecuador,DF,0.11
+Alan Minda,Ecuador,MF,0.11
+Jordy Alcívar,Ecuador,MF,0.11
+Ramy Rabia,Egypt,DF,0.11
+Reece James,England,DF,0.11
+Dayot Upamecano,France,DF,0.11
+Aurélien Tchouaméni,France,MF,0.11
+Edson Álvarez,Mexico,DF,0.11
+Samú Costa,Portugal,DF,0.11
+José Sá,Portugal,GK,0.11
+Thalente Mbatha,South Africa,MF,0.11
+Themba Zwane,South Africa,MF,0.11
+Pau Cubarsí,Spain,DF,0.11
+David Raya,Spain,GK,0.11
+Maximilian Arfsten,United States,DF,0.11
+Rafik Belghali,Algeria,DF,0.1
+Rodrigo De Paul,Argentina,MF,0.1
+Konrad Laimer,Austria,MF,0.1
+Romano Schmid,Austria,MF,0.1
+Matheus Cunha,Brazil,FW,0.1
+Davinson Sánchez,Colombia,DF,0.1
+Joško Gvardiol,Croatia,DF,0.1
+Martin Erlić,Croatia,DF,0.1
+Dan Burn,England,DF,0.1
+Maximilian Beier,Germany,FW,0.1
+Angelo Stiller,Germany,MF,0.1
+Brandon Thomas-Asante,Ghana,FW,0.1
+Emmanuel Agbadou,Ivory Coast,DF,0.1
+Kō Itakura,Japan,DF,0.1
+"Jorge Sánchez (footballer, born 1997)",Mexico,DF,0.1
+Carlos Acevedo,Mexico,GK,0.1
+Obed Vargas,Mexico,MF,0.1
+Abde Ezzalzouli,Morocco,FW,0.1
+Micky van de Ven,Netherlands,DF,0.1
+Miguel Almirón,Paraguay,MF,0.1
+"Teboho Mokoena (soccer, born 1997)",South Africa,MF,0.1
+Aymeric Laporte,Spain,DF,0.1
+Álex Grimaldo,Spain,DF,0.1
+Anis Hadj Moussa,Algeria,FW,0.09
+Nabil Bentaleb,Algeria,MF,0.09
+Philipp Lienhart,Austria,DF,0.09
+Stefan Posch,Austria,DF,0.09
+Xaver Schlager,Austria,MF,0.09
+Joaquin Seys,Belgium,DF,0.09
+Axel Witsel,Belgium,MF,0.09
+"Douglas Santos (footballer, born 1994)",Brazil,DF,0.09
+Roger Ibañez,Brazil,DF,0.09
+Kelvin Pires,Cape Verde,DF,0.09
+Juan Portilla,Colombia,MF,0.09
+Marco Pašalić,Croatia,FW,0.09
+Nathanaël Mbuku,DR Congo,MF,0.09
+Nilson Angulo,Ecuador,FW,0.09
+Kendry Páez,Ecuador,MF,0.09
+Mohamed Abdelmonem,Egypt,DF,0.09
+Marc Guéhi,England,DF,0.09
+Elliot Anderson (footballer),England,MF,0.09
+Antonio Rüdiger,Germany,DF,0.09
+Abdul Fatawu,Ghana,FW,0.09
+"Hiroki Itō (footballer, born 1999)",Japan,DF,0.09
+Junnosuke Suzuki,Japan,DF,0.09
+Wataru Endo,Japan,MF,0.09
+Yuito Suzuki,Japan,MF,0.09
+"Johan Vásquez (footballer, born 1998)",Mexico,DF,0.09
+"Gilberto Mora (footballer, born 2008)",Mexico,MF,0.09
+Chemsdine Talbi,Morocco,MF,0.09
+Gessime Yassine,Morocco,MF,0.09
+Nathan Aké,Netherlands,DF,0.09
+David Møller Wolfe,Norway,DF,0.09
+Fredrik André Bjørkan,Norway,DF,0.09
+Fredrik Aursnes,Norway,MF,0.09
+Antonio Sanabria,Paraguay,FW,0.09
+El Hadji Malick Diouf,Senegal,DF,0.09
+Michel Aebischer,Switzerland,MF,0.09
+Mohamed Amine Tougai,Algeria,DF,0.08
+Jacob Italiano,Australia,DF,0.08
+Kai Trewin,Australia,DF,0.08
+Cammy Devlin,Australia,MF,0.08
+Paul Okon-Engstler,Australia,MF,0.08
+Zeno Debast,Belgium,DF,0.08
+Nikola Katić,Bosnia and Herzegovina,DF,0.08
+Alex Sandro,Brazil,DF,0.08
+Wesley França,Brazil,DF,0.08
+Garry Rodrigues,Cape Verde,MF,0.08
+Jhon Lucumí,Colombia,DF,0.08
+Álvaro Montero (Colombian footballer),Colombia,GK,0.08
+Jefferson Lerma,Colombia,MF,0.08
+Luka Modrić,Croatia,MF,0.08
+Martin Baturina,Croatia,MF,0.08
+Petar Sučić,Croatia,MF,0.08
+Arthur Masuaku,DR Congo,DF,0.08
+Pedro Vite,Ecuador,MF,0.08
+Zizo (footballer),Egypt,FW,0.08
+Mahmoud Saber,Egypt,MF,0.08
+Malo Gusto,France,DF,0.08
+David Raum,Germany,DF,0.08
+Jerome Opoku,Ghana,DF,0.08
+Antoine Semenyo,Ghana,MF,0.08
+Caleb Yirenkyi,Ghana,MF,0.08
+Ousmane Diomande,Ivory Coast,DF,0.08
+Mateo Chávez,Mexico,DF,0.08
+Noussair Mazraoui,Morocco,DF,0.08
+Jorrel Hato,Netherlands,DF,0.08
+Ryan Gravenberch,Netherlands,MF,0.08
+Egil Selvik,Norway,GK,0.08
+Rúben Dias,Portugal,DF,0.08
+Assane Diao,Senegal,FW,0.08
+Mory Diaw,Senegal,GK,0.08
+Ime Okon,South Africa,DF,0.08
+Pedro Porro,Spain,DF,0.08
+Ken Sema,Sweden,MF,0.08
+Aurèle Amenda,Switzerland,DF,0.08
+Manuel Akanji,Switzerland,DF,0.08
+Nico Elvedi,Switzerland,DF,0.08
+Denis Zakaria,Switzerland,MF,0.08
+Auston Trusty,United States,DF,0.08
+Tyler Adams,United States,MF,0.08
+Ramiz Zerrouki,Algeria,MF,0.07
+Yacine Titraoui,Algeria,MF,0.07
+Nicolás Tagliafico,Argentina,DF,0.07
+Arthur Theate,Belgium,DF,0.07
+Koni De Winter,Belgium,DF,0.07
+Amadou Onana,Belgium,MF,0.07
+Ermedin Demirović,Bosnia and Herzegovina,FW,0.07
+Kerim Alajbegović,Bosnia and Herzegovina,FW,0.07
+Derek Cornelius,Canada,DF,0.07
+Luc de Fougerolles,Canada,DF,0.07
+Liam Millar,Canada,MF,0.07
+Johan Mojica,Colombia,DF,0.07
+Luka Sučić,Croatia,MF,0.07
+Axel Tuanzebe,DR Congo,DF,0.07
+Dylan Batubinsika,DR Congo,DF,0.07
+Pervis Estupiñán,Ecuador,DF,0.07
+Willian Pacho,Ecuador,DF,0.07
+"Kevin Rodríguez (footballer, born 2000)",Ecuador,FW,0.07
+Yasser Ibrahim,Egypt,DF,0.07
+Jordan Henderson,England,MF,0.07
+Manu Koné,France,MF,0.07
+N'Golo Kanté,France,MF,0.07
+Jonathan Tah,Germany,DF,0.07
+Waldemar Anton,Germany,DF,0.07
+Oliver Baumann,Germany,GK,0.07
+Iñaki Williams,Ghana,FW,0.07
+Anass Salah-Eddine,Morocco,DF,0.07
+Kristoffer Ajer,Norway,DF,0.07
+Martin Ødegaard,Norway,MF,0.07
+Gustavo Velázquez,Paraguay,DF,0.07
+Gabriel Ávalos,Paraguay,FW,0.07
+Antoine Mendy (footballer),Senegal,DF,0.07
+Idrissa Gueye,Senegal,MF,0.07
+Thapelo Maseko,South Africa,FW,0.07
+Tshepang Moremi,South Africa,FW,0.07
+"Eric García (footballer, born 2001)",Spain,DF,0.07
+Noah Okafor,Switzerland,FW,0.07
+Ardon Jashari,Switzerland,MF,0.07
+Timothy Castagne,Belgium,DF,0.06
+Nihad Mujakić,Bosnia and Herzegovina,DF,0.06
+Tarik Muharemović,Bosnia and Herzegovina,DF,0.06
+Samed Baždar,Bosnia and Herzegovina,FW,0.06
+Amar Memić,Bosnia and Herzegovina,MF,0.06
+Joel Waterman,Canada,DF,0.06
+Jamiro Monteiro,Cape Verde,MF,0.06
+Kevin Pina (footballer),Cape Verde,MF,0.06
+Yannick Semedo,Cape Verde,MF,0.06
+Deiver Machado,Colombia,DF,0.06
+Aaron Tshibola,DR Congo,MF,0.06
+Piero Hincapié,Ecuador,DF,0.06
+Yaimar Medina,Ecuador,DF,0.06
+Denil Castillo,Ecuador,MF,0.06
+Moisés Caicedo,Ecuador,MF,0.06
+Djed Spence,England,DF,0.06
+Kobbie Mainoo,England,MF,0.06
+Jean Michaël Seri,Ivory Coast,MF,0.06
+Parfait Guiagon,Ivory Coast,MF,0.06
+Shōgo Taniguchi,Japan,DF,0.06
+Takehiro Tomiyasu,Japan,DF,0.06
+Tsuyoshi Watanabe,Japan,DF,0.06
+Keisuke Ōsako,Japan,GK,0.06
+Kaishū Sano,Japan,MF,0.06
+Raúl Rangel (footballer),Mexico,GK,0.06
+Jan Paul van Hecke,Netherlands,DF,0.06
+Mark Flekken,Netherlands,GK,0.06
+Frenkie de Jong,Netherlands,MF,0.06
+Justin Kluivert,Netherlands,MF,0.06
+Leo Østigård,Norway,DF,0.06
+Álex Arce,Paraguay,FW,0.06
+"Nuno Mendes (footballer, born 2002)",Portugal,DF,0.06
+Mamadou Sarr,Senegal,DF,0.06
+Mbekezeli Mbokazi,South Africa,DF,0.06
+Marcos Llorente,Spain,DF,0.06
+Mattias Svanberg,Sweden,MF,0.06
+Miro Muheim,Switzerland,DF,0.06
+Ricardo Rodriguez (footballer),Switzerland,DF,0.06
+Aïssa Mandi,Algeria,DF,0.05
+Luca Zidane,Algeria,GK,0.05
+Nahuel Molina,Argentina,DF,0.05
+Exequiel Palacios,Argentina,MF,0.05
+Aziz Behich,Australia,DF,0.05
+Connor Metcalfe,Australia,MF,0.05
+Patrick Wimmer,Austria,FW,0.05
+Esmir Bajraktarević,Bosnia and Herzegovina,FW,0.05
+Benjamin Tahirović,Bosnia and Herzegovina,MF,0.05
+"Weverton (footballer, born 1987)",Brazil,GK,0.05
+Alistair Johnston,Canada,DF,0.05
+Moïse Bombito,Canada,DF,0.05
+Dayne St. Clair,Canada,GK,0.05
+Mathieu Choinière,Canada,MF,0.05
+Jovane Cabral,Cape Verde,MF,0.05
+Laros Duarte,Cape Verde,MF,0.05
+Telmo Arcanjo,Cape Verde,MF,0.05
+Mateo Kovačić,Croatia,MF,0.05
+Edo Kayembe,DR Congo,MF,0.05
+Moisés Ramírez,Ecuador,GK,0.05
+Hamdy Fathy,Egypt,MF,0.05
+Tino Livramento,England,DF,0.05
+Abdul Mumin,Ghana,DF,0.05
+Alidu Seidu,Ghana,DF,0.05
+Prince Kwabena Adu,Ghana,FW,0.05
+Ayumu Seko,Japan,DF,0.05
+Jesús Gallardo,Mexico,DF,0.05
+Marten de Roon,Netherlands,MF,0.05
+Torbjørn Heggem,Norway,DF,0.05
+Julian Ryerson,Norway,FW,0.05
+Omar Alderete,Paraguay,DF,0.05
+Isidro Pitta,Paraguay,FW,0.05
+Damián Bobadilla,Paraguay,MF,0.05
+Krépin Diatta,Senegal,DF,0.05
+Besfort Zeneli,Sweden,MF,0.05
+Yvon Mvogo,Switzerland,GK,0.05
+Matt Freese,United States,GK,0.05
+Jason Geria,Australia,DF,0.04
+Miloš Degenek,Australia,DF,0.04
+Marco Friedl,Austria,DF,0.04
+Stjepan Radeljić,Bosnia and Herzegovina,DF,0.04
+Armin Gigović,Bosnia and Herzegovina,MF,0.04
+"Danilo (footballer, born July 1991)",Brazil,DF,0.04
+Richie Laryea,Canada,DF,0.04
+"Diney (footballer, born 1995)",Cape Verde,DF,0.04
+Willy Semedo,Cape Verde,MF,0.04
+Kevin Castaño,Colombia,MF,0.04
+Duje Ćaleta-Car,Croatia,DF,0.04
+Nikola Moro,Croatia,MF,0.04
+Chancel Mbemba,DR Congo,DF,0.04
+Brian Cipenga,DR Congo,FW,0.04
+Ahmed Fatouh,Egypt,DF,0.04
+Karim Hafez,Egypt,DF,0.04
+Mostafa Shobeir,Egypt,GK,0.04
+Marwan Attia,Egypt,MF,0.04
+John Stones,England,DF,0.04
+Ibrahima Konaté,France,DF,0.04
+Nico Schlotterbeck,Germany,DF,0.04
+Christopher Bonsu Baah,Ghana,FW,0.04
+Kamaldeen Sulemana,Ghana,FW,0.04
+Kwasi Sibo,Ghana,MF,0.04
+Christopher Opéri,Ivory Coast,DF,0.04
+Wilfried Singo,Ivory Coast,DF,0.04
+Christ Inao Oulaï,Ivory Coast,MF,0.04
+Yūto Nagatomo,Japan,DF,0.04
+Zion Suzuki,Japan,GK,0.04
+Érik Lira,Mexico,MF,0.04
+Youssef Belammari,Morocco,DF,0.04
+Fabián Balbuena,Paraguay,DF,0.04
+Gustavo Gómez,Paraguay,DF,0.04
+Júnior Alonso,Paraguay,DF,0.04
+Orlando Gill,Paraguay,GK,0.04
+Ramón Sosa,Paraguay,MF,0.04
+Rúben Neves,Portugal,MF,0.04
+Aubrey Modiba,South Africa,DF,0.04
+Alexander Bernhardsson,Sweden,DF,0.04
+Viktor Johansson,Sweden,GK,0.04
+Lucas Bergvall,Sweden,MF,0.04
+Eray Cömert,Switzerland,DF,0.04
+Gregor Kobel,Switzerland,GK,0.04
+Fabian Rieder,Switzerland,MF,0.04
+Emiliano Martínez,Argentina,GK,0.03
+Cameron Burgess,Australia,DF,0.03
+Patrick Pentz,Austria,GK,0.03
+Alexander Prass,Austria,MF,0.03
+Florian Grillitsch,Austria,MF,0.03
+Nicolas Seiwald,Austria,MF,0.03
+Amar Dedić,Bosnia and Herzegovina,DF,0.03
+"Ederson (footballer, born 1993)",Brazil,GK,0.03
+"Fabinho (footballer, born 1993)",Brazil,MF,0.03
+Maxime Crépeau,Canada,GK,0.03
+Stopira,Cape Verde,DF,0.03
+Nuno da Costa,Cape Verde,MF,0.03
+Marin Pongračić,Croatia,DF,0.03
+Aaron Wan-Bissaka,DR Congo,DF,0.03
+Charles Pickel,DR Congo,MF,0.03
+Ngal'ayel Mukau,DR Congo,MF,0.03
+Joel Ordóñez,Ecuador,DF,0.03
+"Alan Franco (footballer, born 1998)",Ecuador,MF,0.03
+Hossam Abdelmaguid,Egypt,DF,0.03
+Nabil Emad,Egypt,MF,0.03
+Lucas Hernandez,France,DF,0.03
+William Saliba,France,DF,0.03
+Mike Maignan,France,GK,0.03
+Jonas Adjetey,Ghana,DF,0.03
+Benjamin Asare,Ghana,GK,0.03
+Nayef Aguerd,Morocco,DF,0.03
+Jurriën Timber,Netherlands,DF,0.03
+Bart Verbruggen,Netherlands,GK,0.03
+Sander Berge,Norway,MF,0.03
+"Vitinha (footballer, born February 2000)",Portugal,MF,0.03
+Kalidou Koulibaly,Senegal,DF,0.03
+Khulumani Ndamane,South Africa,DF,0.03
+Samukele Kabini,South Africa,DF,0.03
+Sphephelo Sithole,South Africa,MF,0.03
+Unai Simón,Spain,GK,0.03
+Carl Starfelt,Sweden,DF,0.03
+"Daniel Svensson (footballer, born 2002)",Sweden,DF,0.03
+Hjalmar Ekdal,Sweden,DF,0.03
+Victor Lindelöf,Sweden,DF,0.03
+Joe Scally,United States,DF,0.03
+"Mark McKenzie (soccer, born 1999)",United States,DF,0.03
+Tim Ream,United States,DF,0.03
+Rayan Aït-Nouri,Algeria,DF,0.02
+Hicham Boudaoui,Algeria,MF,0.02
+Aiden O'Neill,Australia,MF,0.02
+Kevin Danso,Austria,DF,0.02
+Phillipp Mwene,Austria,DF,0.02
+Alexander Schlager,Austria,GK,0.02
+Dženis Burnić,Bosnia and Herzegovina,MF,0.02
+Ivan Bašić,Bosnia and Herzegovina,MF,0.02
+Ivan Šunjić,Bosnia and Herzegovina,MF,0.02
+Wagner Pina,Cape Verde,DF,0.02
+Márcio Rosa,Cape Verde,GK,0.02
+João Paulo Fernandes (footballer),Cape Verde,MF,0.02
+Santiago Arias,Colombia,DF,0.02
+Camilo Vargas,Colombia,GK,0.02
+Josip Stanišić,Croatia,DF,0.02
+Josip Šutalo,Croatia,DF,0.02
+Gédéon Kalulu,DR Congo,DF,0.02
+Joris Kayembe,DR Congo,DF,0.02
+Lionel Mpasi,DR Congo,GK,0.02
+Noah Sadiki,DR Congo,MF,0.02
+Emam Ashour,Egypt,MF,0.02
+Mohanad Lasheen,Egypt,MF,0.02
+Jules Koundé,France,DF,0.02
+Lucas Digne,France,DF,0.02
+Abdul Rahman Baba,Ghana,DF,0.02
+Elisha Owusu,Ghana,MF,0.02
+Evan Ndicka,Ivory Coast,DF,0.02
+Odilon Kossounou,Ivory Coast,DF,0.02
+Yahia Fofana,Ivory Coast,GK,0.02
+Marcus Holmgren Pedersen,Norway,DF,0.02
+Morten Thorsby,Norway,MF,0.02
+Patrick Berg,Norway,MF,0.02
+Juan José Cáceres,Paraguay,DF,0.02
+Braian Ojeda,Paraguay,MF,0.02
+Nélson Semedo,Portugal,DF,0.02
+Diogo Costa,Portugal,GK,0.02
+Ismail Jakobs,Senegal,DF,0.02
+Moussa Niakhaté,Senegal,DF,0.02
+Pathé Ciss,Senegal,MF,0.02
+Khuliso Mudau,South Africa,DF,0.02
+Relebohile Mofokeng,South Africa,FW,0.02
+Gabriel Gudmundsson,Sweden,DF,0.02
+Isak Hien,Sweden,DF,0.02
+Kristoffer Nordfeldt,Sweden,GK,0.02
+Jesper Karlström,Sweden,MF,0.02
+Djibril Sow,Switzerland,MF,0.02
+Matt Turner (soccer),United States,GK,0.02
+Cristian Roldan,United States,MF,0.02
+Mathew Ryan,Australia,GK,0.01
+Thibaut Courtois,Belgium,GK,0.01
+Dennis Hadžikadunić,Bosnia and Herzegovina,DF,0.01
+Sead Kolašinac,Bosnia and Herzegovina,DF,0.01
+Nikola Vasilj,Bosnia and Herzegovina,GK,0.01
+Amir Hadžiahmetović,Bosnia and Herzegovina,MF,0.01
+Alisson Becker,Brazil,GK,0.01
+Logan Costa,Cape Verde,DF,0.01
+"Roberto Lopes (footballer, born 1992)",Cape Verde,DF,0.01
+Steven Moreira,Cape Verde,DF,0.01
+Deroy Duarte,Cape Verde,MF,0.01
+Hélio Varela,Cape Verde,MF,0.01
+David Ospina,Colombia,GK,0.01
+Dominik Livaković,Croatia,GK,0.01
+Samuel Moutoussamy,DR Congo,MF,0.01
+Ángelo Preciado,Ecuador,DF,0.01
+Hernán Galíndez,Ecuador,GK,0.01
+Mohamed Hany,Egypt,DF,0.01
+Mohamed El Shenawy,Egypt,GK,0.01
+Jordan Pickford,England,GK,0.01
+Manuel Neuer,Germany,GK,0.01
+"Gideon Mensah (footballer, born 1998)",Ghana,DF,0.01
+Lawrence Ati-Zigi,Ghana,GK,0.01
+Ghislain Konan,Ivory Coast,DF,0.01
+Guillermo Ochoa,Mexico,GK,0.01
+Munir Mohamedi,Morocco,GK,0.01
+Yassine Bounou,Morocco,GK,0.01
+Sofyan Amrabat,Morocco,MF,0.01
+Ørjan Nyland,Norway,GK,0.01
+Gatito Fernández,Paraguay,GK,0.01
+Andrés Cubas,Paraguay,MF,0.01
+Édouard Mendy,Senegal,GK,0.01
+Nkosinathi Sibisi,South Africa,DF,0.01
+Ronwen Williams,South Africa,GK,0.01
+Vozinha,Cape Verde,GK,0.0

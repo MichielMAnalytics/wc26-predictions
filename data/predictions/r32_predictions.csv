@@ -1,0 +1,17 @@
+match,round,home,away,pred,advances,p_home,p_draw,p_away
+R32-1,R32,Germany,Paraguay,1-0,Germany,0.542,0.258,0.2
+R32-2,R32,France,Sweden,2-0,France,0.658,0.195,0.146
+R32-3,R32,South Africa,Canada,0-1,Canada,0.156,0.237,0.607
+R32-4,R32,Netherlands,Morocco,0-1,Morocco,0.308,0.294,0.398
+R32-5,R32,Portugal,Croatia,1-0,Portugal,0.516,0.256,0.229
+R32-6,R32,Spain,Austria,1-0,Spain,0.618,0.226,0.156
+R32-7,R32,United States,Bosnia and Herzegovina,2-0,United States,0.723,0.172,0.105
+R32-8,R32,Belgium,Senegal,1-0,Belgium,0.404,0.277,0.319
+R32-9,R32,Brazil,Japan,1-0,Brazil,0.385,0.28,0.335
+R32-10,R32,Ivory Coast,Norway,0-1,Norway,0.324,0.28,0.396
+R32-11,R32,Mexico,Ecuador,1-0,Mexico,0.411,0.345,0.244
+R32-12,R32,England,DR Congo,1-0,England,0.534,0.303,0.163
+R32-13,R32,Argentina,Cape Verde,2-0,Argentina,0.738,0.192,0.07
+R32-14,R32,Australia,Egypt,1-0,Australia,0.405,0.334,0.262
+R32-15,R32,Switzerland,Algeria,2-1,Switzerland,0.379,0.264,0.357
+R32-16,R32,Colombia,Ghana,1-0,Colombia,0.624,0.241,0.135
