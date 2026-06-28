@@ -23,16 +23,26 @@ exp=sum(float(r['exp_points']) for r in gm)
 L.append(f"Expected group-stage points from these 72 picks: **~{exp:.0f}** "
          "(plus knockout, standings and champion points on top).\n")
 
-L.append("## Title odds — model vs bookmaker market vs blended\n")
-L.append("Model = 30k-sim (with injury/form + market nudges); Market = vig-free CBS Sports "
-         "outright odds; **Blended** = 50/50 (the recommended title view). Reach-stage % from the sim.\n")
-L.append("| team | R32 | QF | SF | final | model champ | market champ | **blended** |")
-L.append("|---|---|---|---|---|---|---|---|")
-for t in sorted(blend, key=lambda x:-blend[x])[:16]:
-    r=sim[t]
-    L.append(f"| {t} | {float(r['p_advance_R32'])*100:.0f}% | {float(r['p_reach_QF'])*100:.0f}% | "
-             f"{float(r['p_reach_SF'])*100:.0f}% | {float(r['p_final'])*100:.0f}% | "
-             f"{float(r['p_champion'])*100:.1f}% | {mkt.get(t,0)*100:.1f}% | **{blend[t]*100:.1f}%** |")
+if os.path.exists("data/model/sim_ko_probs.csv"):
+    ko_sim=list(csv.DictReader(open("data/model/sim_ko_probs.csv")))
+    L.append("## Title odds — UPDATED after the group stage\n")
+    L.append("Knockout Monte-Carlo (20k) from the **actual** Round-of-32 bracket, using the model "
+             "**retrained on the group-stage results**. These supersede the pre-tournament odds.\n")
+    L.append("| team | reach QF | reach SF | final | **champion** |")
+    L.append("|---|---|---|---|---|")
+    for r in ko_sim[:16]:
+        L.append(f"| {r['team']} | {float(r['p_reach_QF'])*100:.0f}% | {float(r['p_reach_SF'])*100:.0f}% | "
+                 f"{float(r['p_final'])*100:.0f}% | **{float(r['p_champion'])*100:.1f}%** |")
+else:
+    L.append("## Title odds — model vs bookmaker market vs blended\n")
+    L.append("Model = 30k-sim; Market = vig-free CBS Sports outright odds; **Blended** = 50/50.\n")
+    L.append("| team | R32 | QF | SF | final | model champ | market champ | **blended** |")
+    L.append("|---|---|---|---|---|---|---|---|")
+    for t in sorted(blend, key=lambda x:-blend[x])[:16]:
+        r=sim[t]
+        L.append(f"| {t} | {float(r['p_advance_R32'])*100:.0f}% | {float(r['p_reach_QF'])*100:.0f}% | "
+                 f"{float(r['p_reach_SF'])*100:.0f}% | {float(r['p_final'])*100:.0f}% | "
+                 f"{float(r['p_champion'])*100:.1f}% | {mkt.get(t,0)*100:.1f}% | **{blend[t]*100:.1f}%** |")
 
 L.append("\n## Group-stage score predictions\n")
 import itertools

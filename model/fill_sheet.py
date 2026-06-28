@@ -67,6 +67,8 @@ autofill = (anchor + "\n" + blob +
     "state.koManual=MODEL_PREDICTIONS.koManual;if(!state.name)state.name=MODEL_PREDICTIONS.name;save();}")
 if "const MODEL_PREDICTIONS" not in html:
     html = html.replace(anchor, autofill, 1)
+else:                                   # refresh the embedded predictions in place
+    html = re.sub(r"const MODEL_PREDICTIONS = \{.*?\};", blob, html, count=1, flags=re.S)
 # 2) a button that (re)applies the model predictions
 if "modelBtn" not in html:
     html = html.replace('<button class="btn cyan" id="printBtn">Print / PDF</button>',

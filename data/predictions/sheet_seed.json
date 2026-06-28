@@ -291,8 +291,8 @@
 },
 "koScores": {
 "R32-1": {
-"h": "2",
-"a": "1"
+"h": "1",
+"a": "0"
 },
 "R32-2": {
 "h": "2",
@@ -315,7 +315,7 @@
 "a": "0"
 },
 "R32-7": {
-"h": "1",
+"h": "2",
 "a": "0"
 },
 "R32-8": {
@@ -339,19 +339,19 @@
 "a": "0"
 },
 "R32-13": {
-"h": "1",
+"h": "2",
 "a": "0"
 },
 "R32-14": {
-"h": "0",
-"a": "1"
-},
-"R32-15": {
 "h": "1",
 "a": "0"
 },
-"R32-16": {
+"R32-15": {
 "h": "2",
+"a": "1"
+},
+"R32-16": {
+"h": "1",
 "a": "0"
 },
 "R16-1": {
@@ -371,8 +371,8 @@
 "a": "2"
 },
 "R16-5": {
-"h": "1",
-"a": "0"
+"h": "2",
+"a": "1"
 },
 "R16-6": {
 "h": "0",
@@ -383,8 +383,8 @@
 "a": "0"
 },
 "R16-8": {
-"h": "1",
-"a": "2"
+"h": "0",
+"a": "1"
 },
 "QF1": {
 "h": "1",
@@ -395,8 +395,8 @@
 "a": "0"
 },
 "QF3": {
-"h": "0",
-"a": "1"
+"h": "1",
+"a": "0"
 },
 "QF4": {
 "h": "1",
@@ -411,77 +411,77 @@
 "a": "1"
 },
 "TP": {
-"h": "1",
-"a": "0"
+"h": "0",
+"a": "1"
 },
 "FINAL": {
-"h": "1",
-"a": "0"
+"h": "0",
+"a": "1"
 }
 },
 "koManual": {
 "R32-1:h": "Germany",
-"R32-1:a": "Türkiye",
+"R32-1:a": "Paraguay",
 "R32-2:h": "France",
-"R32-2:a": "Scotland",
-"R32-3:h": "South Korea",
-"R32-3:a": "Switzerland",
-"R32-4:h": "Japan",
-"R32-4:a": "Brazil",
-"R32-5:h": "Colombia",
+"R32-2:a": "Sweden",
+"R32-3:h": "South Africa",
+"R32-3:a": "Canada",
+"R32-4:h": "Netherlands",
+"R32-4:a": "Morocco",
+"R32-5:h": "Portugal",
 "R32-5:a": "Croatia",
 "R32-6:h": "Spain",
-"R32-6:a": "Algeria",
+"R32-6:a": "Austria",
 "R32-7:h": "USA",
-"R32-7:a": "Ivory Coast",
+"R32-7:a": "Bosnia & H.",
 "R32-8:h": "Belgium",
 "R32-8:a": "Senegal",
-"R32-9:h": "Morocco",
-"R32-9:a": "Netherlands",
-"R32-10:h": "Ecuador",
+"R32-9:h": "Brazil",
+"R32-9:a": "Japan",
+"R32-10:h": "Ivory Coast",
 "R32-10:a": "Norway",
 "R32-11:h": "Mexico",
-"R32-11:a": "Tunisia",
+"R32-11:a": "Ecuador",
 "R32-12:h": "England",
-"R32-12:a": "Austria",
+"R32-12:a": "DR Congo",
 "R32-13:h": "Argentina",
-"R32-13:a": "Uruguay",
+"R32-13:a": "Cape Verde",
 "R32-14:h": "Australia",
-"R32-14:a": "Iran",
-"R32-15:h": "Canada",
-"R32-15:a": "Egypt",
-"R32-16:h": "Portugal",
-"R32-16:a": "Panama",
+"R32-14:a": "Egypt",
+"R32-15:h": "Switzerland",
+"R32-15:a": "Algeria",
+"R32-16:h": "Colombia",
+"R32-16:a": "Ghana",
 "R16-1:h": "Germany",
 "R16-1:a": "France",
-"R16-2:h": "Switzerland",
-"R16-2:a": "Brazil",
-"R16-3:h": "Colombia",
+"R16-2:h": "Canada",
+"R16-2:a": "Morocco",
+"R16-3:h": "Portugal",
 "R16-3:a": "Spain",
 "R16-4:h": "USA",
 "R16-4:a": "Belgium",
-"R16-5:h": "Morocco",
+"R16-5:h": "Brazil",
 "R16-5:a": "Norway",
 "R16-6:h": "Mexico",
 "R16-6:a": "England",
 "R16-7:h": "Argentina",
-"R16-7:a": "Iran",
-"R16-8:h": "Canada",
-"R16-8:a": "Portugal",
+"R16-7:a": "Australia",
+"R16-8:h": "Switzerland",
+"R16-8:a": "Colombia",
 "QF1:h": "France",
-"QF1:a": "Brazil",
+"QF1:a": "Morocco",
 "QF2:h": "Spain",
 "QF2:a": "Belgium",
-"QF3:h": "Morocco",
+"QF3:h": "Brazil",
 "QF3:a": "England",
 "QF4:h": "Argentina",
-"QF4:a": "Portugal",
+"QF4:a": "Colombia",
 "SF1:h": "France",
 "SF1:a": "Spain",
-"SF2:h": "England",
+"SF2:h": "Brazil",
 "SF2:a": "Argentina",
 "TP:h": "France",
-"TP:a": "England",
+"TP:a": "Brazil",
 "FINAL:h": "Spain",
 "FINAL:a": "Argentina"
 },

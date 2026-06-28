@@ -19,7 +19,7 @@ import numpy as np
 from scipy.optimize import minimize
 from scipy.stats import poisson
 
-REF_DATE = date(2026, 6, 7)
+REF_DATE = date(2026, 6, 28)
 WINDOW_START = date(2018, 1, 1)
 MAXG = 10                      # max goals per side in the scoreline grid
 

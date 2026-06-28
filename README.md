@@ -4,7 +4,7 @@
 
 A data-driven forecast of the **2026 FIFA World Cup** (USA · Canada · Mexico, 11 Jun – 19 Jul 2026): an interactive **wall chart** pre-filled by a statistical model, plus the dataset and pipeline behind every pick.
 
-**🔗 Live: https://wc26-predictions.boxd.sh** — opens pre-filled with the model's predictions (all 104 matches + bracket, champion **Spain**). Tap **ℹ️ How it works**, or the **💬 Ask the model** chat, to see how any pick was made. Mobile-friendly.
+**🔗 Live: https://wc26-predictions.boxd.sh** — opens pre-filled with the model's predictions (all 104 matches + bracket). After the group stage the model was **retrained on the actual results** and the knockouts re-predicted on the **real bracket** — updated champion pick **Argentina** (22.8%). Tap **ℹ️ How it works**, or the **💬 Ask the model** chat, to see how any pick was made. Mobile-friendly.
 
 <sub><img src="docs/boxd-logo.svg" height="14" alt="boxd.sh" valign="middle"> &nbsp;Built and served live entirely on a <a href="https://boxd.sh"><b>boxd.sh</b></a> VM — <b>no deployment step</b>: the VM is the server, so an edit is live the moment it's saved.</sub>
 
@@ -33,7 +33,7 @@ The live site is served by the `wc26-chat` service (FastAPI: the chart + an "Ask
 5. **Tournament simulation** — a **30,000-run Monte-Carlo** of the full 48-team bracket (group tables → best-third placement → knockouts) gives each team's advancement and title probabilities.
 6. **Scorito-optimal picks** — every predicted scoreline is chosen to **maximise expected Scorito points** (`30·P(outcome) + 15·P(exact)`), which is why so many picks are 1-0/0-1.
 
-Out-of-sample it's ~26% better than a naïve baseline (RPS) with ~60% outcome accuracy, and beats both a plain Elo model and an "always 1-1" strategy. Champion pick: **Spain**. Full write-up + backtest in **[MODEL.md](MODEL.md)**; the picks in **[SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md)**.
+Out-of-sample it's ~26% better than a naïve baseline (RPS) with ~60% outcome accuracy, and beats both a plain Elo model and an "always 1-1" strategy. The group stage bore this out (**59% outcomes, 1,335 Scorito pts**, beating the naive baseline). After the groups the model is **retrained on the actual results** and the knockouts re-predicted on the **real bracket** (`model/predict_ko.py`, `simulate_ko.py`) — updated champion pick **Argentina**. Full write-up in **[MODEL.md](MODEL.md)**; the picks in **[SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md)**.
 
 ---
 
@@ -175,7 +175,7 @@ Output is checked, not assumed.
 ## Next steps
 
 - **Part 2 — recent team developments**: schema designed in [SCHEMA_PART2.md](SCHEMA_PART2.md) (form, squad, injuries, manager/tactics, qualification path, momentum). Not yet collected.
-- **Prediction model** — **built** (see [MODEL.md](MODEL.md)): Elo + time-weighted Dixon-Coles goals model + Monte-Carlo of the 2026 bracket, tuned to maximise Scorito points. Out-of-sample skill ~26% RPS over climatology, 60% outcome accuracy. Champion pick **Spain** (blended model+market 15%). Now blends vig-free bookmaker odds (CBS Sports). Full submission in [SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md); scoring in [SCORITO_RULES.md](SCORITO_RULES.md).
+- **Prediction model** — **built** (see [MODEL.md](MODEL.md)): Elo + time-weighted Dixon-Coles goals model + Monte-Carlo of the 2026 bracket, tuned to maximise Scorito points. Out-of-sample skill ~26% RPS over climatology, 60% outcome accuracy. Pre-tournament champion pick **Spain** (blended model+market); **retrained after the group stage** → updated champion pick **Argentina** (22.8%) on the actual bracket. Full submission in [SCORITO_PREDICTIONS.md](SCORITO_PREDICTIONS.md); scoring in [SCORITO_RULES.md](SCORITO_RULES.md).
 
 ## Sources & licensing
 
