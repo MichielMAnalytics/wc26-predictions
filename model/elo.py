@@ -14,7 +14,7 @@ stdlib only.
 import csv, os, math
 from datetime import date, datetime
 
-REF_DATE  = date(2026, 6, 28)
+REF_DATE  = date(2026, 7, 9)
 START_ELO = date(2010, 1, 1)     # 16y burn-in so ratings are well converged by 2026
 HOME_ADV  = 100                  # Elo points added to the home side's expectation
 INIT      = 1500.0
