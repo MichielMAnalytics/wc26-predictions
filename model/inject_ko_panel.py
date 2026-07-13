@@ -8,7 +8,11 @@ latest round file present (QF > R32). Idempotent (refreshes KO_PICKS in place).
 import json, re, os
 
 # pick the most recent phase available
-if os.path.exists("data/predictions/_qf_picks.json"):
+if os.path.exists("data/predictions/_sf_picks.json"):
+    ko = json.load(open("data/predictions/_sf_picks.json", encoding="utf-8"))
+    games = ko["sf"]; label = "Semi-finals"; gcol = "Semi-finals — predicted scores"
+    note = "QF went 4/4 outcomes (1 exact) · bracket &amp; champion locked (Spain)."
+elif os.path.exists("data/predictions/_qf_picks.json"):
     ko = json.load(open("data/predictions/_qf_picks.json", encoding="utf-8"))
     games = ko["qf"]; label = "Quarter-finals"; gcol = "Quarter-finals — predicted scores"
     note = "R32 went 13/16 outcomes (3 exact) · R16 done · bracket &amp; champion locked (Spain)."
